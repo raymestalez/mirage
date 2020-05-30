@@ -85,6 +85,6 @@ module.exports = {
 		]
 	    }  
 	]
-    },
-    plugins: getPlugins()    
+    }
+//    plugins: getPlugins()    
 }

@@ -23,6 +23,7 @@ $subnav-bg: #fafaf9;
 
 body {
     overflow: auto;
+    overflow-y: overlay;
     height: calc(100% - 26px);
 }
 
