@@ -1,4 +1,4 @@
-# Welcome to Mirage!
+# Welcome to Mirage123!
 Mirage is a lighthearted, social, easy to learn and play game, focused on roleplay, storytelling, improvisation, imagination and creativity. Your goal is to make up and play out a fun story. You will go on adventures, complete quests, find treasure, slay dragons, and gain awesome powers.
 
 Have you heard about DnD? Mirage is made for the people who (like me) enjoy the social/creative aspects of DnD, but don't like the countless arguments over the intricate rules, the slow ordeal of combat encounters, and all the tedious arithmetics.
