@@ -1,0 +1,25 @@
+header {
+    background: $header-bg;
+    padding: 10px;
+
+    .logo {
+	font-size: 22px;
+	color: $text;
+	float:left;
+	img {
+	    width: 32px;
+	    float: left;
+	    margin-right: 4px;
+	}
+    }
+
+    .btn {
+	margin-left: 4px;
+    }
+}
+
+
+.subnav {
+    background: $subnav-bg;
+    height: 20px;
+}

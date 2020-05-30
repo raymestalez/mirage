@@ -1,0 +1,3 @@
+node_modules/
+variables.dev.env
+variables.prod.env

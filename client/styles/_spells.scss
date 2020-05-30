@@ -1,0 +1,28 @@
+.spells {
+    column-count: 2;
+    column-gap: 20px;
+    padding-top: 20px;
+    :first-child {
+	margin-top: 0;
+    }
+
+}
+.spell {
+    padding: 20px;
+    border: 1px solid $border;
+    border-radius: 4px;
+    background: white;
+    .title {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+    }
+    .description {
+    }
+
+    margin-top: 20px;
+    width: 100%;
+    -webkit-column-break-inside: avoid;
+
+    //float: left;
+}

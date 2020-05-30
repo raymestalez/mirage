@@ -1,0 +1,95 @@
+html, body {
+    // font-family: ;
+    color: $text;
+    background: $background-main;
+    font-family: "Open Sans";
+    margin:0;
+    height: 100%;
+    font-size: 16px;
+}
+
+#root, .app {
+    height: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    cursor: -webkit-grabbing;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+    background-color:#F2F2F2; //transparent;
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(110, 110, 110, 0.2);// $scrollbar-thumb;
+    border: 2px solid transparent!important;
+    //border-radius: 9px;
+    background-clip: content-box;
+}
+
+/* Padding doesn't add to width */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+/* Typography */
+h1, h2, h3, h4, h5 {
+    margin-top: 1em;
+}
+h1 {
+    font-size: 1.8em;
+}
+h2 {
+    font-size: 1.6em;
+    font-weight: 600;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4 {
+    font-size: 1.2em;    
+}
+h5 {
+    font-size: 1em;    
+}
+p {
+    margin-top:1em;
+}
+a {
+    cursor: pointer;
+    color: $text-link;
+    &:hover, &:active, &:focus {
+	color: $text-link;
+    }
+    svg path {
+	fill: $text-link;
+    }
+}
+b, strong { font-weight: bold;}
+li {
+    margin-top: 1em;
+    margin-left: 1em;
+}
+hr {
+    border:none;
+    margin: 4px 0 4px 0;
+    border-top: 1px solid $border;
+}
+/* Elements */
+textarea { resize:none; }
+ul {
+    padding:0;
+    padding-left: 10px;
+}
+code {
+    background: $background-panel;
+    padding: 0 4px;
+    border-radius: 3px;
+}

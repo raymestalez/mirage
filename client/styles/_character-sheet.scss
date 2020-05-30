@@ -1,0 +1,58 @@
+.character-sheet {
+    padding: 40px 0;
+}
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .stat {
+	padding: 20px;
+	border: 1px solid $border;
+	border-radius: 4px;
+	text-align: center;
+	width: 100px;
+	height: 85px;
+	.title {
+	    font-size: 12px;
+	    font-weight: bold;
+	}
+	.value {
+	    line-height: 32px;
+	}
+    }
+}
+
+.col-1,.col-2 {
+    float:left;
+    width:50%;
+    padding: 10px;
+}
+.inventory {
+    border: 1px solid $border;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 20px 0;
+
+    position:relative;
+    .title {
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	width:80px;
+	height: 20px;
+	margin-top: -28px;
+	margin-left: -40px;
+	background: white;
+	position: absolute;
+	left: 50%;
+	
+    }
+    textarea {
+	width: 100%;
+	border: none;
+	font-size: 12px;
+	::placeholder {
+
+	}
+    }
+}

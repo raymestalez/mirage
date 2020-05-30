@@ -1,0 +1,35 @@
+article {
+    padding: 20px 40px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+    margin-top: 20px;
+    background: white;
+    border-radius: 4px;
+    .header-img {
+	width: calc(100% + 80px);
+	margin: -40px;
+	margin-bottom: 0;
+    }
+    h1,h2,h3 {
+	text-align: center;
+    }
+}
+.columns {
+    column-count: 2;
+    column-gap: 40px;
+    margin-top: 1em;
+
+    :first-child {
+    margin-top: 0;
+    }
+
+    ol :first-child {
+	margin-top: 1em; //temp hack to give margin back to the lists
+    }
+}
+
+
+.column-break {
+    break-after: column;
+}
+
+

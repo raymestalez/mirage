@@ -1,0 +1,46 @@
+$text: #3d454b; //rgba(0,0,0,0.8);
+$text-dim: rgba(0,0,0,0.44);
+$text-link: #008cba;
+$border: #dddddd; 		// for hr
+$header-bg: white;
+$scrollbar-thumb: rgba(110, 110, 110, 0.2);
+$background-main: #faf4e9; //#f9f9f9;
+$background-header: white;
+$background-footer: #333a42;
+$btn-bg: white;
+$background-panel: #eeeeee;
+$subnav-bg: #fafaf9;
+
+@import "./_fonts.scss";
+@import "./_reset.scss";
+@import "./_global.scss";
+@import "./_helpers.scss";
+@import "./_elements.scss";
+@import "./_header.scss";
+@import "./_rules.scss";
+@import "./_character-sheet.scss";
+@import "./_spells.scss";
+
+body {
+    overflow: auto;
+    height: calc(100% - 26px);
+}
+
+body {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+}
+.main-wrapper {
+    max-width: 700px;
+    margin: auto;
+
+    
+}
+footer {
+    height: 40px;
+    padding: 0 10px;
+    background-color: #333a42;
+    color: #babfc2;
+}
+
+
