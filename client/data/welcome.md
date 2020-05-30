@@ -1,4 +1,4 @@
-# Welcome to Mirage123!
+# Welcome to Mirage!
 Mirage is a lighthearted, social, easy to learn and play game, focused on roleplay, storytelling, improvisation, imagination and creativity. Your goal is to make up and play out a fun story. You will go on adventures, complete quests, find treasure, slay dragons, and gain awesome powers.
 
 Have you heard about DnD? Mirage is made for the people who (like me) enjoy the social/creative aspects of DnD, but don't like the countless arguments over the intricate rules, the slow ordeal of combat encounters, and all the tedious arithmetics.
@@ -8,6 +8,13 @@ The rules of Mirage very simple, yet flexible, powerful and fun. They're designe
 You will learn everything you need to play by reading only two pages (this one and the [rules](/rules)).
 
 Mirage can be played online and in-person, but I'm currently focusing on the online version (over [Discord](https://discord.gg/zt4N23d)).
+
+## The World of Mirage
+Mirage is set in a colorful and zany fantasy world. Think Disenchantment, Futurama, Gravity Falls, Rick and Morty, Last Kids on Earth. It can have grounded, sincere, dramatic, poignant moments, but it's not meant to be too realistic or taken too seriously. Take a look at the [list of locations](https://docs.google.com/document/d/1PTmaMS4fXrQEsoUWR5PlVo-o67WngNZuy2Z3j9i-cl4/) you can find in Mirage.
+
+![](/img/mirage-world.jpg)
+
+
 
 ## How to Play
 One of the players will be a **Game Master (GM)** - he is the narrator of your story, he creates the world around you and plays the part of all the non-player characters **(NPCs)**.

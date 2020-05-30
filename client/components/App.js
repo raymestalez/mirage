@@ -23,6 +23,7 @@ class App extends Component {
 		    <Main>
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
+			<Route path="/world" exact component={Rules}/>
 			<Route path="/spells"
 			       exact component={Spells}/>
 			<Route path="/character-sheet"

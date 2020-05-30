@@ -1,28 +1,32 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { Link } from "react-router-dom"
+
 class Header extends Component {
     render() {
 	return (
 	    <header>
 		<div className="main-wrapper">
-		    <div className="logo">
+		    <Link to="/" className="logo">
 			<img src="/img/logo_128x128.png"/>
 			mirage
-		    </div>
+		    </Link>
 		    <div className="right">
-			<div className="btn">
+			<Link to="/rules" className="btn">
 			    Rules
-			</div>
-			<div className="btn">
+			</Link>
+			{/*  
+			    <Link to="/world" className="btn">
 			    World
-			</div>		    
-			<div className="btn">
+			    </Link>
+			  */}
+			<Link to="/spells" className="btn">
 			    Spells/Items
-			</div>
-			<div className="btn">
+			</Link>
+			<Link to="/character-sheet" className="btn">
 			    Character Sheet
-			</div>
+			</Link>
 			{/*  
 			    <div className="btn">
 			    Adventures
