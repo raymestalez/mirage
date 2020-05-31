@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import blankSheet from '../../data/sheet-blank.json'
+import blankSheet from '../../../json/sheet-blank.json'
 
 /* Actions */
 import { createSheet, loadSheet, deleteSheet } from '../../actions/sheetActions'

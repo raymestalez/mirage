@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import ReactMarkdown from 'react-markdown'
-import welcome from '../../data/welcome.md'
+import welcome from '../../../markdown/welcome.md'
 
 class Welcome extends Component {
     componentDidMount(){}

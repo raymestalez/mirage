@@ -3,28 +3,45 @@ import { connect } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
-import spells from '../../data/spells.json'
+import spells from '../../../json/spells.json'
+import abilities from '../../../json/abilities.json'
+import magicItems from '../../../json/magic-items.json'
+import equipment from '../../../json/equipment.json'
 
 import Card from './Card'
+import Modal from '../Elements/Modal'
+import Cards from './Cards'
 
 /* Actions */
-import { toggleModal, filterByType } from '../../actions/utils'
+import { toggleModal } from '../../actions/utils'
 
 class Section extends Component {
     renderCards = () => {
-	var cardsOfThisType = this.props.sheet.cards.filter((c)=>{
-	    /* Cards have types called "Ability", "Spell", etc,
-	       identical to the singular name of the section */
-	    return c.type == this.props.singular
-	})
-	return cardsOfThisType.map((spell,i)=> {
+	var type
+	switch (this.props.type) {
+	    case 'Ability': type = 'abilities'; break;
+	    case 'Spell': type = 'spells'; break;
+	    case 'Magic Item': type = 'magicItems'; break;
+	    case 'Item': type = 'equipment'; break;
+	}
+	var cards = this.props.sheets[0][type]
+	if (cards.length == 0) return;
+	return cards.map((card,i)=> {
 	    return (
-		<Card item={spell} key={i} />
+		<Card item={card} key={i} />
 	    )
 	})
     }
     
     render() {
+	var cards
+	switch (this.props.type) {
+	    case 'Spell': cards = spells; break;
+	    case 'Ability': cards = abilities; break;
+	    case 'Magic Item': cards = magicItems; break;
+	    case 'Item': cards = equipment; break;
+	}
+	
 	return (
 	    <div className="section">
 		<div className="section-title">
@@ -33,23 +50,22 @@ class Section extends Component {
 
 
 		<div className="cards">
-		    {this.renderCards().splice(0,2)}	
+		    {this.renderCards()}	
 		</div>
 		
 		<div className="card append"
 		     onClick={() => {
-			 this.props.toggleModal("cards")
-			 /* Set a variable in utils reducer,
-			    cards modal will use it to only show the cards
-			    of type I want to append to this section */
-			 this.props.filterByType(this.props.singular)
+			 this.props.toggleModal(this.props.type+"-cards")
 		     }}>
-		    Add {this.props.singular}
+		    Add {this.props.type}
 		    <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
 		</div>
+		<Modal name={this.props.type+"-cards"} className="wide">
+		    <Cards cards={cards} />
+		</Modal>
 	    </div>
 	)
     }
 }
 
-export default connect(({sheet})=>({sheet}), {toggleModal, filterByType})(Section)
+export default connect(({sheets})=>({sheets}), {toggleModal})(Section)

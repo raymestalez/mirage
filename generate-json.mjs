@@ -25,46 +25,72 @@ function removeHashtags(text) {
     return text
 }
 
-var categoriesJson = []
-var spellsJson = [] // in case i need it
-readFile("./markdown/abilities.md").then((text)=>{
-    var categories = text.split("----")
-    
-    categories.map((category)=>{
-	category = category.trim()
-	var categoryTitle = getFirstLine(category);
-	categoryTitle = removeHashtags(categoryTitle).trim()
-	var spells = getText(category).split("\n\n")
 
-	var categoryJson = {
-	    title: categoryTitle,
-	    spells: []
-	}
-	spells.map((spell)=> {
-	    var spellHeader = getFirstLine(spell)
-	    var spellDescription = getText(spell)
-	    spellHeader = removeHashtags(spellHeader).trim()
-	    var spellTitle = spellHeader.split("|")[0].trim()
-	    var spellLevel = parseInt(spellHeader.split("|")[1].trim())
+var files = [
+    "./markdown/abilities.md",
+    "./markdown/spells.md",
+    "./markdown/magic-items.md",
+    "./markdown/equipment.md",
+]
+var types = [
+    "Ability",
+    "Spell",
+    "Magic Item",
+    "Item",
+]
+var outputs = [
+    './json/abilities.json',
+    './json/spells.json',
+    './json/magic-items.json',
+    './json/equipment.json',    
+]
 
-	    var spellJson = {
-		title: spellTitle,
-		description: spellDescription,
-		type: "Ability",
-		category: categoryTitle,
-		level: spellLevel
+files.map((file,i) => {
+    console.log("Processing ", file)
+    var categoriesJson = []
+    var spellsJson = [] // in case i need it
+    readFile(file).then((text)=>{
+	var categories = text.split("----")
+	
+	categories.map((category)=>{
+	    category = category.trim()
+	    var categoryTitle = getFirstLine(category);
+	    categoryTitle = removeHashtags(categoryTitle).trim()
+	    var spells = getText(category).split("\n\n")
+
+	    var categoryJson = {
+		title: categoryTitle,
+		spells: []
 	    }
+	    spells.map((spell)=> {
+		var spellHeader = getFirstLine(spell)
+		var spellDescription = getText(spell)
+		spellHeader = removeHashtags(spellHeader).trim()
+		var spellTitle = spellHeader.split("|")[0].trim()
+		var spellLevel = parseInt(spellHeader.split("|")[1].trim())
 
-	    //console.log(spellJson)
-	    categoryJson.spells.push(spellJson)
-	    spellsJson.push(spellJson)
+		var spellJson = {
+		    title: spellTitle,
+		    description: spellDescription,
+		    type: types[i],
+		    category: categoryTitle,
+		    level: spellLevel
+		}
+
+		//console.log(spellJson)
+		categoryJson.spells.push(spellJson)
+		//console.log("Append ", types[i], spellTitle)
+		spellsJson.push(spellJson)
+	    })
+	    categoriesJson.push(categoryJson)
 	})
-	categoriesJson.push(categoryJson)
+
+	//console.log(spellsJson)
+	var outputText = JSON.stringify(categoriesJson)
+	console.log("Writing ", outputs[i])
+	fs.writeFile(outputs[i], outputText , 'utf8', ()=>{})
     })
 
-    //console.log(spellsJson)
-    var outputText = JSON.stringify(categoriesJson)
-    fs.writeFile('./client/data/abilities.json', outputText , 'utf8', ()=>{})
 })
 
 

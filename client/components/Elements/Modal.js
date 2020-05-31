@@ -22,7 +22,7 @@ class Modal extends Component {
 		</div>
 		<div className="modal-bg"
 		     onClick={() => this.props.toggleModal(name)}></div>
-		</div>
+	    </div>
 	)
     }
 }

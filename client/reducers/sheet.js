@@ -49,8 +49,8 @@ export default function (state = INITIAL_STATE, action) {
 	case 'UPDATE_SHEET':
 	    var sheet = action.payload
 	    return {...sheet}
-//	case 'DELETE_SHEET':
-//	    return sheet
+	case 'DELETE_SHEET':
+	    return sheet
 	case 'APPEND_CARD':
 	    var card = action.payload
 	    var cardAlreadyExists = state.cards.find((c)=> c.title == card.title)

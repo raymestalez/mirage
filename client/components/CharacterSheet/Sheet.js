@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
-import CardsModal from './CardsModal'
 import Subnav from './Subnav'
 import Stats from './Stats'
 import Section from './Section'
@@ -13,14 +12,14 @@ import { updateSheet, loadSheets } from '../../actions/sheetActions'
 class Sheet extends Component {
     componentDidMount(){
 	var sheets = localStorage.getItem('sheets')
-	if (sheets.length) {
+	if (sheets && sheets.length) {
 	    this.props.loadSheets(JSON.parse(sheets))
 	}
     }
     
     render() {
-	var { sheet, updateSheet } = this.props
-
+	var { sheets, updateSheet } = this.props
+	var sheet = sheets[0]
 	return (
 	    <>
 		<Subnav/>
@@ -35,12 +34,12 @@ class Sheet extends Component {
 			<div className="clearfix"/>		    
 			<Stats/>
 			<div className="col-1">
-			    <Section title="Abilities" singular="Ability"/>
-			    <Section title="Spells" singular="Spell"/>
+			    <Section title="Abilities" type="Ability"/>
+			    <Section title="Spells" type="Spell"/>
 			</div>
 			<div className="col-2">
-			    <Section title="Magic Items" singular="Magic Item"/>
-			    <Section title="Equipment" singular="Item"/>
+			    <Section title="Magic Items" type="Magic Item"/>
+			    <Section title="Equipment" type="Item"/>
 			</div>
 
 			<div className="clearfix"/>
@@ -57,11 +56,10 @@ class Sheet extends Component {
 			</div>
 			<div className="clearfix"/>		    
 		    </article>
-		    <CardsModal/>
 		</div>
 	    </>
 	)
     }
 }
 
-export default connect(({ sheet }) => ({ sheet }), { updateSheet, loadSheets })(Sheet)
+export default connect(({ sheets }) => ({ sheets }), { updateSheet, loadSheets })(Sheet)

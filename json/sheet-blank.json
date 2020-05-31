@@ -28,6 +28,10 @@
 	}
     ],
     "cards":[],
+    "abilities": [],
+    "spells": [],
+    "magicItems": [],
+    "equipment": [],
     "id": "12",
     "appearance": "",
     "ambitions": "",

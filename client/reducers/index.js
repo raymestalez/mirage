@@ -13,7 +13,7 @@ export default combineReducers({
     utils: utilsReducer,
     cards: cardsReducer,
     sheets: sheetsReducer,
-    sheet: sheetReducer    
+//    sheet: sheetReducer    
 })
 
 

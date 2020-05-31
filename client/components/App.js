@@ -8,7 +8,6 @@ import '../styles/style.scss'
 import Main from './Main'
 import Welcome from './Rules/Welcome'
 import Rules from './Rules/Rules'
-import Spells from './Spells/Spells'
 import CharacterSheet from './CharacterSheet/Sheet'
 
 class App extends Component {
@@ -24,8 +23,6 @@ class App extends Component {
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
 			<Route path="/world" exact component={Rules}/>
-			<Route path="/spells"
-			       exact component={Spells}/>
 			<Route path="/character-sheet"
 			       exact component={CharacterSheet}/>
 			{/* <Route path="/" exact component={Spells}/> */}
