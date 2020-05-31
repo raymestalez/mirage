@@ -17,6 +17,19 @@ header {
     .btn {
 	margin-left: 4px;
     }
+
+
+    .dropdown .menu {
+	width: 160px;
+	right: 0;
+	left: auto;
+	top: calc(100% + 5px); // not sure why 5
+	.btn {
+	    margin: 0;
+	    border-radius:0;
+	    border:none;
+	}
+    }
 }
 
 

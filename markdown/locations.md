@@ -40,7 +40,7 @@ An ancient UFO buried underground
 The dreamscape, Inception style.
 
 **The Floating Islands**
-![](/locations/floating-islands.png)
+![](/locations/floating-islands.jpg)
 **The Enchanted Forest**
 ![](/locations/enchanted-forest.jpg)
 **The Cursed Forest**

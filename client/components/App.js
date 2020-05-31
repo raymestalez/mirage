@@ -7,8 +7,11 @@ import '../styles/style.scss'
 
 import Main from './Main'
 import Welcome from './Rules/Welcome'
-import World from './Rules/World'
 import Rules from './Rules/Rules'
+import World from './Rules/World'
+import RoleplayingTips from './Rules/RoleplayingTips'
+import AdventureDesign from './Rules/AdventureDesign'
+
 import CharacterSheet from './CharacterSheet/Sheet'
 
 class App extends Component {
@@ -24,6 +27,11 @@ class App extends Component {
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
 			<Route path="/world" exact component={World}/>
+			<Route path="/roleplaying-tips" exact
+			       component={RoleplayingTips}/>
+			<Route path="/adventure-design" exact
+			       component={AdventureDesign}/>
+			
 			<Route path="/character-sheet"
 			       exact component={CharacterSheet}/>
 			{/* <Route path="/" exact component={Spells}/> */}
