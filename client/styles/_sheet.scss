@@ -11,6 +11,9 @@
 	color: #3d454b;
     }
 
+    input {
+	padding:0; //will this fix ipad display issue?
+    }
     input:focus {
 	outline: 1px solid $border;
 	//outline: none;
@@ -26,7 +29,6 @@
 	    outline: none;
 	}
     }
-    
 }
 
 .character-image {
@@ -38,6 +40,7 @@
     border-radius: 50%;
     border: 1px solid $border;
 }
+
 .add-image {
     margin: auto;
     border: 1px solid $border;
@@ -71,7 +74,8 @@
 	background: #fafafa;
 	border-radius: 4px;
 	text-align: center;
-	width: 100px;
+	//width: 100px;
+	width: 33%;
 	height: 85px;
 
 	display: flex;
@@ -89,6 +93,9 @@
 	    border: none;
 	    background: #fafafa;
 	}
+	.inputs-wrapper {
+	    width: 100px;
+	}
     }
 }
 
@@ -96,7 +103,7 @@
     float:left;
     width:50%;
     padding: 10px;
-    @media  (max-width: 640px) {
+    @media  (max-width: 500px) {
 	width:100%;
     }
 }

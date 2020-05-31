@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import blankSheet from '../../../json/sheet-blank.json'
 
+import { downloadFile } from '../../utils'
 /* Actions */
 import { createSheet, loadSheet, deleteSheet } from '../../actions/sheetActions'
 
@@ -20,6 +21,9 @@ class Subnav extends Component {
 	    )
 	})
     }
+    print = () => {
+	window.print()
+    }
     createSheet = () => {
 	var randomId = Math.random().toString(36).substring(7)
 	this.props.createSheet({...blankSheet, id:randomId})
@@ -32,7 +36,30 @@ class Subnav extends Component {
 	    this.createSheet()
 	}
     }
-    
+    openFile = (e) => {
+	var file = e.target.files[0];
+	if (!file) return;
+	if (!file.name.includes('json'))  return;
+
+	var reader = new FileReader()
+	reader.readAsText(file)
+	reader.onload = function(e) {
+	    /* Once reading has completed */
+	    var contents = e.target.result
+	    var sheet = JSON.parse(contents)
+	    console.log("Opened file", file.name, sheet)
+	    //this.props.loadTreeFile(tree)
+	}.bind(this)
+    }
+    downloadSheet = () => {
+	var sheet = this.props.sheets[0]	
+	downloadFile(sheet.name+".json", JSON.stringify(sheet))
+    }
+    downloadSheets = () => {
+	var { sheets } = this.props
+	downloadFile("character-sheets.json", JSON.stringify(sheets))
+    }
+
     render() {
 	return (
 	    <div className="subnav">
@@ -76,16 +103,16 @@ class Subnav extends Component {
 			</div>
 			<div className="menu">
 			    <div className="item btn"
-				 onClick={()=> { }}>
+				 onClick={this.downloadSheet}>
 				Sheet
 			    </div>
 			    <div className="item btn"
-				 onClick={()=> { }}>
+				 onClick={this.print}>
 				{/*<FontAwesomeIcon icon={["fas", "file-pdf"]}/>*/}
 				PDF
 			    </div>
 			    <div className="item btn"
-				 onClick={()=> { }}>
+				 onClick={this.downloadSheets}>
 				Backup All
 			    </div>
 			</div>
@@ -98,8 +125,15 @@ class Subnav extends Component {
 			    Upload
 			</div>
 			<div className="menu">
+
+			    {/* Hidden html5 file input */}
+			    <input type="file" id="file-input"
+				   accept=".json"
+				   ref={ref => this.fileInput = ref}
+				   onChange={this.openFile}/>
+			    {/* Just triggers click on file input */}
 			    <div className="item btn"
-				 onClick={()=> { }}>
+				 onClick={()=> this.fileInput.click()}>
 				Sheet
 			    </div>
 			    <div className="item btn"

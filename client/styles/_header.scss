@@ -30,13 +30,18 @@ header {
 	    border:none;
 	}
     }
+
+    @media print {
+	display:none;
+    }
 }
 
 
 .subnav {
     background: $subnav-bg;
-    height: 32px;
-
+    #file-input {
+	display:none;
+    }
     svg {
 	color: $text-dim;
 	margin-right: 4px;

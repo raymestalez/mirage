@@ -25,7 +25,7 @@ class Sheet extends Component {
 	    <>
 		<Subnav/>
 		<div className="main-wrapper">	    
-		    <article className="character-sheet">
+		    <article className="character-sheet"  id="character-sheet">
 			<input type="text"
 			       className="character-name"
 			       placeholder="Character's Name"

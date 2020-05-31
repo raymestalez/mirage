@@ -15,7 +15,7 @@ class Stats extends Component {
 			    <div className="title">
 				Health
 			    </div>
-			    <div>
+			    <div className="inputs-wrapper">
 				<input type="text"
 				       className="value"
 				       defaultValue={sheet.currentHealth} />
@@ -30,7 +30,7 @@ class Stats extends Component {
 			    <div className="title">
 				Energy
 			    </div>
-			    <div>
+			    <div className="inputs-wrapper">
 				<input type="text"
 				       className="value"
 				       defaultValue={sheet.currentEnergy} />
