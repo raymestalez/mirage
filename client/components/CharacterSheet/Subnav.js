@@ -24,12 +24,11 @@ class Subnav extends Component {
 	var randomId = Math.random().toString(36).substring(7)
 	this.props.createSheet({...blankSheet, id:randomId})
     }
+
     deleteSheet = () => {
 	var {sheets,deleteSheet,loadSheet} = this.props
 	deleteSheet(sheets[0])
-	if (sheets.length - 1 > 0) {
-	    loadSheet(sheets[1]) //load the last edited sheet
-	} else {
+	if (sheets.length == 0) {
 	    this.createSheet()
 	}
     }
@@ -38,16 +37,16 @@ class Subnav extends Component {
 	return (
 	    <div className="subnav">
 		<div className="main-wrapper">
-		    <div className="dropdown">
+ 		    <div className="dropdown">
 			<div className="menu-handle btn">
-			    <FontAwesomeIcon icon={["fas", "file"]}
-					     onClick={() => removeCard(item)}/>
+			    <FontAwesomeIcon icon={["fas", "file"]}/>
 			    Characters
 			</div>
 			<div className="menu">
 			    {this.renderSheetList()}
 			</div>
 		    </div>
+		    
 		    <div className="dropdown">
 			<div className="menu-handle btn">
 			    <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
@@ -69,23 +68,45 @@ class Subnav extends Component {
 			</div>
 		    </div>
 
-		    <div className="btn">
-			<FontAwesomeIcon icon={["fas", "upload"]}
-					 onClick={() => removeCard(item)}/>
-			
-			Upload
+
+ 		    <div className="dropdown">
+			<div className="menu-handle btn">
+			    <FontAwesomeIcon icon={["fas", "download"]}/>
+			    Download
+			</div>
+			<div className="menu">
+			    <div className="item btn"
+				 onClick={()=> { }}>
+				Sheet
+			    </div>
+			    <div className="item btn"
+				 onClick={()=> { }}>
+				{/*<FontAwesomeIcon icon={["fas", "file-pdf"]}/>*/}
+				PDF
+			    </div>
+			    <div className="item btn"
+				 onClick={()=> { }}>
+				Backup All
+			    </div>
+			</div>
 		    </div>
 
-		    <div className="btn">
-			<FontAwesomeIcon icon={["fas", "download"]}
-					 onClick={() => removeCard(item)}/>
-			
-			Download
-		    </div>
-		    <div className="btn">
-			<FontAwesomeIcon icon={["fas", "file-pdf"]}
-					 onClick={() => removeCard(item)}/>
-			PDF
+
+ 		    <div className="dropdown">
+			<div className="menu-handle btn">
+			    <FontAwesomeIcon icon={["fas", "upload"]}/>
+			    Upload
+			</div>
+			<div className="menu">
+			    <div className="item btn"
+				 onClick={()=> { }}>
+				Sheet
+			    </div>
+			    <div className="item btn"
+				 onClick={()=> { }}>
+				Backup
+			    </div>
+			</div>
 		    </div>
 		    
 		    <div className="btn right"

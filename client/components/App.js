@@ -7,6 +7,7 @@ import '../styles/style.scss'
 
 import Main from './Main'
 import Welcome from './Rules/Welcome'
+import World from './Rules/World'
 import Rules from './Rules/Rules'
 import CharacterSheet from './CharacterSheet/Sheet'
 
@@ -22,7 +23,7 @@ class App extends Component {
 		    <Main>
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
-			<Route path="/world" exact component={Rules}/>
+			<Route path="/world" exact component={World}/>
 			<Route path="/character-sheet"
 			       exact component={CharacterSheet}/>
 			{/* <Route path="/" exact component={Spells}/> */}

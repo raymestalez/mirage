@@ -9,13 +9,6 @@ You will learn everything you need to play by reading only two pages (this one a
 
 Mirage can be played online and in-person, but I'm currently focusing on the online version (over [Discord](https://discord.gg/zt4N23d)).
 
-## The World of Mirage
-Mirage is set in a colorful and zany fantasy world. Think Disenchantment, Futurama, Gravity Falls, Rick and Morty, Last Kids on Earth. It can have grounded, sincere, dramatic, poignant moments, but it's not meant to be too realistic or taken too seriously. Take a look at the [list of locations](https://docs.google.com/document/d/1PTmaMS4fXrQEsoUWR5PlVo-o67WngNZuy2Z3j9i-cl4/) you can find in Mirage.
-
-![](/img/mirage-world.jpg)
-
-
-
 ## How to Play
 One of the players will be a **Game Master (GM)** - he is the narrator of your story, he creates the world around you and plays the part of all the non-player characters **(NPCs)**.
 

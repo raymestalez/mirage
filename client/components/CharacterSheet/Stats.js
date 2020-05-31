@@ -4,34 +4,86 @@ import { connect } from 'react-redux'
 
 
 class Stats extends Component {
-    renderStats = () => {
-	var stats = ["Health", "Energy","Memory","section","Experience","Level"]
-
-	return this.props.sheets[0].stats.map((stat,i)=> {
-	    return (
-		<div key={i} className="stat">
-		    <div className="title">
-			{stat.title}
-		    </div>
-		    <input type="text"
-			   className="value"
-			   defaultValue={stat.value} />
-		</div>
-	    )
-	})
-    }
-    
     render() {
+	var sheet = this.props.sheets[0]
 	return (
 	    <div>
 		<div className="col-1">
 		    <div className="stats">
-			{this.renderStats().splice(0,3)}
+
+			<div className="stat">
+			    <div className="title">
+				Health
+			    </div>
+			    <div>
+				<input type="text"
+				       className="value"
+				       defaultValue={sheet.currentHealth} />
+				/
+				<input type="text"
+				       className="value"
+				       defaultValue={sheet.maxHealth} />
+			    </div>
+			</div>
+
+			<div className="stat">
+			    <div className="title">
+				Energy
+			    </div>
+			    <div>
+				<input type="text"
+				       className="value"
+				       defaultValue={sheet.currentEnergy} />
+				/
+				<input type="text"
+				       className="value"
+				       defaultValue={sheet.maxEnergy} />
+			    </div>
+			</div>
+
+			<div className="stat">
+			    <div className="title">
+				Memory
+			    </div>
+			    <input type="text"
+				   className="value"
+				   defaultValue={sheet.memorySize} />
+			</div>
+			
+
 		    </div>
 		</div>
 		<div className="col-1">
 		    <div className="stats">
-			{this.renderStats().splice(3,6)}
+
+			<div className="stat">
+			    <div className="title">
+				Inventory
+			    </div>
+			    <input type="text"
+				   className="value"
+				   defaultValue={sheet.inventorySize} />
+			</div>
+
+
+			<div className="stat">
+			    <div className="title">
+				Experience
+			    </div>
+			    <input type="text"
+				   className="value"
+				   defaultValue={sheet.experience} />
+			</div>
+
+			<div className="stat">
+			    <div className="title">
+				Level
+			    </div>
+			    <input type="text"
+				   className="value"
+				   defaultValue={sheet.level} />
+			</div>
+
 		    </div>
 		</div>
 	    </div>

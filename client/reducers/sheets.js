@@ -1,33 +1,17 @@
+import blankSheet from '../../json/sheet-blank.json'
+
 var INITIAL_STATE = [
     {
 	name:"",
-	stats: [
-	    {
-		title: "Health",
-		value: "10/10"
-	    },
-	    {
-		title: "Energy",
-		value: "10/10"
-	    },
-	    {
-		title: "Memory",
-		value: 10
-	    },
-	    {
-		title: "Inventory",
-		value: 10
-	    },
-	    {
-		title: "Experience",
-		value: 0
-	    },
-	    
-	    {
-		title: "Level",
-		value: 1
-	    }
-	],
+	image:"",
+	currentHealth: 10,
+	maxHealth:10,
+	currentEnergy: 10,
+	maxEnergy: 10,
+	memorySize: 10,
+	inventorySize:10,
+	experience: 0,
+	level: 1,
 	cards:[],
 	abilities: [],
 	spells: [],
@@ -46,6 +30,7 @@ export default function (state = INITIAL_STATE, action) {
 	case 'LOAD_SHEET':
 	    /* I'm always editing the first sheet in the array.
 	       To "load" a sheet I just put it into the first place */
+	    /* Used when I select a sheet in the dropdown */
 	    var sheet = action.payload
 	    var removed = state.filter((s)=> s.id != sheet.id)
 	    return [sheet, ...removed]
@@ -73,7 +58,8 @@ export default function (state = INITIAL_STATE, action) {
 	    /* To delete a shit I simply filter it out */
 	    var sheet = action.payload
 	    var updatedSheets = state.filter((s)=> s.id != sheet.id)
-	    localStorage.setItem('sheets', JSON.stringify(updatedSheets));
+	    if (updatedSheets.length == 0) updatedSheets.push(blankSheet)
+	    localStorage.setItem('sheets', JSON.stringify(updatedSheets))
 	    return updatedSheets
 	default:
 	    return state
