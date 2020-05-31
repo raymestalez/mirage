@@ -1,2 +1,7 @@
+export const loadSheet = sheet => ({ type: 'LOAD_SHEET', payload: sheet })
+export const loadSheets = sheets => ({ type: 'LOAD_SHEETS', payload: sheets })
+export const createSheet = sheet => ({ type: 'CREATE_SHEET', payload: sheet })
+export const updateSheet = sheet => ({ type: 'UPDATE_SHEET', payload: sheet })
+export const deleteSheet = sheet => ({ type: 'DELETE_SHEET', payload: sheet })
 export const appendCard = card => ({ type: 'APPEND_CARD', payload: card })
 export const removeCard = card => ({ type: 'REMOVE_CARD', payload: card })

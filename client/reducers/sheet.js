@@ -1,4 +1,5 @@
 var INITIAL_STATE = {
+    name: "Mike",
     stats: [
 	{
 	    title: "Health",
@@ -27,10 +28,7 @@ var INITIAL_STATE = {
 	}
     ],
     cards:[],
-    abilities: [],
-    spells: [],
-    magicItems: [],
-    equipment: [],
+    id: "12",
     appearance: "",
     ambitions: "",
     personality: "",
@@ -39,11 +37,20 @@ var INITIAL_STATE = {
 
 export default function (state = INITIAL_STATE, action) {
     switch (action.type) {
-	case 'TOGGLE_MODAL':
-	    const modal = action.payload
-	    /* If this modal is already open I toggle it off. */
-	    const alreadyOpen = state.showModal === modal 
-	    return {...state, showModal: alreadyOpen ? false : modal }
+	case 'LOAD_SHEET':
+	    var sheet = action.payload
+	    return sheet
+	case 'LOAD_SHEETS':
+	    var sheets = action.payload
+	    return sheets[0]
+	case 'CREATE_SHEET':
+	    var sheet = action.payload
+	    return {...sheet}
+	case 'UPDATE_SHEET':
+	    var sheet = action.payload
+	    return {...sheet}
+//	case 'DELETE_SHEET':
+//	    return sheet
 	case 'APPEND_CARD':
 	    var card = action.payload
 	    var cardAlreadyExists = state.cards.find((c)=> c.title == card.title)

@@ -3,6 +3,7 @@ import { combineReducers } from 'redux'
 /* My reducers */
 import utilsReducer from './utils'
 import cardsReducer from './cards'
+import sheetsReducer from './sheets'
 import sheetReducer from './sheet'
 
 
@@ -11,6 +12,7 @@ import sheetReducer from './sheet'
 export default combineReducers({
     utils: utilsReducer,
     cards: cardsReducer,
+    sheets: sheetsReducer,
     sheet: sheetReducer    
 })
 

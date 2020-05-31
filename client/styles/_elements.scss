@@ -38,10 +38,23 @@
 
 	.item {
 	    &.active { color: $text;}
+	    width: 100%;
 	}		
 
     }
 
+}
+.subnav .btn {
+    border-radius:0;
+    border:none;
+    background:$subnav-bg;
+    &:hover {
+	background: $background-panel;
+	color: $text;
+	svg { color: $text; }	
+	//background:white;
+    }
+    //outline: 1px solid $border;
 }
 
 .modal-wrapper {

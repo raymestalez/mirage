@@ -1,0 +1,36 @@
+{
+    "name":"",
+    "stats": [
+	{
+	    "title": "Health",
+	    "value": "10/10"
+	},
+	{
+	    "title": "Energy",
+	    "value": "10/10"
+	},
+	{
+	    "title": "Memory",
+	    "value": 10
+	},
+	{
+	    "title": "Inventory",
+	    "value": 10
+	},
+	{
+	    "title": "Experience",
+	    "value": 0
+	},
+	
+	{
+	    "title": "Level",
+	    "value": 1
+	}
+    ],
+    "cards":[],
+    "id": "12",
+    "appearance": "",
+    "ambitions": "",
+    "personality": "",
+    "backstory": ""
+}

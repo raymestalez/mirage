@@ -22,5 +22,10 @@ header {
 
 .subnav {
     background: $subnav-bg;
-    height: 20px;
+    height: 32px;
+
+    svg {
+	color: $text-dim;
+	margin-right: 4px;
+    }
 }

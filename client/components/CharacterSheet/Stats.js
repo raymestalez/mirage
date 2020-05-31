@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
+
+
 class Stats extends Component {
     renderStats = () => {
 	var stats = ["Health", "Energy","Memory","section","Experience","Level"]
 
-	return this.props.sheet.stats.map((stat,i)=> {
+	return this.props.sheets[0].stats.map((stat,i)=> {
 	    return (
 		<div key={i} className="stat">
 		    <div className="title">
@@ -37,4 +39,4 @@ class Stats extends Component {
     }
 }
 
-export default connect(({sheet})=>({sheet}), {})(Stats)
+export default connect(({sheets})=>({sheets}), {})(Stats)
