@@ -18,24 +18,20 @@ $subnav-bg: #fafaf9;
 @import "./_elements.scss";
 @import "./_header.scss";
 @import "./_rules.scss";
-@import "./_character-sheet.scss";
-@import "./_spells.scss";
+@import "./_sheet.scss";
 
-body {
+.body {
+        overflow: auto;
+}
+.main {
     overflow: auto;
     overflow-y: overlay;
-    height: calc(100% - 28px);
+    height: calc(100% - 54px);
 }
 
-body {
-    margin-left: calc(100vw - 100%);
-    margin-right: 0;
-}
 .main-wrapper {
     max-width: 700px;
     margin: auto;
-
-    
 }
 footer {
     height: 40px;

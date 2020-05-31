@@ -1,0 +1,171 @@
+.character-sheet {
+    padding: 40px 20px;
+
+    .character-name {
+	margin: auto;
+	text-align: center;
+	display: block;
+	border: none;
+	border-bottom: 1px solid $border;
+	font-size: 1.5em;
+	color: #3d454b;
+    }
+
+    input:focus {
+	outline: 1px solid $border;
+	outline: none;
+    }
+    
+    textarea {
+	width: 100%;
+	border: none;
+	font-size: 12px;
+	background: #fafafa;
+	overflow: hidden;
+	&:focus {
+	    outline: none;
+	}
+    }
+    
+}
+.stats {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .stat {
+	padding: 20px;
+	border: 1px solid $border;
+	background: #fafafa;
+	border-radius: 4px;
+	text-align: center;
+	width: 100px;
+	height: 85px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+	.title {
+	    font-size: 12px;
+	    font-weight: bold;
+	}
+	.value {
+	    line-height: 32px;
+	    width: 80px;
+	    text-align: center;
+	    border: none;
+	    background: #fafafa;
+	}
+    }
+}
+
+.col-1,.col-2 {
+    float:left;
+    width:50%;
+    padding: 10px;
+    @media  (max-width: 640px) {
+	width:100%;
+    }
+}
+
+.section {
+    border: 1px solid $border;
+    background: #fafafa;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 30px 0;
+
+    position:relative;
+    .section-title {
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	font-weight: bold;
+	width: 90px;
+	height: 20px;
+	background: #fafafa;
+	position: absolute;
+	left: 50%;
+	top:-19.5px;
+	margin-left: -45px;
+
+	border: 1px solid #dddddd;
+	border-radius: 4px 4px 0 0;
+	border-bottom: none;
+	
+    }
+
+}
+
+
+
+
+.cards {
+    .columns {
+	column-count: 2;
+	column-gap: 20px;
+	padding-top: 20px;
+	:first-child {
+	    margin-top: 0;
+	}
+    }
+}
+.card {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid $border;
+    border-radius: 4px;
+    background: white;
+    .title {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	svg {
+	    float:left;
+	    color: $text-dim;
+	    &:hover {
+		cursor: pointer;
+		color: $text;
+	    }
+	}
+	.level {
+	    width: 16px;
+	    height: 16px;
+	    border-radius: 16px;
+	    background: $background-panel;
+	    float:right;
+	    color: $text-dim;
+	}
+    }
+    .description {
+    }
+
+    width: 100%;
+    -webkit-column-break-inside: avoid;
+
+    &:first-child {
+    margin-top: 0;
+    }
+}
+
+.append {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $text-dim;
+    background: transparent;
+    svg {
+	margin: 5px;
+	width: 1.5em;
+	height: 1.5em;
+	color: $text-dim;
+    }
+    &:hover {
+	background: white;
+	color: $text;
+	cursor: pointer;
+	svg { color: $text; }
+    }
+}
+

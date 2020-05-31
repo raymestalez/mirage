@@ -3,31 +3,37 @@
 	"type": "Spell",
 	"title": "Minor Illusion",
 	"category": "Illusion",
-	"description": "Cast minor illusion"
+	"description": "Cast minor illusion",
+	"level":"1"	
     },
     {
 	"type": "Spell",
 	"title": "Walk on walls/ceiling",
 	"category": "Illusion",
-	"description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor. For the next 20 minutes you can walk on any surface at any angle as if it was regular floor."
+	"description": "For the next 20 minutes you can walk on any surface at any angle as if it was regular floor. For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.",
+	"level":"1"
     },
          
     {
 	"type": "Ability",
 	"title": "Minor Illusion",
 	"category": "Illusion",
-	"description": "Real strong"
+	"description": "Real strong",
+	"level":"1"	
     },
     {
 	"type": "Spell",
 	"title": "Speed",
 	"category": "",
-	"description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes."
+	"description": "For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes.",
+	"level":"1"	
+	
     },
    {
 	"type": "Spell",
 	"title": "Small Fireball",
 	"category": "Illusion",
-	"description": "Deals 3 damage. Sets stuff on fire. Hold in your hand as a light source."
+	"description": "Deals 3 damage. Sets stuff on fire. Hold in your hand as a light source.",
+	"level":"1"       
     }
 ]

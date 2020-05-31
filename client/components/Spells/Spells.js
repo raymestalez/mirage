@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 
 import spells from '../../data/spells.json'
 
+
 class Spells extends Component {
     componentDidMount(){}
 

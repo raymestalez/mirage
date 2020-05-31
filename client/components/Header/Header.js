@@ -21,9 +21,11 @@ class Header extends Component {
 			    World
 			    </Link>
 			  */}
-			<Link to="/spells" className="btn">
+			{/*  
+			    <Link to="/spells" className="btn">
 			    Spells/Items
-			</Link>
+			    </Link>
+			  */}
 			<Link to="/character-sheet" className="btn">
 			    Character Sheet
 			</Link>

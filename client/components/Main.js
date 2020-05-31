@@ -13,9 +13,9 @@ class Main extends Component {
 	return (
             <>
 		<Header/>
-		<body>
+		<div className="main">
 		{this.props.children}
-		</body>
+		</div>
 		{/* <footer></footer> */}
             </>
 	)

@@ -19,17 +19,19 @@ article {
 }
 .columns {
     column-count: 2;
+
+    @media  (max-width: 640px) {
+	column-count: 1;
+    }
+
     column-gap: 40px;
     margin-top: 1em;
 
-    :first-child {
-    margin-top: 0;
-    }
-
-    ol :first-child {
-	margin-top: 1em; //temp hack to give margin back to the lists
+    > :first-child {
+	margin-top: 0;
     }
 }
+
 
 
 .column-break {
