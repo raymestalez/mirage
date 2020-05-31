@@ -22,9 +22,6 @@ class Cards extends Component {
 	return (
 	    <div className="cards columns">
 		{this.renderCards()}
-		{this.renderCards()}
-		{this.renderCards()}
-		{this.renderCards()}
 	    </div>
 	)
     }
