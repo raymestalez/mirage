@@ -41,7 +41,18 @@ class Section extends Component {
 	    case 'Magic Item': cards = magicItems; break;
 	    case 'Item': cards = equipment; break;
 	}
-	
+	var sheet = this.props.sheets[0]
+	var numberOfItems
+	var canAddMore
+	if (this.props.type == 'Spell' ||this.props.type == 'Ability') {
+	    numberOfItems = sheet.spells.length + sheet.abilities.length
+	    canAddMore = numberOfItems < sheet.memorySize
+	    console.log(numberOfItems,sheet.memorySize)
+	} else {
+	    numberOfItems = sheet.magicItems.length + sheet.equipment.length
+	    canAddMore = numberOfItems < sheet.inventorySize
+	}
+
 	return (
 	    <div className="section">
 		<div className="section-title">
@@ -52,14 +63,14 @@ class Section extends Component {
 		<div className="cards">
 		    {this.renderCards()}	
 		</div>
-		
+		{canAddMore &&
 		<div className="card append"
 		     onClick={() => {
 			 this.props.toggleModal(this.props.type+"-cards")
 		     }}>
 		    Add {this.props.type}
 		    <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
-		</div>
+		</div>}
 		<Modal name={this.props.type+"-cards"} className="wide">
 		    <Cards cards={cards} />
 		</Modal>

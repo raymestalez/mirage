@@ -1,33 +1,13 @@
 {
     "name":"",
     "image":"",
-    "stats": [
-	{
-	    "title": "Health",
-	    "value": "10/10"
-	},
-	{
-	    "title": "Energy",
-	    "value": "10/10"
-	},
-	{
-	    "title": "Memory",
-	    "value": 10
-	},
-	{
-	    "title": "Inventory",
-	    "value": 10
-	},
-	{
-	    "title": "Experience",
-	    "value": 0
-	},
-	
-	{
-	    "title": "Level",
-	    "value": 1
-	}
-    ],
+    "currentHealth": 10,
+    "maxHealth":10,
+    "currentEnergy": 10,
+    "maxEnergy": 10,
+    "memorySize": 10,
+    "inventorySize":10,
+    "experience": 0,
     "cards":[],
     "abilities": [],
     "spells": [],

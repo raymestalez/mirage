@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
 import Subnav from './Subnav'
+import Image from './Image'
 import Stats from './Stats'
 import Section from './Section'
 import Description from './Description'
@@ -31,7 +32,8 @@ class Sheet extends Component {
 			       value={sheet.name}
 			       onChange={(e)=>
 				   updateSheet({...sheet, name:e.target.value})}/>
-			<div className="clearfix"/>		    
+			<div className="clearfix"/>
+			<Image/>
 			<Stats/>
 			<div className="col-1">
 			    <Section title="Abilities" type="Ability"/>

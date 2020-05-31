@@ -28,6 +28,39 @@
     }
     
 }
+
+.character-image {
+    width: 150px; height:150px;
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 1px solid $border;
+}
+.add-image {
+    margin: auto;
+    border: 1px solid $border;
+    border-radius: 4px;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+    .icon {
+	margin: 5px;
+	width: 1.5em;
+	height: 1.5em;
+	
+    }
+    input {
+	width: 100px;
+	&:focus { outline: none; }
+    }
+}
+
 .stats {
     width: 100%;
     display: flex;
