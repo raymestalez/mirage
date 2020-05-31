@@ -25,8 +25,9 @@ function removeHashtags(text) {
     return text
 }
 
-var spellsJson = []
-readFile("./markdown/spells.md").then((text)=>{
+var categoriesJson = []
+var spellsJson = [] // in case i need it
+readFile("./markdown/abilities.md").then((text)=>{
     var categories = text.split("----")
     
     categories.map((category)=>{
@@ -34,6 +35,11 @@ readFile("./markdown/spells.md").then((text)=>{
 	var categoryTitle = getFirstLine(category);
 	categoryTitle = removeHashtags(categoryTitle).trim()
 	var spells = getText(category).split("\n\n")
+
+	var categoryJson = {
+	    title: categoryTitle,
+	    spells: []
+	}
 	spells.map((spell)=> {
 	    var spellHeader = getFirstLine(spell)
 	    var spellDescription = getText(spell)
@@ -44,18 +50,21 @@ readFile("./markdown/spells.md").then((text)=>{
 	    var spellJson = {
 		title: spellTitle,
 		description: spellDescription,
-		type: "Spell",
+		type: "Ability",
 		category: categoryTitle,
 		level: spellLevel
 	    }
 
 	    //console.log(spellJson)
-	    spellsJson.push(JSON.stringify(spellJson))
+	    categoryJson.spells.push(spellJson)
+	    spellsJson.push(spellJson)
 	})
+	categoriesJson.push(categoryJson)
     })
 
     //console.log(spellsJson)
-    fs.writeFile('./client/data/spells.json', "["+spellsJson+"]", 'utf8', ()=>{})
+    var outputText = JSON.stringify(categoriesJson)
+    fs.writeFile('./client/data/abilities.json', outputText , 'utf8', ()=>{})
 })
 
 

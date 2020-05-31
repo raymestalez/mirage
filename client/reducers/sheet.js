@@ -26,6 +26,7 @@ var INITIAL_STATE = {
 	    value: "1"
 	}
     ],
+    cards:[],
     abilities: [],
     spells: [],
     magicItems: [],
@@ -43,6 +44,16 @@ export default function (state = INITIAL_STATE, action) {
 	    /* If this modal is already open I toggle it off. */
 	    const alreadyOpen = state.showModal === modal 
 	    return {...state, showModal: alreadyOpen ? false : modal }
+	case 'APPEND_CARD':
+	    var card = action.payload
+	    var cardAlreadyExists = state.cards.find((c)=> c.title == card.title)
+	    if (cardAlreadyExists) return state
+	    return {...state, cards: [...state.cards, card] }
+	case 'REMOVE_CARD':
+	    var card = action.payload
+	    return {...state, cards: state.cards.filter((c, index) => {
+		return c.title != card.title
+	    })}
 	default:
 	    return state
     }

@@ -7,7 +7,6 @@ import Cards from './Cards'
 
 class CardsModal extends Component {
     render() {
-	console.log("yes")
 	return (
 	    <Modal name="cards" className="wide">
 		<Cards/>
