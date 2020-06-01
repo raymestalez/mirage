@@ -139,7 +139,13 @@
 
 
 
-
+.cards-modal {
+    .category-title {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+    }
+}
 .cards {
     .columns {
 	column-count: 2;
@@ -160,9 +166,17 @@
 	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
+	input {
+	    font-size: 12px;
+	    text-align: center;
+	    border: none;
+	    outline: 1px solid $border;
+	    font-weight: bold;
+	}
 	svg {
 	    float:left;
 	    color: $text-dim;
+	    margin-right: 5px;
 	    &:hover {
 		cursor: pointer;
 		color: $text;

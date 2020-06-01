@@ -71,7 +71,7 @@ class Section extends Component {
 		    Add {this.props.type}
 		    <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
 		</div>}
-		<Modal name={this.props.type+"-cards"} className="wide">
+		<Modal name={this.props.type+"-cards"} className="cards-modal wide">
 		    <Cards cards={cards} />
 		</Modal>
 	    </div>

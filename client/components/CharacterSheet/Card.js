@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import TextareaAutosize from 'react-textarea-autosize';
 
 /* Actions */
 import { updateSheet, removeCard, } from '../../actions/sheetActions'
@@ -8,6 +9,11 @@ import { toggleModal } from '../../actions/utils'
 
 
 class Card extends Component {
+    constructor(props) {
+	super(props)
+	this.state = {editing: false}
+    }
+    
     appendCard = () => {
 	const {item, sheets, updateSheet, toggleModal} = this.props
 	toggleModal()
@@ -33,6 +39,31 @@ class Card extends Component {
 	updateSheet(newSheet)
     }
 
+    updateCard = () => {
+	const {item, sheets, updateSheet} = this.props
+	var type
+	switch (item.type) {
+	    case 'Ability': type = 'abilities'; break;
+	    case 'Spell': type = 'spells'; break;
+	    case 'Magic Item': type = 'magicItems'; break;
+	    case 'Item': type = 'equipment'; break;
+	}
+	var newSheet = {...sheets[0]}
+	newSheet[type] = newSheet[type].map(c=> {
+	    if (c.id == item.id) {
+		return {
+		    ...item,
+		    title:this.titleInput.value,
+		    description:this.descriptionInput.value
+		}
+	    } else {
+		return c
+	    }
+	})
+	updateSheet(newSheet)
+	this.setState({editing: false})
+    }
+
     removeCard = () => {
 	const {item, sheets, updateSheet} = this.props
 	var type
@@ -55,17 +86,40 @@ class Card extends Component {
 	    <div className="card">
 		<div className="title">
 		    {creating ?
+		     /* If it's rendered into cards modal, only show add icon */
 		     <FontAwesomeIcon icon={["fas", "plus-circle"]}
 				      onClick={this.appendCard}/>
 		    :
-		     <FontAwesomeIcon icon={["fas", "trash-alt"]}
-				      onClick={this.removeCard}/>
+		     <>
+			 {/* If it's rendered into sheet, show delete and edit */}
+			 <FontAwesomeIcon icon={["fas", "trash-alt"]}
+					  onClick={this.removeCard}/>
+		     	 {this.state.editing ?
+			  <FontAwesomeIcon icon={["fas", "check-circle"]}
+					   onClick={this.updateCard}/>
+			 :
+			  <FontAwesomeIcon icon={["fas", "edit"]}
+					   onClick={()=>
+					       this.setState({editing: true})}/>}
+		     </>
 		    }
-		    {item.title}
+		    {this.state.editing ?
+		     <input ref={ref => this.titleInput = ref}
+			    defaultValue={item.title}/>
+		    :
+		     item.title}
 		    <div className="level">{item.level}</div>
 		</div>
-		<hr/>
-		<div className="description">{item.description}</div>
+		{item.description && <hr/>}
+		{this.state.editing ?
+		 <TextareaAutosize
+		     placeholder={"Description"}
+		     ref={ref => this.descriptionInput = ref}
+		     defaultValue={item.description}/>
+		:
+		 <div className="description">{item.description}</div>
+		}		
+		
 	    </div>
 	)
     }

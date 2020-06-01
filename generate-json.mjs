@@ -64,6 +64,7 @@ files.map((file,i) => {
 	    }
 	    spells.map((spell)=> {
 		var spellHeader = getFirstLine(spell)
+		console.log(spellHeader)
 		var spellDescription = getText(spell)
 		spellHeader = removeHashtags(spellHeader).trim()
 		var spellTitle = spellHeader.split("|")[0].trim()

@@ -13,7 +13,7 @@ class Cards extends Component {
 	return this.props.cards.map((category,i)=> {
 	    return (
 		<div key={i}>
-		    <b>{category.title}</b>
+		    <div className="category-title">{category.title}</div>
 		    <div className="cards columns">
 			{this.renderCards(category.spells)}
 		    </div>
@@ -32,7 +32,11 @@ class Cards extends Component {
 
     render() {
 	//console.log("Render Cards")
-	return this.renderCategories()
+	return (
+	    <div className="">
+		{this.renderCategories()}
+	    </div>
+	)
     }
 }
 
