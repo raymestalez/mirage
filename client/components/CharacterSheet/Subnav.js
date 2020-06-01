@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import blankSheet from '../../../json/sheet-blank.json'
 import Wizard from '../../../json/Wizard.json'
 import Ninja from '../../../json/Ninja.json'
+import Charmer from '../../../json/Charmer.json'
 
 import { downloadFile } from '../../utils'
 /* Actions */
@@ -98,6 +99,10 @@ class Subnav extends Component {
 			    <div className="item btn"
 				 onClick={()=>this.createSheet(Ninja)}>
 				Ninja
+			    </div>
+			    <div className="item btn"
+				 onClick={()=>this.createSheet(Charmer)}>
+				Charmer
 			    </div>
 			</div>
 		    </div>

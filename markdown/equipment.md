@@ -2,31 +2,34 @@
 ## Dagger | 1
 For stabbing. Deals 2 damage.
 
-## Sword | 1
+## Crowbar | 2
+Smashes things, pries things open. Deals 2 damage.
+
+## Sword | 2
 Regular sword. Deals 4 damage.
 (requires “Aspiring Swordsman” ability to use).
 
-## Light Crossbow | 1
+## Light Bow | 2
+Deals 4 damage.
+
+## Light Crossbow | 2
 Shoots where you point it, dealing 4 damage.
 (requires “Aspiring Marksman” ability to use)
 
-## Throwing Dagger | 1
+## Throwing Dagger | 2
 Deals 4 damage.
 
-## Bow | 1
+## Old-timey Gun | 6
 
-## Old-timey Gun | 1
+## Slingshot | 3
 
-## Slingshot | 1
-
-## Crowbar | 1
 
 ----
 # Adventuring Gear
-## Grappling Hook Gun | 1
+## Grappling Hook Gun | 3
 Shoots the grappling hook to the distance of up to 50 meters, reels it back in.
 
-## Bear Trap | 1
+## Bear Trap | 3
 
 ## Rope | 1
 Regular piece of 50ft rope.
@@ -36,10 +39,10 @@ Regular piece of 50ft rope.
 ## Torches | 1
 Provide light. Set things on fire.
 
-## Spyglass | 1
+## Spyglass | 2
 
 ## Waterskin | 1
 
-## Ball Bearings | 1
+## Ball Bearings | 2
 
 ## Shovel | 1

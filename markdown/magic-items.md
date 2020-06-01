@@ -1,7 +1,4 @@
 # Items
-## Cloak of Disguise | 1
-Creates an illusion around you, allowing you to assume the appearance
-
 ## Ropey | 1
 A sentient piece of rope. 50ft. 
 As smart as a puppy. 
@@ -16,51 +13,53 @@ Magical walkie-talkie. Communicate telepathically within 300 meters of each othe
 Activating it makes it magically fixed in place. 
 Until someone deactivates it, the rod doesn't move, even if it is defying gravity.
 
-## Emerald bug | 1
+## Daily Cypress Pocket Edition | 2
+This pendant can be activated once per day, 
+It reads you the most recent news headlines.
+
+## Snarky Multitool | 2
+A hammer possessed by a shapeshifting ghost. Can change itself into any small object or tool, if you can convince it to. Warning - it has a difficult personality.
+
+## Cloak of Disguise | 3
+Creates an illusion around you, allowing you to assume the appearance
+
+## Emerald bug | 3
 Activate it, and for the next 5 days you will always know it’s location, and be able to hear what’s going on around it.
+
+## Magic sword | 3
+Grows brighter when the enemies are nearby. Deals 5 damage.
+
+## Staff of Druid | 3
+Deals 4 damage. Strike earth, and a fountain of water will shoot up from that location for the next 10 minutes.
 
 ## Refilling Flask | 1
 Refills itself every midnight with whatever liquid was last in it. Works with potions.
 
-## Teleportation pyramids | 1
-2 small pyramids. Activating one pyramid teleports anyone who touches it to the location of the other pyramid.
-
-## Ring of Spell Storing | 1
-Cast a spell on the ring to store it. Anyone who wears the ring can now cast this spell once. Stores up to 3 spells.
-
-## Magic Tent | 1
-Like in Harry Potter, from the inside it's a small comfy apartment.
-
-## Flying carpet. | 1
-
-## Daily Cypress Pocket Edition | 1
-This pendant can be activated once per day, 
-It reads you the most recent news headlines.
-
-## Magic sword | 1
-Grows brighter when the enemies are nearby. Deals 5 damage.
-
-## Snarky Multitool | 1
-A hammer possessed by a shapeshifting ghost. Can change itself into any small object or tool, if you can convince it to. Warning - it has a difficult personality.
-
-## The ring of tiny-beast master | 1
-Allows you to sense and control all the insects within 100 meter radius around you.
-
-## Ring of Sending | 1
+## Ring of Sending | 4
 Send a telepathic 25-word message to anyone you have ever met.The recipient can send you a 25-word reply. Works twice per day.
 
-## Eye of Vance | 1
-Sees everything in 360 degrees and 100m radius around you. Can see through solid objects. Can see invisible objects. Can see anything hidden. Works twice per day for 10 minutes
+## Teleportation pyramids | 6
+2 small pyramids. Activating one pyramid teleports anyone who touches it to the location of the other pyramid.
 
-## Teleportation Key | 1
-Teleports you and up to 5 people who are touching it to any location you have ever personally visited. 1 hour cooldown.
+## The ring of tiny-beast master | 6
+Allows you to sense and control all the insects within 100 meter radius around you.
 
-## Time Chamber | 1
+## Magic Tent | 4
+Like in Harry Potter, from the inside it's a small comfy apartment.
+
+## Ring of Spell Storing | 5
+Cast a spell on the ring to store it. Anyone who wears the ring can now cast this spell once. Stores up to 3 spells.
+
+## Flying carpet. | 6
+
+## Time Chamber | 6
 Inside this room, the time moves 30 times faster. Spending a month in this room means only a day will pass outside.
 
-## Staff of Druid | 1
-Deals 4 damage. Strike earth, and a fountain of water will shoot up from that location for the next 10 minutes.
+## Eye of Vance | 8
+Sees everything in 360 degrees and 100m radius around you. Can see through solid objects. Can see invisible objects. Can see anything hidden. Works twice per day for 10 minutes
 
+## Teleportation Key | 8
+Teleports you and up to 5 people who are touching it to any location you have ever personally visited. 1 hour cooldown.
 
 ----
 # Potions

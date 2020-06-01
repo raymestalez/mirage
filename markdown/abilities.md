@@ -57,7 +57,8 @@ You're the best swordsman in the world.
 
 ----
 # Ranged Combat
-## Ranged Weapons  | 1
+## Aspiring Archer  | 2
+You can use simple bows and crossbows.
 
 ## Thrown Weapons | 2
 
@@ -100,7 +101,7 @@ Regular people and animals will run away or seek shelter, braver enemies may be 
 ## Seduction | 2
 You've got game.
 
-## Lying | 2
+## Aspiring Liar | 2
 You are quite good at lying. 
 You can convince the guard that you totally have an invitation to this party.
 
