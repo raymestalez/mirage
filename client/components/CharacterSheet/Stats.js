@@ -1,28 +1,42 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
 
+/* Actions */
+import { updateSheet } from '../../actions/sheetActions'
 
 
 class Stats extends Component {
+    update = (value, key)=> {
+	var sheet = this.props.sheets[0]
+	sheet = {...sheet}
+	sheet[key] = value
+	this.props.updateSheet(sheet)
+    }
     render() {
 	var sheet = this.props.sheets[0]
+	//console.log(sheet)
 	return (
 	    <div>
 		<div className="col-1">
 		    <div className="stats">
-
 			<div className="stat">
 			    <div className="title">
 				Health
 			    </div>
 			    <div className="inputs-wrapper">
-				<input type="text"
+				<input type="number"
 				       className="value"
-				       defaultValue={sheet.currentHealth} />
+				       value={sheet.currentHealth}
+				       onChange={(e)=>
+					   this.update(e.target.value,
+						       "currentHealth")}/>
 				/
-				<input type="text"
+				<input type="number"
 				       className="value"
-				       defaultValue={sheet.maxHealth} />
+				       value={sheet.maxHealth}
+				       onChange={(e)=>
+					   this.update(e.target.value,
+						       "maxHealth")}/>
 			    </div>
 			</div>
 
@@ -31,13 +45,19 @@ class Stats extends Component {
 				Energy
 			    </div>
 			    <div className="inputs-wrapper">
-				<input type="text"
+				<input type="number"
 				       className="value"
-				       defaultValue={sheet.currentEnergy} />
+				       value={sheet.currentEnergy}
+				       onChange={(e)=>
+					   this.update(e.target.value,
+						       "currentEnergy")}/>
 				/
-				<input type="text"
+				<input type="number"
 				       className="value"
-				       defaultValue={sheet.maxEnergy} />
+				       value={sheet.maxEnergy}
+				       onChange={(e)=>
+					   this.update(e.target.value,
+						       "maxEnergy")}/>
 			    </div>
 			</div>
 
@@ -45,9 +65,12 @@ class Stats extends Component {
 			    <div className="title">
 				Memory
 			    </div>
-			    <input type="text"
+			    <input type="number"
 				   className="value"
-				   defaultValue={sheet.memorySize} />
+				   value={sheet.memorySize}
+				   onChange={(e)=>
+				       this.update(e.target.value,
+						   "memorySize")}/>
 			</div>
 			
 
@@ -60,9 +83,12 @@ class Stats extends Component {
 			    <div className="title">
 				Inventory
 			    </div>
-			    <input type="text"
+			    <input type="number"
 				   className="value"
-				   defaultValue={sheet.inventorySize} />
+				   value={sheet.inventorySize}
+				   onChange={(e)=>
+				       this.update(e.target.value,
+						   "inventorySize")}/>
 			</div>
 
 
@@ -70,18 +96,24 @@ class Stats extends Component {
 			    <div className="title">
 				Experience
 			    </div>
-			    <input type="text"
+			    <input type="number"
 				   className="value"
-				   defaultValue={sheet.experience} />
+				   value={sheet.experience}
+				   onChange={(e)=>
+				       this.update(e.target.value,
+						   "experience")}/>
 			</div>
 
 			<div className="stat">
 			    <div className="title">
 				Level
 			    </div>
-			    <input type="text"
+			    <input type="number"
 				   className="value"
-				   defaultValue={sheet.level} />
+				   value={sheet.level}
+				   onChange={(e)=>
+				       this.update(e.target.value,
+						   "level")}/>
 			</div>
 
 		    </div>
@@ -91,4 +123,4 @@ class Stats extends Component {
     }
 }
 
-export default connect(({sheets})=>({sheets}), {})(Stats)
+export default connect(({sheets})=>({sheets}), { updateSheet })(Stats)

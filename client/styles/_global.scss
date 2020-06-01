@@ -54,7 +54,7 @@ h3 {
     //font-size: 1.4em;
     font-size: 1em;
     font-weight: bold;
-    margin-bottom: -15px;    
+    margin-bottom: -15px;
 }
 h4 {
     font-size: 1.2em;    
@@ -95,4 +95,15 @@ code {
     background: $background-panel;
     padding: 0 4px;
     border-radius: 3px;
+}
+// hide arrows from number inputs
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }

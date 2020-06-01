@@ -47,7 +47,7 @@ class Section extends Component {
 	if (this.props.type == 'Spell' ||this.props.type == 'Ability') {
 	    numberOfItems = sheet.spells.length + sheet.abilities.length
 	    canAddMore = numberOfItems < sheet.memorySize
-	    console.log(numberOfItems,sheet.memorySize)
+	    //console.log(numberOfItems,sheet.memorySize)
 	} else {
 	    numberOfItems = sheet.magicItems.length + sheet.equipment.length
 	    canAddMore = numberOfItems < sheet.inventorySize

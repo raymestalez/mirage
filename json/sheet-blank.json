@@ -8,6 +8,7 @@
     "memorySize": 10,
     "inventorySize":10,
     "experience": 0,
+    "level": 1,
     "cards":[],
     "abilities": [],
     "spells": [],
