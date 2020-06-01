@@ -82,7 +82,6 @@ The effect ends if the attacker gets hit by someone else or if hostilities subsi
 If a nearby NPC is about to attack someone, you may rush to intercept the attack.
 (You must say you're using this ability as soon as the Guide declares the attack.) The NPC makes their attack on you instead.
 
-
 ## Retreat | 4
 You Provoke all nearby enemies to give your allies cover to retreat. If you are in combat, one nearby enemy immediately gets a chance to attack you. You and any willing allies can then safely and expeditiously disengage from a fight and leave the scene. Your enemies may choose to chase you to the next area.
 
@@ -157,7 +156,6 @@ Find clues and subtle hints about what happened
 Set your “spidey sense” on high alert. 
 For the next hour you will be able to sense when there’s a person or a creature who is about to attack you.
 
-
 ----
 # Mental
 ## Knowledge of Nature | 2
@@ -196,7 +194,6 @@ Pick any lock.
 
 ## Masterful Sneaking | 8
 You're borderline invisible. If the place can be snuk through, you'll sneak it.
-
 
 ----
 # Survival

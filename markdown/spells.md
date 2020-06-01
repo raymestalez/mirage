@@ -8,7 +8,6 @@ For the next 20 minutes you can walk on any surface at any angle as if it was re
 ## Speed | 4
 For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes.
 
-
 ## Shockwave | 4
 Thunderous shockwave in the direction you are facing. The wave knocks up to three creatures backward and hits them each for 2 damage.
 
