@@ -4,7 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import blankSheet from '../../../json/sheet-blank.json'
 import Wizard from '../../../json/Wizard.json'
+import Warrior from '../../../json/Warrior.json'
+import Ranger from '../../../json/Ranger.json'
 import Ninja from '../../../json/Ninja.json'
+import Druid from '../../../json/Druid.json'
 import Charmer from '../../../json/Charmer.json'
 
 import { downloadFile } from '../../utils'
@@ -97,8 +100,20 @@ class Subnav extends Component {
 				Wizard
 			    </div>
 			    <div className="item btn"
+				 onClick={()=>this.createSheet(Warrior)}>
+				Warrior
+			    </div>
+			    <div className="item btn"
+				 onClick={()=>this.createSheet(Ranger)}>
+				Ranger
+			    </div>
+			    <div className="item btn"
 				 onClick={()=>this.createSheet(Ninja)}>
 				Ninja
+			    </div>
+			    <div className="item btn"
+				 onClick={()=>this.createSheet(Druid)}>
+				Druid
 			    </div>
 			    <div className="item btn"
 				 onClick={()=>this.createSheet(Charmer)}>

@@ -21,6 +21,7 @@ class Sheet extends Component {
     render() {
 	var { sheets, updateSheet } = this.props
 	var sheet = sheets[0]
+
 	return (
 	    <>
 		<Subnav/>
