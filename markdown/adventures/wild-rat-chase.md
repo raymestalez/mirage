@@ -15,6 +15,7 @@ In this adventure the players will meet a King who has been turned into a rat by
 # Scenes
 
 ## Introducing Characters
+![](/adventures/wild-rat-chase/01_ship.jpg)
 The players begin on a ship, about to arrive at the port.
 > You have been sailing for several weeks now, your course is Cypress, the capital of Anglecynn, the biggest city on the whole continent. At this point you’re so tired of the ocean, you sincerely hope to never see a drop of water again in your life. Luckily, today is supposed to be the last day of your travels, you’re about to arrive.
 
@@ -31,6 +32,7 @@ Prompt the players to go up to the upper deck and take a look:
 > The sailor stands up from the table "Alright, mateys, I'll go up, take a loo..." he cuts himself off, "Smell some fresh air, I guess" he finishes sadly. "Follow me if you wish to see the City in all of its glory"
 
 ### Arriving into the Port
+![](/adventures/wild-rat-chase/02_Dreamland.jpg)
 Description of Cypress:
 > You walk up to the top deck of the ship, look ahead, and behold the glorious city of Cypress. A huge castle with white walls at the top of the cliff, and the city surrounding it. The city looks quite a bit scruffier than the castle, but it’s the most impressive one you’ve seen so far. Soon enough, your ship will arrive and dock in the bay.
 
@@ -39,6 +41,8 @@ Description of the Port:
 
 
 ## Meeting the Rat
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/token-rat.png"/>
 Players encounter the rat:
 > Amid all the hustle-and-bustle, you notice something very unusual - a fat ginger rat is scurrying directly towards you. It's noticeably distressed. In it's little teeth, it's carrying a scroll. You hear agitated squeaks. "Squeak squeak squeak!"
 
@@ -60,6 +64,9 @@ The Rat tells players it's story. The King turns out to a bit of a self-importan
 
 ### Zug
 
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/token-kronk.png"/>
+
 Zug is a half-orc that was tasked with guarding the rat, and he's now really woried he'll be in trouble because the rat has escaped. He's simple but loyal (think Kronk from The Emperor's New Groove).
 
 > The rat is interrupted, and looks back behind it. "Oh no they're here!"
@@ -77,9 +84,11 @@ Zug will do his best to negotiate with the players, but if he senses it's not wo
 
 Players can fight him, or fool him, or even befriend him.
 
-
-
 ### Gretchen
+
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/token-gretchen.png"/>
+
 Angry old Hag, Jafar's main minion/partner. They both have blackmail on each other and they both owe favors to each other. She was the one who has found the wand and helped Jafar to execute his plan. Now she'll stop at nothing to get the King back. She's frail but really smart. (Izma from The Emperor's New Groove).
 
 > You see an old woman catching up with Guz. And when I say old I mean fucking OLD, like she was born before calcium was invented. She is surprisingly spry though.
@@ -93,6 +102,10 @@ Okay…
 
 
 ### Pazuzu
+
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/token-zuzu.png"/>
+
 A gargoyle with a difficult personality. He will be circling the skies above the city, making it necessary for players to stay hidden as they make their way to the castle. 
 > You see a strange shadow flying high in the atmosphere. Too large for a bird, too small for a blimp. What is it? You have no idea. It circles around, ominously, then begins to descend in the direction of the hag.
 
@@ -103,12 +116,18 @@ If the scene with Zug/Gretchen will take too long, he'll join the battle, try to
 The rat will tell the players which way to go, the biggest challenge is to get through the city unseen from the sky.
 
 ### City Streets
+
+![](/adventures/wild-rat-chase/03_city-streets.jpg)
+
 City streets are pretty unremarkable:
 > People are bustling around, going by their daily business.
 
 Players can find a magic item shop, weapons shop, potions shops, a tavern.
 
 ### Town Square
+
+![](/adventures/wild-rat-chase/04-city-center.jpg)
+
 Players arrive at the city center. To reach the gates(or catacombs) they have to cross a wide open area not covered by buildings, without being seen from the sky.
 > You arrive at the town square. You see the castle gate in the distance. 
 
@@ -137,6 +156,9 @@ The king may tell the players about the secret passege to the castle through the
 > You see small points of light glowing in the dark. As you come closer, you see it’s the eyes of a bunch of mean looking dog-sized rats.
 
 ## Tower
+<img style="width:125px;display:block;float:right;margin-left:10px;"
+src="/adventures/wild-rat-chase/05-wizard-tower-1.png"/>
+
 After players make their way through the catacombs or through the gate, they see Jafar's tower:
 > You enter a castle, and have no trouble noticing a tall, slender, magnificent tower that is, well, towering over you.
 
@@ -161,6 +183,7 @@ The receptionist will ask them if they have an appointment, and check it's recor
 After receptionist has been dealt with, the players can go up to the next floor by using the staircase.
 
 ### The Office
+![](/adventures/wild-rat-chase/the-office.jpg)
 The second floor of the tower is the Vizier's office:
 
 > The room looks like the office where he holds political meetings. It has a large desk in the center, papers, all neat and tidy. A crystal globe standing off to the side.
@@ -178,6 +201,7 @@ If the players decide to open the cage with the animated coffee table - it will 
 One of the potions contains the antidote to the snake handle's venom, but potions are unlabeled. Drinking them randomly will produce random effects - reversing the gravity for the player, making them hallucinate, making them fall in love with whatever they're looking at, etc.
 
 ### The Observatory
+![](/adventures/wild-rat-chase/observatory.jpg)
 The next room is where Vizier studies parallel dimensions:
 > There’s a huge telescope in the middle of the room, maps of the starlit sky, and what looks like a model of some kind of planetary system. The room is illuminated by ominous rays of red light streaming from the window.
 
@@ -197,6 +221,10 @@ In the middle of the room is the portal gate:
 > In the center of the room you see a large obsidian circle, large enough to walk through, standing vertically on a pitch black pedestal. It looks like a strange gate.
 
 ## Transforming the King
+
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/token-king.png"/>
+
 When the rat sees the wand:
 > The Rat jumps up and down on your shoulder, forgetting any shreds of the kingly dignity it had left, unable to contain it's excitement.
 
@@ -205,8 +233,12 @@ When a player activates the wand to transform the rat:
 > As the magic and might begin to settle, you behold with your own eyes the majesty of the true king of this kingdom in his natural, human form.
 
 ## Throne Room
+![](/adventures/wild-rat-chase/throne-room.jpg)
 If the players activate the portal gate, it will open a wormhole into the throne room:
 > After you finish your manipulations, the space inside the circle seems to disappear, as if the hole has been torn through the universe, and on the other side, you see the throne room, a tall slender man sitting on the throne, and a few dozen of guards around him.
+
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/token-vizier-jafar.png"/>
 
 Jafar looks surprised and shocked
 > "Your Majesty! I'm so happy to see you again! Everybody, rejoice, the lost king has returned!"

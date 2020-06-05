@@ -5,6 +5,7 @@ import history from '../utils/history'
 /* Styles */
 import '../styles/style.scss'
 
+import ScrollToTop from './ScrollToTop'
 import Main from './Main'
 import Welcome from './Rules/Welcome'
 import Rules from './Rules/Rules'
@@ -24,6 +25,7 @@ class App extends Component {
 	return (
 	    <div className="app">
 		<Router history={history}>
+		    <ScrollToTop/>
 		    <Main>
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
@@ -39,7 +41,6 @@ class App extends Component {
 			       exact component={WildRatChase}/>
 			{/* <Route path="/" exact component={Spells}/> */}
 		    </Main>
-
 		    {/* <Route path="/d/:slug" exact component={Main} /> */}
 		    {/* <Route path="/unsubscribe/" exact component={Unsubscribe} /> */}
 		</Router>

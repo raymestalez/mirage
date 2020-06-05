@@ -33,14 +33,19 @@ class Header extends Component {
 				<Link to="/adventure-design" className="item btn">
 				    Adventure Design
 				</Link>
-				{/*  
-				    <div className="item btn"
-				    onClick={()=> { }}>
-				    Adventure Ideas
-				    </div>
-				  */}
 			    </div>
 			</div>
+
+ 			<div className="dropdown">
+			    <div className="menu-handle btn">
+				Adventures
+			    </div>
+			    <div className="menu">
+				<Link to="/wild-rat-chase" className="item btn">
+				    Wild Rat Chase
+				</Link>
+			    </div>
+			</div>			
 		    </div>
 		    <div className="clearfix"/>
 		</div>

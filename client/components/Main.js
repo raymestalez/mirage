@@ -13,7 +13,7 @@ class Main extends Component {
 	return (
             <>
 		<Header/>
-		<div className="main">
+		<div className="main" id="main">
 		{this.props.children}
 		</div>
 		{/* <footer></footer> */}
