@@ -1,6 +1,6 @@
 # Physical
 ## Run | 2
-For the next 10 minutes you can run as fast as a horse.
+For the next hour you can run as fast as a horse.
 
 ## Walk on walls/ceiling | 2
 For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.
@@ -19,6 +19,11 @@ Deals 3 damage. Sets stuff on fire. Hold in your hand as a light source.
 ## Freeze Ray | 4
 Deals 4 damage, freezes liquids, covers objects with ice, creates ice on the ground.
 
+## Electricute | 4
+A bolt of lightning strikes it from the sky or from your hands, dealing 5 damage and melting metallic objects.
+
+## Impair Senses | 4
+Impair the person's/creature's sight or hearing for the next hour.
 
 ----
 # Telekinesis
@@ -41,38 +46,74 @@ Throwing an object/creature deals 5 damage to the target and to the object.
 
 ----
 # Support
-## Gift Health | 1
+## Gift Health | 0
 Drains your health, giving it to another person/creature.
 
 ## Gift Energy | 1
 Drains your health, giving it to another person/creature.
 
+## Heal | 1
+Heal a person/creature by 1 hit point for every energy point you spend.
+
 ## Inspire | 2
 Give an inspiring speech or tell a war story, and all your allies will gain 4 Energy Points.
 The player actually has to tell the speech/story.
+
 
 ----
 # Social
 ## Charm Person | 3
 The person regards you as their friend for 1 hour. When the spell ends, they know they’ve been charmed.
 
+## Influence | 3
+Speak to the person and influence their state of mind for the next hour. Choose one of the psychological effects (increased confidence, anxiety, euphoria, fear, paranoia, calm, irritability, etc).
+
 ## No Secrets | 4
 Find out if an ally is keeping an important secret from you.
 You’ll learn who they are but not what the secret is.
 
+## Redirect Feelings | 5
+When an NPCs has some strong feelings toward you (love, anger, etc), you can redirect that feeling to a different target for a day.
+
+
 ----
 # Illusionism
 ## Minor Illusion | 2
-Create an illusion of a small object or a sound.
+Create an illusion of an object (no larger than a person) or a sound within 50 meters and your line of sight.
+
+## Fake Death | 3
+Appear to be dead for the next 30 minutes.
+
+## Invisibility | 4
+Turn yourself, a willing creature, or an object (no larger than a horse) invisible for the next 20 minutes. When they take damage they reappear.
+
+## Embody fear | 5
+The target person/creature see the image of whatever they fear the most.
+
+## Illusory Automaton | 5
+Create an illusory person or a creature that can perform simple tasks you give it. It has 5 hit points, lives for a day, and can travel any distance away from you. When it's nearby, you can control it telepathically.
+
+## Veil | 5
+Create a static illusion no larger than 100 meters in any direction. Like a building, an oasis, a pile of treasure, etc. When a creature touches the illusion they can no longer see it.
 
 ## Major Illusion | 6
 Create an object no larger than an elephant, complete with sounds, smells, movement.
 
 
+
 ----
-# Mind Reading
+# Telepathy
+## Message | 1
+Telepathically send a message to the nearby creature, they can respond back.
+
 ## Inquire | 2
 You learn the creature's Ideal, Flaw, and Desire. You can also learn the worst or best thing they have ever done.
+
+## Intent | 5
+You look into the mind of the creature, learning about their most prominent short-term goal (what they want to accomplish within the next 10 minutes), long term goal, or what their intentions are towards a specific creature or an object.
+
+## Comprehend Languages | 3
+Understand the language of the person you're speaking to.
 
 ## Read Surface Thoughts | 4
 For the next 10 minutes you can hear and understand what any living creature within 50 meters is thinking.
@@ -83,10 +124,14 @@ Eat a person’s brain, and for the next hour you have access to their skills an
 ----
 # Mind Control
 ## Sleep | 2
+Sing the lullaby, causing the target creatures within 30 meters around you to fall asleep. (you actually need to come up with and sing a lullaby).
 
 ## Captivate | 4
 Conjure a dazzling image in the air,
 (describe the image), captivating anyone who looks at it. Image hangs in the air for 10 minutes then dissipates.
+
+## Alter Senses | 4
+Change the way the target will experience the world for the next day. Cause them to perceive a specific thing or a category of things falsely (make them see all wolves as puppies, the king as a clown, see all the doors shifted 5 paces away from where they actually are, have them think that freshly baked bread smells like fire. etc). The spell lasts until you cancel it or until the creature is harmed by the effects of the deception.
 
 ## Command | 4
 
@@ -101,10 +146,10 @@ Until the end of the day, the NPC shapes their behavior around their ideal
 The target is compelled to answer all questions truthfully for the next 5 minutes.
 
 ## Mind wiping | 7
-Erase any 15 minutes of the character’s memory
+Touch an unconscious person/creature, and erase any 15 minutes of their memory, or all their recent memories up to 1 month ago. 
 
-## Memory modification | 8
-Change any 15 minutes of the character’s memory
+## Alter Memory | 8
+Change any 15 minutes of the character’s memory.
 
 ## Value Change | 9
 You reach deep into the person’s soul, and change what they value the most in life. Lasts for 1 hour. After it’s dispelled, the person knows you’ve done it to them.
@@ -115,7 +160,16 @@ Possess a creature. You control a possessed creature, can read it’s mind and u
 ----
 # Divination
 ## Evil Eye | 3
-You pause, closing your eyes and quieting your mind. You sense the worst thing that ever happened nearby.
+You pause, closing your eyes and quieting your mind. You sense the worst thing that  happened nearby within the last day.
+
+## Sense Danger | 4
+Activate your 'spidey sense', for the next 30 minutes you'll be able to sense imminent danger.
+
+## Sense Magic | 4
+You can sense the magic auras of any spells, items, or creatures within 200 meters around you. You'll get a vague sense of what they are, and their general direction. Allows you to detect illusions.
+
+## Infrasight | 4
+Sense heat emanating from creatures. You can sense it through walls.
 
 ## Astral Projection | 5
 
@@ -135,6 +189,9 @@ You see the vision of a place your nemesis has visited in the past day.
 # Teleportation
 ## Familiar Transposition.  | 4
 Swap places with your familiar.
+
+## Summon Item | 3
+Mark an object or an item (no larger than 2x2 meters). Whenever you cast this spell, it will teleport to your hand (or in front of you) from wherever it is.
 
 ## Misty Step | 4
 
@@ -167,6 +224,12 @@ The object is visibly magical, disappears after 1 hour, or if it takes any damag
 Creates a stone wall, 10x10 meters.
 Window is optional.
 
+## Transfiguration | 3
+Turn an object into any other object of the same size made out of the same material.
+
+## Mending | 3
+Fix a broken non-magical item.
+
 ----
 # Shapeshifting
 ## Petrify | 2
@@ -175,8 +238,19 @@ Turns the creature or object you’re touching into stone for the next 5 minutes
 ## Grow gills | 2
 Touch a willing creature, and they grow gills allowing them to breathe underwater for up to 1 hour.
 
-## Shapeshift | 4
-Touch a willing creature and spend an Experience point to “acquire” it. Now you can turn into this creature for up to an hour.
+## Turn into Creature | 4
+Touch a willing non-magical creature and spend an Experience point to “acquire” it. Now you can turn into this creature for up to an hour.
+
+## Turn into Person | 4
+Touch a willing person and spend an Experience point to “acquire” them. Now you can turn into this person for up to an hour.
+
+## Shapeshift Target | 4
+Touch a willing or unconscious creature or a person, turning them into a creature/person you have acquired.
+(requires Turn into Creature or Turn into Person)
+
+## Turn into a Magical Creature | 7
+Works like Turn into Creature, but works on magical creatures.
+(requires Turn into Creature)
 
 ----
 # Warding
@@ -221,13 +295,19 @@ You can ask a nearby animal to deliver a small item. The destination must be wit
 Recruit a nearby animal, they will follow your orders to the best of their ability.
 It can't be smaller than a mouse or bigger than a horse. You can have only one animal partner at a time. If you get separated, it will try to find you. They have 6 HP and can make basic attacks for 2 damage.
 
-## Change weather | 3
-Summon a storm, a fog, a heatwave, calm the weather, etc.
-You can’t cause lightning or natural-disaster level events(tornado, tsunami, etc).
+# Fog | 3
+Produce fog between your hands, it's quickly covering the nearby area, making everyone unable to see beyond their reach.
 
 ## Speak with Trees | 4
 Touch a tree trunk, connecting yourself to the nearby forest.
 It can help you find a creature or an object located in the forest, a path to a location, or warn you about the nearby danger.
+
+## Change weather | 5
+Summon a storm, a fog, a heatwave, calm the weather, etc.
+You can’t cause lightning or natural-disaster level events(tornado, tsunami, etc).
+
+## Change Season | 5
+You change the season in the area of 1km around you for the next day.
 
 ## Bond | 5
 You develop a telepathic connection with an animal.
@@ -246,7 +326,27 @@ Summon a natural disaster like tornado, hurricane, tsunami, etc.
 
 ----
 # Necromancy
+## Sense Death | 1
+Sense whether any remnants of the dead are nearby, their location, and the nature of their death (natural causes, accident, or a faul play).
+
+## Last Moments | 2
+Touch a dead person/creature, and see what they have seen during the last 5 seconds of their life.
+
+## Speak to the Dead | 3
+Touch a dead person/creature to summon their ghost. You can talk/communicate with it for the next 10 minutes.
+
 ## Raise a zombie | 3
 Turns a dead body into a zombie. It obeys your commands and can attack enemies.
 Raise undead. The raised person has their memories and is able to speak.
 
+## Posess | 6
+Touch any dead creature, and make it the host of the nearby ghost. The ghost can now use it's body, and remember fragments of their memories.
+
+## Ticking Bomb | 9
+Curse the person's/creature's heart, causing it to explode instantly, or at any point within the next year.
+
+## Steal Life | 9
+Steal one person's/creature's life force and give it to another. Aging the source and making the target proportionally younger.
+
+## Bestow Sentience | 9
+Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.

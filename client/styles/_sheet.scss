@@ -1,6 +1,11 @@
 .character-sheet {
     padding: 40px 20px;
 
+    // font-family: "Open Sans";
+    // input, textarea {font-family: "Open Sans";}
+    hr {
+	border-top: 1px solid $border;	
+    }
     .character-name {
 	margin: auto;
 	text-align: center;
@@ -8,7 +13,6 @@
 	border: none;
 	border-bottom: 1px solid $border;
 	font-size: 1.5em;
-	color: #3d454b;
     }
 
     input {
@@ -18,16 +22,16 @@
 	outline: 1px solid $border;
 	//outline: none;
     }
-    
-    textarea {
-	width: 100%;
-	border: none;
-	font-size: 12px;
-	background: #fafafa;
-	overflow: hidden;
-	&:focus {
-	    outline: none;
-	}
+}
+
+textarea {
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    background: #fafafa;
+    overflow: hidden;
+    &:focus {
+	outline: none;
     }
 }
 
@@ -66,9 +70,11 @@
 }
 
 .stats {
+    margin-top: 10px;
     width: 100%;
     display: flex;
     justify-content: space-between;
+    justify-content: space-around;
     .stat {
 	padding: 20px;
 	border: 1px solid $border;
@@ -77,12 +83,20 @@
 	text-align: center;
 	//width: 100px;
 	width: 33%;
+	width: calc(25% - 20px);
+	@media  (max-width: 500px) {
+	    width: calc(25% - 2px);
+	}
+
 	height: 85px;
 
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;	
+	align-items: center;
+	span {
+	    cursor: default; //automatically calculated memory/inventory count
+	}
 	.title {
 	    font-size: 12px;
 	    font-weight: bold;
@@ -162,6 +176,7 @@
     padding: 10px;
     border: 1px solid $border;
     border-radius: 4px;
+    font-size: 12px;
     background: white;
     .title {
 	font-size: 12px;
@@ -186,10 +201,14 @@
 	.level {
 	    width: 16px;
 	    height: 16px;
-	    border-radius: 16px;
-	    background: $background-panel;
+	    border-radius: 50%;
+	    background: $panel-bg;
 	    float:right;
-	    color: $text-dim;
+	    color: $text;
+	    display:flex;
+	    align-items: center;
+	    justify-content: center;
+	    
 	}
     }
     .description {
@@ -222,5 +241,58 @@
 	cursor: pointer;
 	svg { color: $text; }
     }
+}
+
+
+
+
+.npc {
+    background-color:$btn-bg;
+    border: 1px solid $border;
+    border-radius: 4px;
+    background: #fafafa;
+    textarea {
+	font-size: 12px;
+	margin-top: 10px;
+	background: white;
+	padding: 10px;
+	border-radius: 4px;
+	border: 1px solid $border;
+    }
+    h1 {
+	font-size: 14px;
+	margin: 0;
+	border-bottom: 1px solid $border;
+    }
+    hr {
+	border-top: 1px solid $border;
+    }
+    .stats .stat {
+	background: white;
+	width: calc(50% - 5px);
+	height: auto;
+	padding: 5px;
+	.value {
+	    line-height: unset;
+	    background: white;
+	}
+	input:focus {
+	    //outline: 1px solid $border;
+	    outline: none;
+	}
+    }
+    .cards {
+	margin-top: 10px;
+    }
+    .powers {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px;	
+    }
+    
+    margin-top: 10px;
+    padding: 10px;
+    -webkit-column-break-inside: avoid;
 }
 

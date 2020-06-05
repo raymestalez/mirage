@@ -1,3 +1,4 @@
+### Campaign Structure
 Individual quests will work well for one-shot games, played in one or few sessions. A longer campaign is a series of quests, think of them as episodes of a TV show. Chain the three (or more) quests together, to reflect the different stages of a single epic adventure, each one moving the players closer to achieving their overarching goal.
 
 “Find the map to the magic sword” > “Retrieve the sword” > “Use it to slay the Dragon”
@@ -20,19 +21,15 @@ Tie up the loose plot threads, show how the world has changed, the consequences 
 ### Scene Structure
 A scene needs 3 elements:
 - **Setting**  
-Describe the location. Start with the most obvious and urgent things that people would notice upon entering a scene.
-
-Add details that engage all of the players' senses, set the mood of the scene.
-
+Describe the location. Start with the most obvious and urgent things that people would notice upon entering a scene.  
+Add details that engage all of the players' senses, set the mood of the scene.  
 Add opportunities for players to creatively use their abilities and spells (like a chandelier that can be dropped on the enemies, or chained wolves that can be set loose). Add environmental challenges (traps, puzzles, a firepit or an abyss in their way).
 
 - **Characters**  
-Prepare some talking points for the dialogue - what information does the NPC need to convey?
-
+Prepare some talking points for the dialogue - what information does the NPC need to convey?  
 What will the NPCs do to help players out or to set them back? 
 
 - **Action and Conflict (Desire+Obstacle)**  
-Understand what the players want, and what stands in their way. What complication will arise? What difficult decision do they need to make?
-
+Understand what the players want, and what stands in their way. What complication will arise? What difficult decision do they need to make?  
 Consider raising the stakes. Things go from good, to bad, to worst, to resolved.
 

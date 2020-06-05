@@ -3,6 +3,7 @@ article {
     box-shadow: 0 1px 4px rgba(0,0,0,0.04);
     margin-top: 20px;
     background: white;
+    //background: #fffaf1;
     border-radius: 4px;
     img {
 	width:100%;
@@ -27,12 +28,8 @@ article {
     column-gap: 40px;
     margin-top: 1em;
 
-    > :first-child {
-	margin-top: 0;
-    }
+    > :first-child {margin-top: 0; }
 }
-
-
 
 .column-break {
     break-after: column;

@@ -1,4 +1,27 @@
 @font-face {
+    font-family: "RobotoSlab";
+    src: url("./fonts/RobotoSlab-Regular.ttf");
+}
+
+@font-face {
+    font-family: "RobotoSlab";
+    src: url("./fonts/RobotoSlab-Bold.ttf");
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "Cinzel";
+    src: url("./fonts/Cinzel-Bold.ttf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Cinzel";
+    src: url("./fonts/Cinzel-Regular.ttf");
+}
+
+
+@font-face {
     font-family: "Open Sans";
     src: url("./fonts/OpenSans-Regular.ttf");
 }

@@ -1,14 +1,14 @@
-$text: #3d454b; //rgba(0,0,0,0.8);
+$text: #3d454b; //#250d00;// #2f190d; //#3d454b; //rgba(0,0,0,0.8);
 $text-dim: rgba(0,0,0,0.44);
-$text-link: #008cba;
-$border: #dddddd; 		// for hr
-$header-bg: white;
+$text-link: #3d454b; //#58170e;//#008cba;
+$border: #dddddd;//#ded6ce; // #dddddd; //#c4b5a4b5
+$header-bg: white; //#fffdfa;
 $scrollbar-thumb: rgba(110, 110, 110, 0.2);
-$background-main: #faf4e9; //#f9f9f9;
+$background-main: #faf4e9; // #f6e4cd; //#f9f9f9;
 $background-header: white;
 $background-footer: #333a42;
 $btn-bg: white;
-$background-panel: #eeeeee;
+$panel-bg: #eeeeee;
 $subnav-bg: #fafaf9;
 
 @import "./_fonts.scss";
@@ -21,13 +21,13 @@ $subnav-bg: #fafaf9;
 @import "./_sheet.scss";
 
 .body {
-        overflow: auto;
+    overflow: auto;
+    background: $background-main;
 }
 .main {
     overflow: auto;
     overflow-y: overlay;
     height: calc(100% - 54px);
-
 }
 
 .main-wrapper {

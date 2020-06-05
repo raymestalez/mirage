@@ -3,11 +3,16 @@ html, body {
     color: $text;
     background: $background-main;
     font-family: "Open Sans";
+    //font-family: "RobotoSlab";
     margin:0;
     height: 100%;
     font-size: 16px;
 }
 
+input, textarea {
+    color: $text;
+    //font-family: "RobotoSlab";
+}
 #root, .app {
     height: 100%;
 }
@@ -42,9 +47,13 @@ html, body {
 /* Typography */
 h1, h2, h3, h4, h5 {
     margin-top: 1em;
+    //font-family: "Cinzel";
+    font-family: "RobotoSlab";
+    //color: #58170e;
 }
 h1 {
     font-size: 1.8em;
+    font-weight: bold;
 }
 h2 {
     font-size: 1.6em;
@@ -55,6 +64,7 @@ h3 {
     font-size: 1em;
     font-weight: bold;
     margin-bottom: -15px;
+    border-bottom: 2px solid $border; //#cab06c;
 }
 h4 {
     font-size: 1.2em;    
@@ -75,15 +85,21 @@ a {
 	fill: $text-link;
     }
 }
+article a {
+    font-weight: bold;
+    text-decoration: underline;
+}
 b, strong { font-weight: bold;}
-li {
+ol li {
     margin-top: 1em;
     margin-left: 1em;
 }
 hr {
     border:none;
     margin: 4px 0 4px 0;
-    border-top: 1px solid $border;
+    //border-top: 1px solid $border;
+    //border-top: 2px solid #cab06c;
+    border-top: 2px solid $border; //#cab06c;
 }
 /* Elements */
 textarea { resize:none; }
@@ -92,9 +108,18 @@ ul {
     padding-left: 10px;
 }
 code {
-    background: $background-panel;
+    background: $panel-bg;
     padding: 0 4px;
     border-radius: 3px;
+}
+blockquote {
+    border-left: 3px solid $border;
+    background: $panel-bg;
+    padding: 10px;
+    font-size: 14px;
+    :first-child {
+	margin-top: 0;
+    }
 }
 // hide arrows from number inputs
 /* Chrome, Safari, Edge, Opera */

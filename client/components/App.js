@@ -11,6 +11,7 @@ import Rules from './Rules/Rules'
 import World from './Rules/World'
 import RoleplayingTips from './Rules/RoleplayingTips'
 import AdventureDesign from './Rules/AdventureDesign'
+import WildRatChase from './Adventures/WildRatChase'
 
 import CharacterSheet from './CharacterSheet/Sheet'
 
@@ -34,6 +35,8 @@ class App extends Component {
 			
 			<Route path="/character-sheet"
 			       exact component={CharacterSheet}/>
+			<Route path="/wild-rat-chase"
+			       exact component={WildRatChase}/>
 			{/* <Route path="/" exact component={Spells}/> */}
 		    </Main>
 

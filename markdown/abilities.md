@@ -6,6 +6,9 @@ You can do what a good bodybuilder can do. Like lift and throw that big rock or 
 ## Grapple | 3
 You grapple the opponent of your size and strength or smaller. You can hold them for up to 5 minutes.
 
+## Pack Mule | 4
+Increases the number of items you can carry by 5.
+
 ## Very-Strongman | 5
 You're as strong as the strongest human in the world.
 
@@ -45,6 +48,9 @@ You charge in a straight line towards the selected enemy and smash into them. Th
 
 ## Parry | 3
 Deflect attacks from the melee weapons, making them deal no damage.
+
+## Sneak Attack | 4
+If you sneak behind the enemy unseen, you can instantly kill or incapacitate them.
 
 ## Whirlwind | 4
 Strike everyone in a 2 meter radius around you.
@@ -109,8 +115,7 @@ You can convince the guard that you totally have an invitation to this party.
 You are pretty good at reading social cues to understanand what other people are thinking and fealing.
 
 ## Act like you belong. | 2
-Invent a local saying and use it in your conversation with the NPC.
-It gains their trust, and they will answer your questions to the best of their ability.
+Invent a local saying and use it in your conversation with the NPC. It allows you to blend in and appear as a member of the social group NPC belongs to, gaining their trust.
 
 ## Folk Song | 3
 You sing a song that kindles strong feelings in the friendly/neutral NPCs nearby.(you need to sing a song at the table and describe your performance.)
@@ -151,7 +156,7 @@ For the next hour you can see in pitch darkness as if it’s an overcast day.
 You gain eagle-eye vision for the next minute.
 
 ## The Detective | 2
-Find clues and subtle hints about what happened
+Find clues and subtle hints about what happened. Recall a story of a similar case (tell the story to other players), explaining how you reveal a useful clue. You can learn the motive of the person who has committed the crime, a nearby location of an item or a symbol that reveals information about someone who was involved with the scene, where someone who was involved might be headed next.
 
 ## Sense Danger | 4
 Set your “spidey sense” on high alert. 
@@ -181,6 +186,12 @@ You can hide very well, especially at night.
 ## Aspiring Thief | 3
 Steal items from unaware or distracted. people.
 
+## Concealment | 3
+Unless you are actively searched, you can conceal up to 2 weapons or magic items on you.
+
+## Disguise | 3
+Craft a convincing disguise out of the clothes, make up, or objects you posess.
+
 ## Criminal Underworld | 3
 You have connections in the criminal underworld.
 
@@ -189,6 +200,10 @@ Forge documents or art
 
 ## Intermediate Lock Picking | 2
 Pick simple locks.
+
+## Gather Intel | 5
+Infiltrate the person's office or home, and use your skills to reveal one of those things: The identity of an important associate, a location they will travel to(with
+the time and date), a secret that would embarrass them if revealed, their financial situation (including debts), their true feelings about you or your party, their strongest allegiance (to a government, guild, or other organization).
 
 ## Masterful Lock Picking | 8
 Pick any lock.
@@ -224,4 +239,32 @@ You find enough for a single dose. The remedy cures temporary illness and elimin
 Build a distress signal that can be seen by other Rangers. Within the next day, you will meet an NPC Ranger who comes to your aid.
 RP: Describe how you send your signal: it can be a smoke signal, a message you leave on a tree, or a similar act.
 
-## Crafting | 2
+----
+# Crafting
+## Aspiring Craftsman | 3
+Once per day you can craft any mundane item of up to 3rd level.
+
+## Experienced Craftsman | 6
+Once per day you can craft any mundane item up to 6th level.
+
+## Master Craftsman | 9
+Once per day you can craft any mundane item up to 9th level.
+
+## Aspiring Potion Maker | 3
+Once per day you can brew a potion of up to 3rd level.
+
+## Experienced Potion Maker | 6
+Once per day you can brew a potion up to 6th level.
+
+## Potion Master | 9
+Once per day you can brew any potion up to 9th level.
+
+## Aspiring Enchanter | 3
+Once per day you can imbue any mundane item with the power of a spell up to 3rd level.
+
+## Experienced Enchanter | 6
+Once per day you can imbue any mundane item with the power of a spell up to 6th level.
+
+## Master of Enchantment | 9
+Once per day you can imbue any mundane item with the power of a spell up to 9th level.
+

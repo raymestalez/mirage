@@ -12,31 +12,27 @@ To cast a spell (or use an ability), spend the amount of points equal to it's le
 
 Recover them by drinking a potion or taking a rest (same as health).
 
-### Memory
-You can learn up to 10 Abilities+Spells. After that you have to ”forget” a spell to learn a new one.
-
-### Inventory
-You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
-
-During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
-
 ### Experience (XP)
-Spend points to learn spells and abilities. Learn spells from the scrolls, abilities from the NPCs (for example, find an old wise ninja and convince him to teach you the art of being stealthy).
+Spend points to learn spells and abilities. To learn a spell or an ability, spend the amount of points equal to it's level (learning a 3rd Level Ability costs 3 Experience points).
 
-To learn a spell or an ability, spend the amount of points equal to it's level (learning a 3rd Level Ability costs 3 Experience points).
-
-Spend 2 points to increase your max Health, Energy, Memory, or Inventory size by 1.
-
+Spend 2 points to increase your max Health or Energy by 1 point.
 
 Gain XP as a reward for overcoming challenges, completing quests, and awesome roleplay moments.
-
-<div class="column-break"></div>
 
 ### Levels (LVL)
 
 Characters start at level 1 (novice) and can grow up to level 10 (godlike). Characters level up when they complete major quests.
 
 Your character can learn spells/abilities according to their level (3rd level character can learn 1st, 2nd, and 3rd level spells).
+
+### Inventory
+You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
+
+During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
+
+
+
+<div class="column-break"></div>
 
 ### Abilities
 Extraordinary abilities or specific skills your character has. For example, being very strong, knowing how to pick locks, or being great at seduction.

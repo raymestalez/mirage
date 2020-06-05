@@ -64,13 +64,13 @@ class Section extends Component {
 		    {this.renderCards()}	
 		</div>
 		{canAddMore &&
-		<div className="card append"
-		     onClick={() => {
-			 this.props.toggleModal(this.props.type+"-cards")
-		     }}>
-		    Add {this.props.type}
-		    <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
-		</div>}
+		 <div className="card append"
+		      onClick={() => {
+			  this.props.toggleModal(this.props.type+"-cards")
+		      }}>
+		     Add {this.props.type}
+		     <FontAwesomeIcon icon={["fas", "plus-circle"]}/>
+		 </div>}
 		<Modal name={this.props.type+"-cards"} className="cards-modal wide">
 		    <Cards cards={cards} />
 		</Modal>
