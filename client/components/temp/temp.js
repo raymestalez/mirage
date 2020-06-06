@@ -1,3 +1,7 @@
+![](/adventures/wild-rat-chase/)
+<img style="width:150px;margin:auto;display:block;"
+src="/adventures/wild-rat-chase/"/>
+
 
 <div className="stat">
 <div className="title">
@@ -29,3 +33,18 @@ onChange={(e)=>
 		"inventorySize")}/>
 </div>
 </div>
+
+
+can add more
+var sheet = this.props.sheets[0]
+var numberOfItems
+var canAddMore
+if (this.props.type == 'Spell' ||this.props.type == 'Ability') {
+    numberOfItems = sheet.spells.length + sheet.abilities.length
+    canAddMore = numberOfItems < sheet.memorySize
+    //console.log(numberOfItems,sheet.memorySize)
+} else {
+    numberOfItems = sheet.magicItems.length + sheet.equipment.length
+    canAddMore = numberOfItems < sheet.inventorySize
+}
+
