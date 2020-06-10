@@ -156,75 +156,79 @@ Restores 4 health.
 Restores 4 energy.
 
 ## Potion of Spider Climbing | 1
-Climb on walls/ceilings for 10 minutes.
+Climb walls/ceilings like spider man for 30 minutes.
 
 ## Potion of Underwater Breathing | 1
 Lasts for 2 hours.
 
-## Shrinking Potion | 1
-Makes you 20x smaller for 20 minutes.
-
-## Invisibility Potion | 1
-Turns you invisible for 10 minutes
-
-## Polyjuice Potion | 1
-Drop someone’s hair into it, and drinking this potion will turn you into that person for 30 minutes.
-
-## Falcon Potion | 1
-Turns you into a falcon for 30 minutes
-
 ## Sleeping Potion | 1
 The one who drinks it instantly falls asleep for 1 hour.
 
-## Paralyzing Potion | 1
-The one who drinks it is instantly paralyzed for the next day.
+## Chloroform | 1
+The one who inhales it instantly falls asleep for 1 hour.
 
-## Poison | 4
-
-## Truth Serum | 1
-One who drinks it can’t tell lies for an hour
-
-## Seduction Potion | 1
-The drinker becomes irresistable to the opposite gender.
-
-## Love Potion | 1
-Drop your hair into it. The person who drinks it will fall madly in love with you for 5 hours.
-
-## Potion of Animal Friendship | 1
-
-## Potion of Growth | 1
-
-## Tree Potion | 1
-Instantly spawns a tree where it was spilled)
-
-## Anti-Gravity Potion | 1
-Drinker isn't affected by gravity for an hour.
+## Poison | 1
+The one who drinks it takes 15 damage.
 
 ## Magic Mushroom Potion | 1
 Causes hallucinations
 
-## Rap Potion | 1
-Acquire irresistible urge to rap for the next 10 minutes
+## Singing Potion | 1
+For the next 30 minutes the drinker loses the ability to speak, able only to sing.
 
-## Zombie Raising Potion | 1
-Spill on a grave to raise a zombie
+## Invisibility Potion | 2
+Turns you invisible for 10 minutes
 
-## Smoke Potion | 1
+## Paralyzing Potion | 2
+The one who drinks it is instantly paralyzed for the next day.
+
+## Potion of Animal Friendship | 2
+When you drink this potion, even the meanest non-magical animals will like you, and will be amenable to training.
+
+## Potion of Growth | 2
+The drinker grows to be 10 times larger for 20 minutes.
+
+## Shrinking Potion | 2
+The drinker shrinks to be 20 times smaller for 20 minutes.
+
+## Smoke Potion | 2
 Creates a huge cloud of black smoke when spilled.
 
-## Potion of Silent Death | 1
-The one who drinks it experiences no symptoms, and then dies within one week, seemingly without a cause.
+## Tree Potion | 2
+Instantly spawns a tree where it was spilled)
 
-## Potion of Body Switching | 1
+## Anti-Gravity Potion | 3
+Drinker isn't affected by gravity for an hour.
+
+## Truth Serum | 3
+One who drinks it can’t tell lies for an hour
+
+## Polyjuice Potion | 3
+Drop someone’s hair into it, and drinking this potion will turn you into that person for 30 minutes.
+
+## Falcon Potion | 3
+Turns you into a falcon for 30 minutes
+
+## Potion of Body Switching | 3
 When two people drink this potion, it swaps their minds freaky-friday style.
 
-## Chloroform | 1
+## Forget me now Potion | 4
+The one who drinks this potion will completely lose the memories of everything that happened during the past 24 hours.
 
-## Vampire Potion | 1
+## Seduction Potion | 4
+The drinker becomes irresistable to the opposite gender.
+
+## Love Potion | 4
+Drop your hair into it. The person who drinks it will fall madly in love with you for 5 hours.
+
+## Zombie Raising Potion | 4
+Spill on a grave to raise a zombie
+
+## The Ant-Man Potion | 5
+You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.
+
+## Vampire Potion | 5
 Turns you into a vampire for a day. Your current spells and abilities are replaced with what vampire can do (see the Vampire NPC card for the list of powers). You also gain unquenchable thirs for blood (you must kill at least one sentient creature). Sunlight and garlic are deadly to you.
 
-## Forget me now Potion | 1
-The one who drinks this potion will complete lose the memories of everything that happened during the past 24 hours.
-
-## The And-Man Potion | 1
-You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.
+## Potion of Silent Death | 6
+The one who drinks it experiences no symptoms, and then dies within one week, seemingly without a cause.
