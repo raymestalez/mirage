@@ -25,6 +25,9 @@ A bolt of lightning strikes it from the sky or from your hands, dealing 5 damage
 ## Impair Senses | 4
 Impair the person's/creature's sight or hearing for the next hour.
 
+## Stun | 4
+Stun the target creature for 1 minute. It's unable to move or do anything.
+
 ----
 # Telekinesis
 ## Minor Telekinesis | 1
@@ -109,6 +112,9 @@ Telepathically send a message to the nearby creature, they can respond back.
 ## Inquire | 2
 You learn the creature's Ideal, Flaw, and Desire. You can also learn the worst or best thing they have ever done.
 
+## Mind Sense | 4
+Sense minds in 30 meter radius around you. Get some basic information about each mind – how complex their thoughts are, their species, their gender, their mood.
+
 ## Intent | 5
 You look into the mind of the creature, learning about their most prominent short-term goal (what they want to accomplish within the next 10 minutes), long term goal, or what their intentions are towards a specific creature or an object.
 
@@ -116,7 +122,10 @@ You look into the mind of the creature, learning about their most prominent shor
 Understand the language of the person you're speaking to.
 
 ## Read Surface Thoughts | 4
-For the next 10 minutes you can hear and understand what any living creature within 50 meters is thinking.
+For the next 10 minutes you can hear and understand what a target creature within 50 meters is thinking.
+
+## Read Memories | 6
+Search through unconscious creature's mind, pulling out 15 minutes of memories.
 
 ## Mind Stealer | 8
 Eat a person’s brain, and for the next hour you have access to their skills and memories.
@@ -135,7 +144,11 @@ Change the way the target will experience the world for the next day. Cause them
 
 ## Command | 4
 
-## Suggestion | 4
+## Suggestion | 3
+Influence target's thoughts and behaviors. Making them trust someone they otherwise wouldn't, look away, feel an emotion they would not normally be inclined to feel, calm or intensify what they feel. 
+
+## Puppeteering | 3
+Compel the target to physically take an action that lasts no longer than 5 seconds  - jump, kick, throw something, release an arrow, etc.
 
 ## Phantasmal Force | 5
 
@@ -156,6 +169,8 @@ You reach deep into the person’s soul, and change what they value the most in 
 Highly illegal, punishable by death in all civilized societies.
 Possess a creature. You control a possessed creature, can read it’s mind and use it’s skills.
 
+## Dominate | 9
+You gain full control over the person for an hour. You can issue commands, or take control over their mind directly - see through their senses and control their body, but during that time you lose awareness of your own body and what's going on around you. The spell lasts 1 hour, spend 2 energy per hour to extend the duration.
 
 ----
 # Divination
@@ -230,6 +245,9 @@ Turn an object into any other object of the same size made out of the same mater
 ## Mending | 3
 Fix a broken non-magical item.
 
+## Split | 5
+Splits you into two identical clones. Each clone has 50% of your energy points. Sustaining a clone takes 2 EP per hour. The clones can fight and use magic (including splitting into more clones). When a clone takes any damage or runs out of energy points, it disappears, it's memories instantly merged into the remaining clones. When there's only one remains - it becomes the "original" you, keeping the memories of all the copies.
+
 ----
 # Shapeshifting
 ## Petrify | 2
@@ -282,6 +300,13 @@ Reverse gravity inside 10x10 meter cube.
 
 ## Slow Time | 5
 Makes time run 10x slower. 5x5 meter cube
+
+## Still Magic | 4
+Stop time for a selected object for 1 minute.
+
+## Revision Magic | 5
+Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.
+
 
 ----
 # Nature

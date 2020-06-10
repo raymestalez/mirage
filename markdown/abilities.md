@@ -9,6 +9,9 @@ You grapple the opponent of your size and strength or smaller. You can hold them
 ## Pack Mule | 4
 Increases the number of items you can carry by 5.
 
+## Leap | 4
+Jump up to 6 meters forward and 4 meters upward in any direction.
+
 ## Very-Strongman | 5
 You're as strong as the strongest human in the world.
 
@@ -31,23 +34,24 @@ You have achieved a very high level of expertise in being a ninja, you're Jackie
 You are supernaturally fast and borderline invisible. You can catch an arrow in mid-flight, you can hide in plain sight, you can beat up Chuck Norris.
 (requires “Intermediate Ninja”)
 
-
-
 ----
 # Melee Combat
-## Unarmed Combat | 2
-Your kicks and punches deal 2 damage.
-
 ## Dual Wielding | 2
 
 ## Aspiring Swordsman | 2
 You can use basic swords.
+
+## Unarmed Combat Expert | 3
+You can do what Jackie Chan can do. Your kicks and punches deal 3 damage.
 
 ## Charge | 3
 You charge in a straight line towards the selected enemy and smash into them. The enemy and everyone on your path gets knocked down, losing their next turn.
 
 ## Parry | 3
 Deflect attacks from the melee weapons, making them deal no damage.
+
+## Cripple | 4
+Attack one of the target's limbs, making them unable to move.
 
 ## Sneak Attack | 4
 If you sneak behind the enemy unseen, you can instantly kill or incapacitate them.
@@ -77,7 +81,6 @@ Make the perfectly precise shot.
 When aimed at a specific body part, that body part becomes disabled.
 
 ## Master of the Ranged Weapons | 6
-
 
 ----
 # Tactics
@@ -124,6 +127,9 @@ This will influence the mood of the crowd to the one of your choice
 
 ## Tell a Tale | 3
 Tell a local myth to the NPC, and explain what the lesson of it is ("Give refuge to strangers", "Help others", "Don't lie", "Forgive people", "Be a fair dealer", etc). NPC will likely comply with reasonable requests that are in line with the lesson.
+
+## Recruit | 3
+Recruit a low-level friendly NPC to help you for the next day.
 
 ## Bartering | 2
 Convince people to trade and get better deals.
@@ -175,6 +181,9 @@ Recall facts about the world and its history.
 
 ## Will Power | 2
 Accomplish tasks that require impressive feats of will power.
+
+## Mind Shield | 4
+Resistance to illusions and mental attacks(charming, domination, etc).
 
 ----
 # Stealth
