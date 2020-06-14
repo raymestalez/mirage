@@ -51,3 +51,5 @@ For each scene:
 - Locations - Description (Interesting/Important things), Obstacles, Opportunities.
 - Story Clues/Secrets
 - Scenes (Hook, Escalate, Climax.) - Location, NPCs, Challenges, Story Clues.
+
+https://res.klook.com/image/upload/c_fill,w_750,h_500,f_auto/w_80,x_15,y_15,g_south_west,l_klook_water/activities/vgm3jn4xf6mmsanreyjc.webp

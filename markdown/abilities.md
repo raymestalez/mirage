@@ -9,9 +9,6 @@ You grapple the opponent of your size and strength or smaller. You can hold them
 ## Pack Mule | 4
 Increases the number of items you can carry by 5.
 
-## Leap | 4
-Jump up to 6 meters forward and 4 meters upward in any direction.
-
 ## Very-Strongman | 5
 You're as strong as the strongest human in the world.
 
@@ -71,6 +68,7 @@ You're the best swordsman in the world.
 You can use simple bows and crossbows.
 
 ## Thrown Weapons | 2
+You can use thrown weapons.
 
 ## Farshot | 3
 Briefly sharpen your senses, surpassing your normal limits.
@@ -80,7 +78,11 @@ You can make a ranged attack on a faraway target that you can see, even if it’
 Make the perfectly precise shot.
 When aimed at a specific body part, that body part becomes disabled.
 
+## Advanced Thrown Weapons | 4
+You can throw 2 weapons at once (at different targets, or the same one for double damage). Spend 2 EP per extra weapon you want to throw.
+
 ## Master of the Ranged Weapons | 6
+You can make supernaturally precise shots at very far away objects.
 
 ----
 # Tactics
@@ -161,6 +163,9 @@ For the next hour you can see in pitch darkness as if it’s an overcast day.
 ## Eagle Eye | 2
 You gain eagle-eye vision for the next minute.
 
+## Owl's Ear | 2
+Gain hypersensitive hearing for the next minute.
+
 ## The Detective | 2
 Find clues and subtle hints about what happened. Recall a story of a similar case (tell the story to other players), explaining how you reveal a useful clue. You can learn the motive of the person who has committed the crime, a nearby location of an item or a symbol that reveals information about someone who was involved with the scene, where someone who was involved might be headed next.
 
@@ -180,7 +185,7 @@ You know a lot about magic and its applications. You can identify magic items.
 Recall facts about the world and its history.
 
 ## Will Power | 2
-Accomplish tasks that require impressive feats of will power.
+Accomplish tasks that require impressive feats of will power, ignore distractions or exhaustion.
 
 ## Mind Shield | 4
 Resistance to illusions and mental attacks(charming, domination, etc).

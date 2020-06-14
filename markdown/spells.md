@@ -6,18 +6,25 @@ For the next hour you can run as fast as a horse.
 For the next 20 minutes you can walk on any surface at any angle as if it was regular floor.
 
 ## Speed | 4
-For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes.
+For the next 2 seconds the time flows 100 times slower for you, so it feels to you like 3 minutes (Quicksilver powers).
 
 ## Shockwave | 4
 Thunderous shockwave in the direction you are facing. The wave knocks up to three creatures backward and hits them each for 2 damage.
+
+## Leap | 4
+Jump up to 6 meters forward and 4 meters upward in any direction.
+
+## Intangibility | 6
+Become immaterial (like a ghost) for the next 10 minutes. Walk through doors, let attacks pass through you.
 
 ----
 # Offensive
 ## Small Fireball | 2
 Deals 3 damage. Sets stuff on fire. Hold in your hand as a light source.
 
-## Freeze Ray | 4
+## Freeze Pulse | 4
 Deals 4 damage, freezes liquids, covers objects with ice, creates ice on the ground.
+(can do what Frozone from Incredibles can do).
 
 ## Electricute | 4
 A bolt of lightning strikes it from the sky or from your hands, dealing 5 damage and melting metallic objects.
@@ -41,11 +48,16 @@ Push metal directly away from you, or pull it towards you. If the object is ligh
 ## Force field | 4
 Stationary transparent physical barrier, sphere of 15 meter radius. Anything can get out, nothing can go in.
 
+## Levitate | 5
+Slowly lifts the target (object, creature, including yourself) vertically above the ground, up to 10 meters. The target can weight up to 300 kg.
+
 ## Greater Telekinesis | 6
-Levitate human-sized objects and creature
+Levitate human-sized objects and creatures.
 Throwing an object/creature deals 5 damage to the target and to the object.
 (requires “Minor Telekinesis”)
 
+## Fly | 7
+Grant the power of flight to the target creature(including yourself). The target can fly at a speed of a bird for the next 10 minutes.
 
 ----
 # Support
@@ -62,6 +74,8 @@ Heal a person/creature by 1 hit point for every energy point you spend.
 Give an inspiring speech or tell a war story, and all your allies will gain 4 Energy Points.
 The player actually has to tell the speech/story.
 
+## Bestow Spell | 5
+Give the target an ability to use one of the spells you know once.
 
 ----
 # Social
@@ -127,6 +141,9 @@ For the next 10 minutes you can hear and understand what a target creature withi
 ## Read Memories | 6
 Search through unconscious creature's mind, pulling out 15 minutes of memories.
 
+## Lie Detector | 7
+For the next 10 minutes you know when you hear lying.
+
 ## Mind Stealer | 8
 Eat a person’s brain, and for the next hour you have access to their skills and memories.
 
@@ -188,6 +205,9 @@ Sense heat emanating from creatures. You can sense it through walls.
 
 ## Astral Projection | 5
 
+## X-Ray Vision | 5
+See through solid objects in 30 meter radius for the next 5 minutes.
+
 ## Seek | 5
 You glimpse the target in real time, can see its surroundings, and may watch it for the next minute.
 
@@ -199,6 +219,8 @@ Now you will always sense when the nemesis is nearby, and the direction they’r
 ## Find Nemesis | 5
 You see the vision of a place your nemesis has visited in the past day.
 
+## Oracle | 9
+Get a correct yes or no answer to any question that can be answered.
 
 ----
 # Teleportation
@@ -209,12 +231,15 @@ Swap places with your familiar.
 Mark an object or an item (no larger than 2x2 meters). Whenever you cast this spell, it will teleport to your hand (or in front of you) from wherever it is.
 
 ## Misty Step | 4
+Instantly telepot a short-distance (a stone's throw, line of sight. Think Nightcrawler from X-Men).
+
+## Portal | 5
+Open 2 connected portals (within 50 meter radius, line of sight, like in Portal game). Portals have custom radius (up to 2 meters), stay open for up to 5 minutes (spend 1 EP per minute to extend the duration), and can transport up to 10 elephants worth of mass.
 
 ## Rewind | 4
 Teleport where you physically were 5 minutes ago(doesn’t take you back in time)
 Open Portal. From where you are to anything within line of sight.
 Greater Teleportation. Teleport any object, willing or unwilling creature, within 100 meters to another point within 100 meters.
-
 
 ----
 # Summoning
@@ -228,6 +253,10 @@ For the next minute, a stream of water shoots from your hand like from a fire ho
 Summon an animal or a monster. It obeys your commands. Disappears within an hour.
 
 ## Summon a swarm | 5
+Summon a swarm of insects that obeys your telepathic orders.
+
+## Summon an Evil Twin | 9
+Create a copy of a target person/creature that has the opposite values and will do it's best to achieve the outcome opposite from what they want.
 
 ----
 # Conjuration
@@ -255,6 +284,9 @@ Turns the creature or object you’re touching into stone for the next 5 minutes
 
 ## Grow gills | 2
 Touch a willing creature, and they grow gills allowing them to breathe underwater for up to 1 hour.
+
+## Elasticity | 4
+For the next 10 minutes you can do what Elastigirl from Incredibles can do. 
 
 ## Turn into Creature | 4
 Touch a willing non-magical creature and spend an Experience point to “acquire” it. Now you can turn into this creature for up to an hour.
@@ -307,6 +339,8 @@ Stop time for a selected object for 1 minute.
 ## Revision Magic | 5
 Pick an object, creature, or 3x3 meter area, and rewind it's time for up to 1 minute. Revising a person causes them to lose all their memories of what happened during revision time.
 
+## Luck | 5
+Cast this spell when someone performs an action, and it will be influenced by the supernaturally good (or bad) luck.
 
 ----
 # Nature
@@ -322,6 +356,9 @@ It can't be smaller than a mouse or bigger than a horse. You can have only one a
 
 # Fog | 3
 Produce fog between your hands, it's quickly covering the nearby area, making everyone unable to see beyond their reach.
+
+## Intwine | 4
+Use grass, wines, and tree branches as if they were your own limbs.
 
 ## Speak with Trees | 4
 Touch a tree trunk, connecting yourself to the nearby forest.
@@ -346,8 +383,6 @@ Once per week you can gather an army of up to 50 nearby animals.
 
 ## Natural Disaster | 9
 Summon a natural disaster like tornado, hurricane, tsunami, etc.
-
-
 
 ----
 # Necromancy
@@ -375,3 +410,8 @@ Steal one person's/creature's life force and give it to another. Aging the sourc
 
 ## Bestow Sentience | 9
 Touch a non-sentient creature, and bestow the gift of sentience and intelligence onto it.
+
+----
+# Other
+## Technomancy | 5
+Ability to control electrical/mechanical devices from a distance. Activate/deactivate them, make them perform their functions.

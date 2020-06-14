@@ -46,3 +46,6 @@ Provide light. Set things on fire.
 ## Ball Bearings | 2
 
 ## Shovel | 1
+
+## Glider | 4
+Artificial wings you can use for gliding.

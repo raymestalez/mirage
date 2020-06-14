@@ -144,8 +144,12 @@ Inside this room, the time moves 30 times faster. Spending a month in this room 
 ## Backpack of Earthly Delights | 6
 Backpack that allows the retrieval of mundane non-technical items from Earth with a thought, once per day. The item must fit within the backpack. Only items which actually exist on Earth can be requested. Game Master can always deny a request, in that case the backpack will contain the non-game-breaking item most similar to the request (if you ask for a bazooka you might get a stick of dynamite).
 
+## Rememberball | 9
+Activate it to "Save Game". You can return to the saved state for the next 10 minutes. To "load game" more than once, spend extra 2 EP.
+
 ## Death Note | 10
 If you know the person's name and face, write their name in this black notebook, describing the time (within the next month) and manner of death (something that could realistically happen to them), and they will die in a described manner. Works once per day.
+
 
 ----
 # Potions
@@ -194,41 +198,44 @@ The drinker shrinks to be 20 times smaller for 20 minutes.
 ## Smoke Potion | 2
 Creates a huge cloud of black smoke when spilled.
 
-## Tree Potion | 2
+## Vial of Acid | 2
+Burns through objects. Deals 4 damage.
+
+## Tree Potion | 3
 Instantly spawns a tree where it was spilled)
 
-## Anti-Gravity Potion | 3
+## Anti-Gravity Potion | 4
 Drinker isn't affected by gravity for an hour.
 
-## Truth Serum | 3
+## Truth Serum | 4
 One who drinks it can’t tell lies for an hour
 
-## Polyjuice Potion | 3
+## Polyjuice Potion | 4
 Drop someone’s hair into it, and drinking this potion will turn you into that person for 30 minutes.
 
-## Falcon Potion | 3
+## Falcon Potion | 5
 Turns you into a falcon for 30 minutes
 
-## Potion of Body Switching | 3
+## Potion of Body Switching | 5
 When two people drink this potion, it swaps their minds freaky-friday style.
 
-## Forget me now Potion | 4
-The one who drinks this potion will completely lose the memories of everything that happened during the past 24 hours.
+## Forget me now Potion | 5
+The one who drinks this potion will completelya lose the memories of everything that happened during the past 24 hours.
 
 ## Seduction Potion | 4
 The drinker becomes irresistable to the opposite gender.
 
-## Love Potion | 4
-Drop your hair into it. The person who drinks it will fall madly in love with you for 5 hours.
-
-## Zombie Raising Potion | 4
-Spill on a grave to raise a zombie
-
-## The Ant-Man Potion | 5
+## The Ant-Man Potion | 6
 You shrink down to the size of an ant, while retaining the strength of a human. Lasts for 1 hour.
 
-## Vampire Potion | 5
+## Love Potion | 7
+Drop your hair into it. The person who drinks it will fall madly in love with you for 5 hours.
+
+## Zombie Raising Potion | 7
+Spill on a grave to raise a zombie
+
+## Vampire Potion | 8
 Turns you into a vampire for a day. Your current spells and abilities are replaced with what vampire can do (see the Vampire NPC card for the list of powers). You also gain unquenchable thirs for blood (you must kill at least one sentient creature). Sunlight and garlic are deadly to you.
 
-## Potion of Silent Death | 6
+## Potion of Silent Death | 8
 The one who drinks it experiences no symptoms, and then dies within one week, seemingly without a cause.
