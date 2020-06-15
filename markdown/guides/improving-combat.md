@@ -15,7 +15,8 @@ Make action scenes interesting the same way writers/screenwriters do:
 - Don't do unmotivated random encounters with generic monsters - it's boring and meaningless. Have fewer but more powerful and interesting enemies instead of a bunch of identical repetitive ones.
 
 ### Interesting Environment
-Make the environment interesting the same way level designers do:  
+
+Make the environment interesting the same way level designers do:
 
 - Create environmental obstacles/hazards (traps, lava pits, rockslides, stampedes, storms).
 - Give players opportunities to creatively use their environment (drop a chandelier onto their enemies, set loose wild animals, create a barricade, Jack Sparrow vs Will Turner fight).
@@ -26,8 +27,8 @@ Make the environment interesting the same way level designers do:
 <div class="column-break"></div>
 
 ### Encourage Players to keep Roleplaying During Combat
-- Prompt players to describe their actions. Ask "What your attack looks like?", or more specific questions - “How do you want to engage this creature?” or “How are you planning to get to your ally who is surrounded?”  
-bantering with NPCs, etc.
+
+- Prompt players to describe their actions. Ask "What your attack looks like?", or more specific questions - “How do you want to engage this creature?” or “How are you planning to get to your ally who is surrounded?”
 - Encourage banter between players and NPCs during the fight. Give the enemies personalities and desires, make them relatable and interesting to talk to.
 - Let players contribute their own ideas, add to the environment. When player asks "Is there a tree somewhere? Or any solid vertical plane?" "Is the cave floor smooth or rugged?" it means that they are thinking of ways to interact with the environment. Whenever a player asks "do I see X?" to almost always say yes. If a player comes up with a cool idea - encourage it, let it happen.
 - Give players or enemies an objective that does not involve direct violence(get  the injured NPC out of the dungeon, end the combat quickly, run away, avoid injuring innocents, steal an item and escape before more guards show up, do it stealthily to avoid attracting more guards, disable an alarm. The enemy might only want to complete the ritual or take an item from the players, the monster might only want to protect it's eggs).
