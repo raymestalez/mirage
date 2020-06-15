@@ -1,6 +1,6 @@
 You don’t need to plan out everything before you start playing. Don’t meticulously craft a complete storyline, instead - prepare the most important elements, and improvise the rest on the fly.
 
-Copy this [Adventure Template](https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/) and fill it in.
+For a convenient way to prepare your adventure, copy this [Adventure Template](https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/) and fill it in.
 
 ### What will be the players’ Problem/Goal?
 Resolving it will be the single most important event that will determine whether the characters succeed or fail, the thing the final battle revolves around.
