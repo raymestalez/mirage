@@ -27,11 +27,17 @@ class Header extends Component {
 				Guides
 			    </div>
 			    <div className="menu">
-				<Link to="/roleplaying-tips" className="item btn">
+				<Link to="/post/roleplaying-tips"
+				      className="item btn">
 				    Roleplaying Tips
 				</Link>
-				<Link to="/adventure-design" className="item btn">
+				<Link to="/post/adventure-design"
+				      className="item btn">
 				    Adventure Design
+				</Link>
+				<Link to="/post/improving-combat"
+				      className="item btn">
+				    Improving Combat
 				</Link>
 			    </div>
 			</div>
@@ -41,7 +47,8 @@ class Header extends Component {
 				Adventures
 			    </div>
 			    <div className="menu">
-				<Link to="/wild-rat-chase" className="item btn">
+				<Link to="/adventure/wild-rat-chase"
+				      className="item btn">
 				    Wild Rat Chase
 				</Link>
 			    </div>
