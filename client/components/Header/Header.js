@@ -35,10 +35,12 @@ class Header extends Component {
 				      className="item btn">
 				    Adventure Design
 				</Link>
-				<Link to="/guide/improving-combat"
-				      className="item btn">
+				{/*  
+				    <Link to="/guide/improving-combat"
+				    className="item btn">
 				    Improving Combat
-				</Link>
+				    </Link>
+				  */}
 			    </div>
 			</div>
 
