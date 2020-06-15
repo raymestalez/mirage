@@ -31,11 +31,11 @@ class App extends Component {
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
 			<Route path="/world" exact component={World}/>
-			<Route path="/post/roleplaying-tips" exact
+			<Route path="/guide/roleplaying-tips" exact
 			       component={RoleplayingTips}/>
-			<Route path="/post/adventure-design" exact
+			<Route path="/guide/adventure-design" exact
 			       component={AdventureDesign}/>
-			<Route path="/post/improving-combat" exact
+			<Route path="/guide/improving-combat" exact
 			       component={ImprovingCombat}/>
 			<Route path="/character-sheet"
 			       exact component={CharacterSheet}/>
