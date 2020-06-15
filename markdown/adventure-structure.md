@@ -33,3 +33,5 @@ What will the NPCs do to help players out or to set them back?
 Understand what the players want, and what stands in their way. What complication will arise? What difficult decision do they need to make?  
 Consider raising the stakes. Things go from good, to bad, to worst, to resolved.
 
+- **Change of Value**
+How does this scene move the story forward?

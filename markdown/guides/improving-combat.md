@@ -37,3 +37,11 @@ Make the environment interesting the same way level designers do:
 ### Other
 - If you’re the GM and you want to encourage more narrative creativity - start with yourself, get creative with the combat narration as it happens.
 - Try to offer interesting/creative/difficult choices every turn. That's what makes it engaging. Create consequences for the choices to make them feel meaningful.
+
+----
+
+Ideas for this guide are based on posts from these threads:
+[1](https://old.reddit.com/r/RPGdesign/comments/h8tvyj/the_reason_combat_sucks_and_the_most_obvious/),
+[2](https://old.reddit.com/r/DnD/comments/h8tw4w/the_reason_combat_sucks_and_the_most_obvious/),
+[3](https://old.reddit.com/r/DnD/comments/h8q31m/what_are_some_of_the_coolest_combataction_scenes/),
+[4](https://old.reddit.com/r/DMAcademy/comments/h8q2ks/what_are_some_of_the_coolest_combataction_scenes/).
