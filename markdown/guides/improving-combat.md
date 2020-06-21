@@ -22,6 +22,7 @@ Make the environment interesting the same way level designers do:
 - Give players opportunities to creatively use their environment (drop a chandelier onto their enemies, set loose wild animals, create a barricade, Jack Sparrow vs Will Turner fight).
 - Use Terrain with Elevation (cliff, waterfall, ravine, raging river), difficult terrain (mud, slopes, swamp) and Cover (columns, tall grass, boulders).
 - Add Interactable Objects (stalactites, chandeliers, wagons, oil lanterns, curtains, explosive barrels, catapult, single use hand grenade).
+- Allow players to impact the environment - fire/ice/water surfaces, create clouds of smoke.
 - Make setpiece matter, add environment-related events during combat that demand a response (a wave hitting players and washing them off the ship so they need to climb back on, boulder falls into the river of molten lava causing it to splash over the battlemap).
 
 <div class="column-break"></div>

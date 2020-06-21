@@ -34,4 +34,4 @@ Understand what the players want, and what stands in their way. What complicatio
 Consider raising the stakes. Things go from good, to bad, to worst, to resolved.
 
 - **Change of Value**  
-How does this scene move the story forward?
+How does this scene move the story forward? Do the characters get closer to or farther away from the goal as a result?

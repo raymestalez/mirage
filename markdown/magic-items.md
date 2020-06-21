@@ -19,6 +19,9 @@ Activate it, and it permanently turns into any mundane object it touches.
 ## Pedant's Pendant | 3
 Gives you eidetic memory - perfect recollection of everything you have seen or experienced while wearing it(spend 3 EP to recall a memory).
 
+## Holocrystal | 4
+Records 3D holographic images and videos of the things in 10 meter radius around it (can also take regular photos/videos). Can send these recordings to other crystals.
+
 ## Mokeskin Pouch | 4
 A small pouch that contains 4x4 meters of extradimensional space where you can store items, liquids, or even living creatures. Increases the number of items you can carry by 5. Any creature inside the pouch can exit it at will.
 
@@ -45,6 +48,9 @@ Stores up to 5 Energy Points. Spend energy points to charge it, increases your m
 
 ## Ultimate Lockpick | 5
 When you insert it into any lock, it morphs into the key that fits.
+
+## Crystal of Luck Storage | 6
+
 
 ----
 ## Weapons
@@ -110,6 +116,12 @@ Activating this small hourglass sends you 1 minute back in time. Can be used up 
 
 ## Invisibility Cloak | 6
 Turns the wearer invisible.
+
+## Helm of Illusion | 7
+Place this helm onto a person's head, and it will create a virtual world of your design, indistinguishable from reality.
+
+## Stopwatch of Timelessness | 8
+Select up to 12 targets (people, creatures, objects). The time will pause for everything but them for up to 12 hours.
 
 ## Eye of Vance | 8
 Sees everything in 360 degrees and 100m radius around you. Can see through solid objects. Can see invisible objects. Can see anything hidden. Works twice per day for 10 minutes

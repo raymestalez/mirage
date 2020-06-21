@@ -11,6 +11,7 @@ import Welcome from './Rules/Welcome'
 import Rules from './Rules/Rules'
 import World from './Rules/World'
 import RoleplayingTips from './Rules/RoleplayingTips'
+import AdventureIdeas from './Rules/AdventureIdeas'
 import AdventureDesign from './Rules/AdventureDesign'
 import ImprovingCombat from './Rules/Combat'
 import WildRatChase from './Adventures/WildRatChase'
@@ -31,6 +32,8 @@ class App extends Component {
 			<Route path="/" exact component={Welcome}/>
 			<Route path="/rules" exact component={Rules}/>
 			<Route path="/world" exact component={World}/>
+			<Route path="/adventure-ideas" exact
+			       component={AdventureIdeas}/>
 			<Route path="/guide/roleplaying-tips" exact
 			       component={RoleplayingTips}/>
 			<Route path="/guide/adventure-design" exact

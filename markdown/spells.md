@@ -40,6 +40,9 @@ Stun the target creature for 1 minute. It's unable to move or do anything.
 ## Minor Telekinesis | 1
 Slowly levitate small objects.
 
+## Mold Earth | 1
+You can target an area (5x5 meter cube) of loose earth, you can instantaneously excavate it, move it along the ground, and deposit it up to 5 meters away. You can cause shapes, colors, or both to appear on the dirt or stone, spelling out words, creating images, or shaping patterns. 
+
 ## Push/Pull metal | 3
 Push metal directly away from you, or pull it towards you. If the object is lighter than you, the object moves, if it’s heavier - you move. If an object is thrown at a speed, deals 4 damage.
 
@@ -126,8 +129,14 @@ Telepathically send a message to the nearby creature, they can respond back.
 ## Inquire | 2
 You learn the creature's Ideal, Flaw, and Desire. You can also learn the worst or best thing they have ever done.
 
+## Share Dreams | 3
+Fall asleep and enter the dream of a sleeping creature within 50 meters around you.
+
 ## Mind Sense | 4
 Sense minds in 30 meter radius around you. Get some basic information about each mind – how complex their thoughts are, their species, their gender, their mood.
+
+## Mind Melt | 4
+Create telepathic connection with a willing creature. Both of you will see/hear through the other one's senses, and read each other's surface thoughts.
 
 ## Intent | 5
 You look into the mind of the creature, learning about their most prominent short-term goal (what they want to accomplish within the next 10 minutes), long term goal, or what their intentions are towards a specific creature or an object.
@@ -151,6 +160,9 @@ Eat a person’s brain, and for the next hour you have access to their skills an
 # Mind Control
 ## Sleep | 2
 Sing the lullaby, causing the target creatures within 30 meters around you to fall asleep. (you actually need to come up with and sing a lullaby).
+
+## Calm/Intensify Emotions | 3
+Reduce or amplify the emotion the target is feeling.
 
 ## Captivate | 4
 Conjure a dazzling image in the air,
@@ -194,6 +206,9 @@ You gain full control over the person for an hour. You can issue commands, or ta
 ## Evil Eye | 3
 You pause, closing your eyes and quieting your mind. You sense the worst thing that  happened nearby within the last day.
 
+## Query | 3
+Pick an object, learn about 3 important events in its history.
+
 ## Sense Danger | 4
 Activate your 'spidey sense', for the next 30 minutes you'll be able to sense imminent danger.
 
@@ -203,7 +218,8 @@ You can sense the magic auras of any spells, items, or creatures within 200 mete
 ## Infrasight | 4
 Sense heat emanating from creatures. You can sense it through walls.
 
-## Astral Projection | 5
+## Probability Lanes | 5
+You see the most likely short-term outcomes of the action you're about to take.
 
 ## X-Ray Vision | 5
 See through solid objects in 30 meter radius for the next 5 minutes.
@@ -216,7 +232,10 @@ Mark a creature you can see as your nemesis(you can have only one at a time).
 Now you will always sense when the nemesis is nearby, and the direction they’re in.
 (even if they’re invisible)
 
-## Find Nemesis | 5
+## Astral Projection | 5
+Create an astral body (like a ghost), it's transparent, glows faint blue light, it's invulnerable to damage and can pass through walls. It lasts an hour, spend 2EP to extend the duration by an hour.
+
+## Find Nemesis | 6
 You see the vision of a place your nemesis has visited in the past day.
 
 ## Oracle | 9
@@ -260,6 +279,9 @@ Create a copy of a target person/creature that has the opposite values and will 
 
 ----
 # Conjuration
+## Mend | 1
+Fix mundane objects (broken cup, torn clothes).
+
 ## Conjure a Mundane Item | 2
 Create a small non-magical item you’re familiar with (like a hammer, a spyglass, or a candle). No larger than 3 feet cube, no heavier than 10 pounds.
 The object is visibly magical, disappears after 1 hour, or if it takes any damage.
@@ -307,6 +329,9 @@ Works like Turn into Creature, but works on magical creatures.
 ## Shield | 2
 Create a force field around a target creature or an object. Resists up to 8 damage.  Always has clean air inside. Lasts for an hour, or until it takes more than 8 damage.
 
+## Plane of Force | 3
+Create 10x10 meters invisible wall of force(at any angle). Lasts for 30 minutes or until it takes 10 damage. Can support up to 500kg of weight.
+
 ## Anti-magic ward | 4
 Magic doesn’t work within a sphere of 15 meter radius
 
@@ -318,7 +343,6 @@ Nothing can move faster than a falling feather within a sphere of 15 meter radiu
 
 ## Evil Ward | 6
 No evil can cross the circle of 15 meter radius. Lasts for 1 hour.
-Wall of Force
 
 ## Trigger | 1
 Pick one of the spells you know that will activate when a certain condition is met.
