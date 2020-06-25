@@ -31,6 +31,13 @@ You have achieved a very high level of expertise in being a ninja, you're Jackie
 You are supernaturally fast and borderline invisible. You can catch an arrow in mid-flight, you can hide in plain sight, you can beat up Chuck Norris.
 (requires “Intermediate Ninja”)
 
+## Light armor | 3
+Enables you to wear light armor.
+
+## Heavy armor | 4
+Enables you to wear heavy armor.
+(requires "Light Armor" and "Strongman")
+
 ----
 # Melee Combat
 ## Dual Wielding | 2
@@ -166,8 +173,8 @@ You gain eagle-eye vision for the next minute.
 ## Owl's Ear | 2
 Gain hypersensitive hearing for the next minute.
 
-## The Detective | 2
-Find clues and subtle hints about what happened. Recall a story of a similar case (tell the story to other players), explaining how you reveal a useful clue. You can learn the motive of the person who has committed the crime, a nearby location of an item or a symbol that reveals information about someone who was involved with the scene, where someone who was involved might be headed next.
+## Investigation | 2
+Describe how and where you search, and find subtle clues about what happened at the scene (if they exist).
 
 ## Sense Danger | 4
 Set your “spidey sense” on high alert. 
@@ -196,6 +203,9 @@ Resistance to illusions and mental attacks(charming, domination, etc).
 You are very quiet and hard to notice.
 You can quietly stalk your target without it noticing you.
 You can hide very well, especially at night.
+
+## Subtle Spell | 3
+Use it to cast a spell in a way not detectable by the people around you.
 
 ## Aspiring Thief | 3
 Steal items from unaware or distracted. people.

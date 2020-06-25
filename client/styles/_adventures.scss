@@ -1,0 +1,35 @@
+.adventure {
+    background-image: url(/img/paper_bg.jpg);
+    background-color: #EEE5CE;
+    box-shadow: 1px 4px 14px #000;
+    font-family:BookSanity;
+    color: black;
+    border-radius: 2px;
+    h1, h2, h3 {
+	color: #58180D;
+	font-family: MrJeeves;
+	font-weight: 800;
+    }
+    h3 {
+	border-bottom: 2px solid #c9ad6a;
+    }
+    a, b, strong {
+	color: #58180D;
+    }
+    blockquote {
+	margin-bottom: 1em;
+	background-color: #faf7ea;
+	font-family: ScalySans;
+	border-style: solid;
+	border-width: 7px;
+	border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAAA8CAMAAADG+c2+AAAAM1BMVEUAAAAAAAAAAAAkAAA1GwA0GgA5GgA5GwA4HgA7HgA5HgA7HgA7HwA7HgA8HgA7HgA8HwDn6RpAAAAAEHRSTlMAAQcHMDExQ1ZW1dXY3t7+02zZCAAAAKNJREFUWMPt2LEOwyAMBNCkSXGpKfb/f20G3AGUiWOJdNlueYrt6di2J3xHrmZF9mVCdnd3T/NgCO+ItUWdB0P4RrQWfR4chOVggUcu/cgCH0X6o+ynuivg3QjIAm8FggQJEiRIkCBBggQJEoTApO56An15EFIrVgJ4vaAtlnlwEKKbGrLATlgOxg9XeORfv9IMH+Xzb7tSzGo+gL7chNcjXpUulIwXVrjWS+0AAAAASUVORK5CYII=) 12 stretch;
+	border-image-outset: 4px;
+	box-shadow: 0 0 6px #faf7ea;
+    }
+
+    blockquote, div, p, h1, h2, h3 {
+	-webkit-column-break-inside: avoid;
+        page-break-inside: avoid;
+        break-inside: avoid;
+    }
+}

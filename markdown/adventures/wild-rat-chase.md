@@ -3,7 +3,7 @@
 ## Summary
 In this adventure the players will meet a King who has been turned into a rat by his evil Vizier. They will need to reach the highest floor of Vizier's magical tower to acquire the magic wand that can turn the King back into a human. They will need to overcome Vizier’s minions and magical traps of his tower.
 
-## Structure
+## Outline
 - Characters **meet the rat** that gives them the scroll of Speak With Animals, explains the situation, and asks them for help.
 - They **meet Vizier’s minions** who have been chasing the rat.
 - They make their way through **the city streets** to the castle (where the Vizier’s tower is).
@@ -12,7 +12,7 @@ In this adventure the players will meet a King who has been turned into a rat by
 - They **turn the King back into a human**, and **confront the Vizier**.
 - They **receive rewards** from the King, and **decide the fate of the Vizier**.
 
-# Scenes
+\column
 
 ## Introducing Characters
 ![](/adventures/wild-rat-chase/01_ship.jpg)
@@ -23,6 +23,7 @@ The players begin on a ship, about to arrive at the port.
 
 > (It’s time to introduce your characters)
 
+\page
 
 ## We see land!
 Sailors notice the land, we're about to arrive:
@@ -30,6 +31,8 @@ Sailors notice the land, we're about to arrive:
 
 Prompt the players to go up to the upper deck and take a look:
 > The sailor stands up from the table "Alright, mateys, I'll go up, take a loo..." he cuts himself off, "Smell some fresh air, I guess" he finishes sadly. "Follow me if you wish to see the City in all of its glory"
+
+\column
 
 ### Arriving into the Port
 ![](/adventures/wild-rat-chase/02_Dreamland.jpg)
@@ -39,6 +42,7 @@ Description of Cypress:
 Description of the Port:
 > You arrive at the port, the ship docks, and you finally feel the firm ground underneath your feet. You see many sailors running down the gangway onto the bustling boardwalk. Some of them drop on their knees, crying, kissing the earth. It’s been a long time for these dudes. Many ships are in this port, people are walking around, delivering cargo to and from the ships, selling their wares.
 
+\page
 
 ## Meeting the Rat
 <img style="width:150px;margin:auto;display:block;"
@@ -48,6 +52,8 @@ Players encounter the rat:
 
 Players read the scroll:
 > It drops a scroll into your hand. You determine it to be a scroll outlining a spell “Speak with Animals.” Whoever touches it and reads it, shall gain the ability to speak to any animal for an hour. Works on multiple people.
+
+\column
 
 ### Rat's Story
 
@@ -59,6 +65,9 @@ The Rat tells players it's story. The King turns out to a bit of a self-importan
 - What am I? What am I? I'm the king of this bloody kingdom, that's who I am!! And you must help me! You're the only ones who can.
 - My vizier, Jafar, the treacherous bastard, has turned me into a rat and he's currently sitting on my throne ruling my kingdom! Consolidating power.
 - You must help me retrieve his wand of transfiguration, that's the only way to turn me back. He keeps it in his tower, the tower is in the castle.
+
+
+\page
 
 ## Meeting the Minions
 
@@ -83,6 +92,8 @@ Zug will do his best to negotiate with the players, but if he senses it's not wo
 - I must get it, you see, Mr Jafar told me to guard it, Zug will be in so much trouble if he finds out it escaped.
 
 Players can fight him, or fool him, or even befriend him.
+
+\column
 
 ### Gretchen
 
@@ -111,6 +122,7 @@ A gargoyle with a difficult personality. He will be circling the skies above the
 
 If the scene with Zug/Gretchen will take too long, he'll join the battle, try to capture the rat, and return it to the Vizier's tower. If the players escape before this happens, or defend the rat, the rat will be able to help them find the castle, give them tips, tell them about secret catacombs. Otherwise they'll need to make it to the tower on their own, and resquie a rat along with the wand.
 
+\page
 
 ## Cypress
 The rat will tell the players which way to go, the biggest challenge is to get through the city unseen from the sky.
@@ -155,9 +167,11 @@ The king may tell the players about the secret passege to the castle through the
 
 > You see small points of light glowing in the dark. As you come closer, you see it’s the eyes of a bunch of mean looking dog-sized rats.
 
+\page
+
 ## Tower
-<img style="width:125px;display:block;float:right;margin-left:10px;"
-src="/adventures/wild-rat-chase/05-wizard-tower-1.png"/>
+<!-- <img style="width:125px;display:block;float:right;margin-left:10px;"
+src="/adventures/wild-rat-chase/05-wizard-tower-1.png"/> -->
 
 After players make their way through the catacombs or through the gate, they see Jafar's tower:
 > You enter a castle, and have no trouble noticing a tall, slender, magnificent tower that is, well, towering over you.
@@ -220,6 +234,8 @@ At the top floor the players will find the desk with a wand laying on top of it:
 In the middle of the room is the portal gate:
 > In the center of the room you see a large obsidian circle, large enough to walk through, standing vertically on a pitch black pedestal. It looks like a strange gate.
 
+\page
+
 ## Transforming the King
 
 <img style="width:150px;margin:auto;display:block;"
@@ -232,10 +248,14 @@ When a player activates the wand to transform the rat:
 > With the sound of thunder and lightning, the room fills with the blazing green light. Streams of mana and energy surround the Rat in a blinding whirlwind of light and power. You can barely see the shape of the Rat growing, changing. Surprised squeaks gradually lower in pitch, becoming shrieks and then grunts of a human.
 > As the magic and might begin to settle, you behold with your own eyes the majesty of the true king of this kingdom in his natural, human form.
 
-## Throne Room
+### Throne Room
 ![](/adventures/wild-rat-chase/throne-room.jpg)
 If the players activate the portal gate, it will open a wormhole into the throne room:
 > After you finish your manipulations, the space inside the circle seems to disappear, as if the hole has been torn through the universe, and on the other side, you see the throne room, a tall slender man sitting on the throne, and a few dozen of guards around him.
+
+\column
+
+### Jafar
 
 <img style="width:150px;margin:auto;display:block;"
 src="/adventures/wild-rat-chase/token-vizier-jafar.png"/>
@@ -247,7 +267,7 @@ If by the time players are in the throne room the king is still in the rat form,
 
 Vizier will try to talk/grovel his way to King's mercy, or set the guards on players and try to fight them.
 
-## Conclusion and Rewards
+### Conclusion and Rewards
 Once the Vizier has been defeated, the King will attempt to save face and take credit by claiming that it was his "brilliant leadership" that has secured this victory, but in the end, will be grateful to the players, and grant each player a request (if they remind him that he owes them).
 
 > "Is the gratitude of the king not enough for you people? Fine!" The King snaps his fingers in the direction of one of his servants. "Ignacius, dash to the treasury, fetch us some of the finest \[whatever players ask\].

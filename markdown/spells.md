@@ -172,6 +172,7 @@ Conjure a dazzling image in the air,
 Change the way the target will experience the world for the next day. Cause them to perceive a specific thing or a category of things falsely (make them see all wolves as puppies, the king as a clown, see all the doors shifted 5 paces away from where they actually are, have them think that freshly baked bread smells like fire. etc). The spell lasts until you cancel it or until the creature is harmed by the effects of the deception.
 
 ## Command | 4
+Speak a simple two-word command  (Approach me, Drop item, Flee, Fall down, Halt, etc) to a creature you can see within 50 meters, and it will be forced to obey.
 
 ## Suggestion | 3
 Influence target's thoughts and behaviors. Making them trust someone they otherwise wouldn't, look away, feel an emotion they would not normally be inclined to feel, calm or intensify what they feel. 

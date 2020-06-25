@@ -19,10 +19,30 @@ Shoots where you point it, dealing 4 damage.
 ## Throwing Dagger | 2
 Deals 4 damage.
 
-## Old-timey Gun | 6
-
 ## Slingshot | 3
+Shoots a small projectile(like a pebble). Deals 3 damage. 
 
+## Old-timey Gun | 5
+Deals 5 damage. Takes a minute to reload.
+
+----
+# Armor
+## Leather Armor | 3
+Basic armor. Increases you max HP by 3 points.
+(requires "Light Armor" ability to wear).
+
+## Ninja Armor | 3
+Suit made out of light black clothes. Increases you max HP by 3 points.
+Makes you very hard to notice in the dark.
+(requires "Light Armor" and "Aspiring Ninja" ability to wear).
+
+## Steel Armor | 6
+Increases your max HP by 6 points.
+(requires "Heavy Armor" ability to wear).
+
+## Obsidian Armor | 8
+Increases your max HP by 8 points.
+(requires "Heavy Armor" to wear).
 
 ----
 # Adventuring Gear

@@ -11,13 +11,16 @@ The heroes will search for the priceless treasure, and try to reach it before th
 - Deliver treasure home and split it
 
 **NPCs**
-- The ruthless leader of the rival treasure hunters.
-- His minions.
-- Local Guide.
+- The leader of the rivals and his minions  
+An evil archeologist, a powerhungry mage who will use the treasure for evil, a gang of criminals.
+- The local guide  
+An old sailor who knows these waters, ancient magic expert, the only survivor who has witnessed the treasure.
 
-**Locations**
+
+**Locations**  
 - Dangerous Lands on the path to treasure
-- Treasure Cave
+- Treasure Cave  
+The Cave filled with Gold, The Lost City
 
 <div class="column-break"></div>
 

@@ -14,6 +14,7 @@ Make action scenes interesting the same way writers/screenwriters do:
 - Take inspiration from books and movies, just copy great action scenes.
 - Don't do unmotivated random encounters with generic monsters - it's boring and meaningless. Have fewer but more powerful and interesting enemies instead of a bunch of identical repetitive ones.
 
+
 ### Interesting Environment
 
 Make the environment interesting the same way level designers do:
@@ -38,6 +39,8 @@ Make the environment interesting the same way level designers do:
 ### Other
 - If you’re the GM and you want to encourage more narrative creativity - start with yourself, get creative with the combat narration as it happens.
 - Try to offer interesting/creative/difficult choices every turn. That's what makes it engaging. Create consequences for the choices to make them feel meaningful.
+- Give NPCs unique and interesting powers, abilities, tactics.
+- Don't put the story on hold. Reveal interesting/useful information about NPCs or the story, create character development moments.
 
 ----
 
