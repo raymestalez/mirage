@@ -3,7 +3,8 @@ Think of the game as a string of short-form improv scenes, one leading into the 
 
 ### Create Consequences
 Imagine how the world responds to the players’ actions. Reward the players for their victories, but introduce setbacks and complications. Acting to solve one problem may lead to unexpected consequences, creating further goals or problems that drive the story forward and create new situations.
-Watch the Story Unfold
+
+### Watch the Story Unfold
 Raise the stakes, escalate the challenges. Things go from good to bad to worst, before they’re resolved.
 
 Cycle tense action with relatively peaceful situations creating opportunities for trading, training, roleplay.

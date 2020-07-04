@@ -67,11 +67,14 @@ Grant the power of flight to the target creature(including yourself). The target
 ## Gift Health | 0
 Drains your health, giving it to another person/creature.
 
-## Gift Energy | 1
-Drains your health, giving it to another person/creature.
+## Gift Energy | 0
+Drains your energy, giving it to another person/creature.
 
-## Heal | 1
-Heal a person/creature by 1 hit point for every energy point you spend.
+## Heal | 3
+Heal the target person/creature (can use on yourself) by 2 hit points for every 3 energy points you spend.
+
+## Recharge | 3
+Sacrifice 3 points of your health to grant 2 energy points to the target person/creature (can use on yourself).
 
 ## Inspire | 2
 Give an inspiring speech or tell a war story, and all your allies will gain 4 Energy Points.
@@ -79,6 +82,9 @@ The player actually has to tell the speech/story.
 
 ## Bestow Spell | 5
 Give the target an ability to use one of the spells you know once.
+
+## Vampirism | 6
+Recover up to 10 HP or EP by drinking the blood of a sentient creature you've just killed. If you have this perk, you can't walk into houses uninvited, and you lose 1 HP for every hour you are under direct sunlight.
 
 ----
 # Social

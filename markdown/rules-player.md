@@ -1,16 +1,19 @@
 ### Health
-Your max health is 10 hit-points. You lose points when you get hurt. Recover points by drinking a potion, using a spell, or taking a rest.
+Your initial max health is 10 hit-points. You lose points when you get hurt. Recover points by drinking a potion, using a spell, or taking a rest.
 
-**Short rest** (30 minutes in a safe environment with no enemies nearby) recovers 4 points.
+**Short rest** (1 hour in a safe environment) recovers 4 points.
 
 **Long rest** (8 hours in a safe environment) restores you to full health.
 
 ### Energy Points (EP)
-Your max energy is 10 points. Spend them to cast spells, use abilities or items.
+Your initial max energy is 5 points. Spend them to cast spells, use abilities or items.
 
 To cast a spell (or use an ability), spend the amount of points equal to it's level (casting a 3rd Level Spell costs 3 Energy points).
 
 Recover them by drinking a potion or taking a rest (same as health).
+
+You can also recover them when you indulge in your character's flaw or succumb to their weakness in a way that makes you vulnerable, introduces a complication, sacrifices your relationships, or otherwise puts you at a risk/disadvantage. For example: get angry, act reckless, get caught lying, forget something important, surrender, run away, act lazy, get high at the worst possible moment, trigger the memory of a past trauma, antagonize an NPC, threaten someone too powerful, etc. Depending on the severity of the complication it causes, GM will award you  1-10 EP.
+
 
 ### Experience (XP)
 Spend points to learn spells and abilities. To learn a spell or an ability, spend the amount of points equal to it's level (learning a 3rd Level Ability costs 3 Experience points).
@@ -25,12 +28,6 @@ Characters start at level 1 (novice) and can grow up to level 10 (godlike). Char
 
 Your character can learn spells/abilities according to their level (3rd level character can learn 1st, 2nd, and 3rd level spells).
 
-### Inventory
-You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
-
-During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
-
-
 
 <div class="column-break"></div>
 
@@ -39,6 +36,12 @@ Extraordinary abilities or specific skills your character has. For example, bein
 
 
 Without the ability, your character is as good at doing things as an average person. You can assume that you will succeed if you try to do something that any regular person is capable of. But if you want to attempt doing something really difficult or risky, the GM can say that it would require a relevant ability (you would need a   “Strongman” ability to lift a super heavy rock, “a Diplomat” to talk the king out of starting a war).
+
+### Inventory
+You can carry and use up to 10 Items. Mundane and tiny items don’t count (a note, a pen, regular clothes). Ammo doesn’t count.
+
+During the short rest, you can unequip items and stash them somewhere (at your house, on a horse, etc). Stashed items can’t be used until re-equipped.
+
 
 ### Trading
 There’s no gold. There’s no need to micromanage paying for meals, a simple room in an inn, or buying mundane items (arrows, ink).
