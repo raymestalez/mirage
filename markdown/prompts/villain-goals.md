@@ -30,3 +30,8 @@ Incite a rebellion.
 Open a gate to another world.
 Place a pawn in a position of power.
 Do whatever it takes to survive.
+Make sure nobody finds out his dark secret.
+Protect a Significant Other/Spouse/Family
+Avenge the death of a loved one.
+Cleanse The World of all the people/creatures he dislikes.
+Satisfy their bloodlust/rage.

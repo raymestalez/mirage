@@ -22,3 +22,4 @@ A self-righteous leader willing to sacrifice anything for the "greater good".
 Sadistic Queen.
 Scheming Demon.
 Arrogant Scientist.
+A cynical businessman/politician.
