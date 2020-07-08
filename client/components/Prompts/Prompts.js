@@ -67,7 +67,6 @@ class Prompts extends Component {
     }
     
     render() {
-	console.log(promptCategories)
 	return (
 	    <div className="main-wrapper">
 		<div className="prompts">
