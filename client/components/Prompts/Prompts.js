@@ -19,7 +19,7 @@ class Prompts extends Component {
 	})
 	/* Add a category containing all prompts at the beginning */
 	var categories = [{
-	    type: "All Types (use to generate the main adventure goal)",
+	    type: "All Challenge Types (use to generate the main adventure goal)",
 	    prompts: allPrompts,
 	},...promptCategories]
 	
@@ -29,16 +29,19 @@ class Prompts extends Component {
 	    ]
 	    return (
 		<div className="prompt" key={i}>
-		    <div className="btn"
+		    <div className="refresh"
 			 onClick={()=> {
 			     var seeds = [...this.state.seeds]
 			     seeds[i] = Math.random()
 			     this.setState({seeds})
 			 }}>
-			<FontAwesomeIcon icon={["fas", "sync"]}/>
+			<FontAwesomeIcon icon={["fas", "dice"]}/>
 		    </div>
 		    <span className="label">{c.type}:</span>    
-		    <p className="text">{prompt}</p>
+		    <div className="clearfix"/>
+		    <div className="text">
+			{prompt}
+		    </div>
 		</div>
 	    )
 	})
