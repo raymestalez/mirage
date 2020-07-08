@@ -13,6 +13,9 @@ var categories = [
     "Mystery/Investigation",
     "Stealth/Heist",
     "Complication",
+    "Description",
+    "Goal",
+    "Powers"
 ]
 
 class Prompts extends Component {
@@ -58,8 +61,7 @@ class Prompts extends Component {
 		     }}>
 		    <FontAwesomeIcon icon={["fas", "dice"]}/>
 		</div>
-		<span className="label">Setting: </span>
-		<span>{location.title}</span>
+		<span className="label">{location.title}</span>
 		<div className="clearfix"/>
 		<img src={location.url}/>
 	    </div>
@@ -70,17 +72,30 @@ class Prompts extends Component {
 	return (
 	    <div className="main-wrapper">
 		<div className="prompts">
-		    <h1>Story Generator</h1>
+		    <h1>Adventure Prompts</h1>
 		    <h3>Story Idea</h3>
 		    {this.renderPrompt("Adventure Goal")}
 		    {this.renderPrompt("Complication")}
-		    {this.renderLocation()}		    
+		    <h3>Antagonist</h3>
+		    {this.renderPrompt("Description")}
+		    {this.renderPrompt("Goal")}
+		    {/* {this.renderPrompt("Powers")} */}
+		    <h3>Setting</h3>
+		    {this.renderLocation()}
 		    <h3>Challenges</h3>
 		    {this.renderPrompt("Action/Adventure")}
 		    {this.renderPrompt("Exploration")}
 		    {this.renderPrompt("Social/Intrigue")}
 		    {this.renderPrompt("Mystery/Investigation")}
 		    {this.renderPrompt("Stealth/Heist")}
+		    <h3>Useful Resources</h3>
+		    <ul>
+			<li>
+			    <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">Adventure Template</a> - use it to develop these prompts into a complete adventure.
+			</li>
+			<li><a href="/challenges">Full List of Challenges</a> and a guide on using them.</li>
+			<li><a href="/guide/adventure-design">Adventure Writing Guide</a></li>
+		    </ul>
 		</div>
 	    </div>
 	)

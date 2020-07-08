@@ -88,7 +88,7 @@ a {
 	fill: $text-link;
     }
 }
-article a {
+article a, .prompts a {
     font-weight: bold;
     text-decoration: underline;
 }

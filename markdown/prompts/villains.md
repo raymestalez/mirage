@@ -1,0 +1,24 @@
+Obsequious and cunning Vizier.
+Corrupt Priest.
+Corrupt Sheriff.
+Government official doing the bidding of a mob boss.
+Mob boss.
+Evil King.
+Cowboy Outlaw.
+Fanatical Cult leader.
+Mad wizard corrupted by dark rituals.
+Scientist willing to do whatever it takes for his experiments.
+Former General disillusioned about the rule of the law.
+The Pirate King willing to do whatever it takes for his freedom.
+One honorable Paladin who has been seduced by the dark side.
+A cruel Witch who has been betrayed by her loved one.
+An ancient vampire.
+Manipulative politician.
+A failed Bard.
+A peasant who has accidentally gained eldrith powers.
+A werewolf.
+A well-respected public figure.
+A self-righteous leader willing to sacrifice anything for the "greater good".
+Sadistic Queen.
+Scheming Demon.
+Arrogant Scientist.

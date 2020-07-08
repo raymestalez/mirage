@@ -2,6 +2,7 @@
     margin-top: 10px;
     background:$background-header;
     padding: 10px 20px;
+    h1 { text-align: center; }
     .prompt {
 	margin-top: 20px;
 	.btn {
@@ -25,6 +26,7 @@
 	.label {
 	    opacity: 0.8;
 	    font-weight: bold;
+	    font-size: 0.8em;
 	}
 	.text {
 	    outline: 1px solid $border;

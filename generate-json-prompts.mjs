@@ -35,6 +35,9 @@ var files = [
     "./markdown/prompts/mystery.md",
     "./markdown/prompts/stealth.md",
     "./markdown/prompts/complications.md",
+    "./markdown/prompts/villains.md",
+    "./markdown/prompts/villain-goals.md",
+    "./markdown/prompts/villain-powers.md",    
 ]
 var categories = [
     "Adventure Goal",
@@ -44,6 +47,9 @@ var categories = [
     "Mystery/Investigation",
     "Stealth/Heist",
     "Complication",
+    "Description",
+    "Goal",
+    "Powers"
 ]
 var outputs = [
     './json/prompts/goals.json',
@@ -53,6 +59,10 @@ var outputs = [
     './json/prompts/mystery.json',
     './json/prompts/stealth.json',
     './json/prompts/complications.json',
+    "./json/prompts/villains.json",
+    "./json/prompts/villain-goals.json",
+    "./json/prompts/villain-powers.json",    
+    
 ]
 var categoriesJson = []
 files.map((file,i) => {
