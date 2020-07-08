@@ -28,6 +28,7 @@ function removeHashtags(text) {
 
 
 var files = [
+    "./markdown/prompts/goals.md",
     "./markdown/prompts/action-adventure.md",
     "./markdown/prompts/exploration.md",
     "./markdown/prompts/social.md",
@@ -36,14 +37,16 @@ var files = [
     "./markdown/prompts/complications.md",
 ]
 var categories = [
+    "Adventure Goal",
     "Action/Adventure",
     "Exploration",
     "Social/Intrigue",
     "Mystery/Investigation",
     "Stealth/Heist",
-    "Complications",
+    "Complication",
 ]
 var outputs = [
+    './json/prompts/goals.json',
     './json/prompts/action-adventure.json',
     './json/prompts/exploration.json',
     './json/prompts/social.json',
