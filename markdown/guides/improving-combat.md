@@ -4,6 +4,7 @@
 - When the players gain significant advantage - enemies can run away, beg for mercy, try to negotiate, offer to betray their master, etc.
 - Allow instant kills. When players come up with a brilliant idea or a super exciting move - let them have their moment, don't make them roll for damage, let them defeat the enemy in one awesome move.
 - If you notice players getting bored or running out of cool ideas to try, then fudge the numbers and get it over with.
+- Add a timer. Give players 1 minute to decide what they do and describe their ation, encourage players to plan their move while others are taking their turn.
 
 ### Exciting Situations
 Make action scenes interesting the same way writers/screenwriters do:

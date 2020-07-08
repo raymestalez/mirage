@@ -1,0 +1,21 @@
+.prompts {
+    margin-top: 10px;
+    background:$background-header;
+    padding: 10px 20px;
+    .prompt {
+	padding: 10px;
+	.btn {
+	    float:right;
+	}
+	.label {
+	    opacity: 0.8;
+	    font-weight: bold;
+	}
+	.text {
+	    outline: 1px solid $border;
+	    padding: 10px;
+	    padding-right:0;
+	    margin-bottom: 5px;
+	}
+    }
+}
