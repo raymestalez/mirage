@@ -206,3 +206,5 @@ In the middle of the tropical jungle
 ![](/locations/the-spire.jpg)
 **Whitecastle**
 ![](/locations/whitecastle.jpg)
+**Elven Land**
+![](/locations/elvenland.jpg)
