@@ -1,59 +1,31 @@
-Defeat a villain and his minions.
-Defeat a monster/creature/horde.
-Obtain a McGuffin (item, vehicle, money, magic artifact, spell, your lost/stolen valuables, etc)
-Obtain Information (an ancient book, a piece of gossip, a clue, secret codes, a way to break the curse).
-Protect/Escort /Guard a person/creature (a rich merchant, a researcher, a young prince targeted for assassination, a last of its kind monster, tax collector, witness).
-Deliver a person (make sure they don't escape).
-Rescue a person/creature (rescue a hostage or a kidnapped person, break them out of captivity).
-Track, Find, Chase, and Capture/Catch a person/creature/vehicle (a criminal, a runaway, a ship, a lost pet, an escaped experiment, the infected).
-Find and save the missing person (lost kid, caravan, courier, spy.
-Deliver a valuable/fragile item/cargo and protect it from danger (artwork, cursed artifact, mysterious crate, a treasure map, a message).
-Destroy the target (an object, a cursed item, enemy weapon or infrastructure, the enemy base, a piece of blackmail on someone, a source of infection, close a portal).
-Sabotage a plan (disrupt a ritual, prevent a prophecy, undermine the invasion, stop villain from achieving their goals).
-Capture and secure the base/location (enemy city, friendly city under siege, a building, a military target).
-Defend a location (protect a village from monsters, a city from the enemy army, prevent enemies from passing a bridge or a tunnel, protect a crime scene, meeting site, warehouse, protect a ritual to ensure it will get completed).
-Your town/building/ship has been captured and overtaken by enemies. Survive under siege, liberate it.
-Robbery/Heist (rob a train or a blimp, abduct a person, commandeer a ship, steal diamonds from the casino, steal wand from the mage tower).
-Protect many innocent people (save people from a natural disaster for example, release the prisoners/slaves).
-Win a competition (Complications: your team is bad, the other side cheats, you can only win by cheating, the event is more deadly than it was supposed to be. You are competing for other purpose than victory, such as to keep another contestant safe, to spy on someone, or to get into the place where the event goes down, to prevent villain from winning, to prove yourself, to impress someone).
-Prepare for the mission. Get equipment/supplies/transportation/funding.
-Deal with the consequences of a botched/evil magic ritual.
-Distract the enemies. Act as bait for the ambush/trap.
+Obtain McGuffin/Information (Players and antagonist compete for the same item, players are trying to prevent antagonist from getting an item. Obtain a treasure map and be the first to the pirate treasure. Prevent a villain from getting a powerful dark artifact. Get back your stolen belongings. Get the heart of Davy Jones.)
+Win a competition / prevent the other side from winning. (Win the race around the world. Win a mock-war between adventuring parties. Win a quidditch game. Deliver a valuable intel to the central command the enemy strikes).
+Seize power (Evil Vizier wants to replace the king and players need to prevent that. Evil King is in charge and players need to overthrow him. The King has died and both sides want to be the next King.)
+Kill/Protect Person/Creature (Kill the villain/hero, avoid getting killed. Kill a vampire/werewolf/basilisk. Kill people to drink their blood or to satisfy violent urges. Unleash a giant monster onto the city. Save the endangered creature from the hunter. Kill all the baddies in the area. Stop a serial killer.).
+Destroy/Protect Target (Item/Castle/Information). Destroy a doomsday device, unleash a natural disaster onto the city, help people survive a natural disaster, destroy a piece of blackmail, destroy the enemy's base.
+Guard/Steal (robbery, stealthy heist, abduction).
+Invade/Defend city, castle, ship. Compete for control of the territory. (Plan for an attack on the evil citadel. Prepare the city to repel the enemies/monsters. Your town/building/ship has been captured and overtaken by enemies, survive under siege, and liberate it. You have conquered a kingdom, defeat the remaining groups running guerrilla warfare against you.)
+Escort/Intercept (deliver a prisoner to jail or liberate a prisoner en route to prison. transport the treasure or rob a caravan with the treasure)
+Rescue/Kidnap (abduct a person for ransom or sacrificial ritual, rescue hostages, save the princess, break someone out of jail).
+Chase/Escape (Capture the criminal. Escape the pursuit of the law. Help a wrongly convicted to escape. Set up an ambush or escape an ambush. Pursue a person in a car chase or get away from pursuers. Capture a zombie to prove they exist. Capture a unique creature for research.).
+Cause/Resolve conflict (broker peace / start a war).
+Investigate a crime / Don't get caught.
+Discover information / hide information (find out someone's dark secret, protect the secret from getting out, expose a corrupt official).
+Find/Hide (find a missing person, hide a person from danger. find the lost location, ensure that a sacred place can't be found).
+Infiltrate and Spy / Find a mole. (Complete a covert ninja mission. Uncover a conspiracy and prevent a convert mission from taking place. Go under cover in the criminal gang. Blend in with the nobles to poison the King).
+Enforce/Resist (enforce the law, resist unjust laws).
+Frame someone for a crime / Clear the name (find evidence to convict someone / prove their innocence)
+Incite rebellion/mutiny or put it down.
+Perform/Sabotage a task (Complete ritual/experiment or prevent an evil ritual, build a weapon or prevent it from being built. Open portal, Resurrect/Summon/Awaken, or prevent that. Perform/prevent a terrorist act.)
+Get through the dangerous location / set up traps to make the location impossible to pass. Enter and leave a guarded builging / secure the building.
+Diplomacy, Influence, and Negotiations. Compete for the lady's heart, compete to convince the King to take a different course of action, bribe/manipulate/intimidate a corrupt official into doing what you want, try to close a business deal or prevent it from being closed.
+Brainwash and manipulate groups of people into doing your bidding / liberate brainwashed people. (free the town from the min control spell, convince enemy soliders to defect to your side, free a person from the influence of a sinister cult).
+Win a war. Lead an army against enemy general, against rival mob boss or a cowboy gang.
+Explore a dangerous location. Survive/avoid environmental dangers (think of the place itself as the “villain”, it is a monster without HP that "wants" to hurt players or drain their resources, and has certain powers to accomplish that. Traps, cave-ins, lava eruptions, rock-slides, avalanche, collapsing buildings, impenetrable mist, wild animals, dangerous/poisonous flora, falling into a pit, getting lost, etc). Overcome environmental obstacles (a river on your way, a closed gate, climbing a mountain, a swamp, quick sand, slipping hazard above the abyss, thin ice, wild magic area. Retrieve an item from the bottom of the lake.).
+Solve a Mystery. Solve a murder or a theft. Understand who is behind a mysterious plot. Understand what happened in the abandoned/deserted city.
+Survive wilderness or a hazardous environment and find a way back home. Get stranded in the desert, an island, an alien land, becalmed or in a storm.
+Help people survive a natural disaster (storm, earthquake, flood, meteor).
+Scavenger hunt. Collect several items from scattered locations. Potion ingredients for a witch, parts of an engine that were scattered during crash landing.
 Train a novice, keep a noble person safe while they go on adventure.
-Build or repair an object (by collecting McGuffin ingredients).
-Perform a Ritual.
-Law Enforcement - act as a police for a town.
-Intercept a delivery, escort, communications.
-Prepare and execute an ambush.
 Act as an experimental subject for a crazy scientist/wizard (for dangerous potions).
-Explore the location (to learn about it, to map it, to figure out what happened here. To find bandit camps, enemy encampments, monster nest, a way through, resources).
-Find a lost location/person/item/treasure/clues.
-Scout for information, survey the location/region (ahead of group, enemy territory, monster infested territory, uncharted wilderness).
-Clear location of danger (creatures, traps, haunting ghosts, curses, infestation).
-Deal with a natural disaster (storm, earthquake, flood, meteor).
-Survival (without food/water, deal with harsh weather, diseases. Find shelter. Repair a ship or a radio. Find a way to get back home.)
-Enter a guarded area (overcome defenses, defeat security, sneak in unseen).
-Escape a guarded location (break out of prison).
-Investigate a crime (murder, assault, theft, threats, blackmail, destruction of “x”, disappearances, corrupt law enforcer).
-Spying/Surveillance, gather information on a person/creature/location without being noticed. (Are they up to something shady, are they who they claim to be, discover their secret techniques, how are they bypassing security, how do they create “x”, involvement in “x”, what secrets are they hiding, where are they hiding “x”, where do they keep disappearing to, enemy troops).
-Gain social status, power, political influence (prove your worth, gain respect, impress someone, get elected).
-Change someone's social status (make them look good/bad, get them elected, overthrow a ruler).
-Run a kingdom/village/team/organization/business, lead an army (build a new one, restore the failing one to former glory).
-Change the society/group/organization (raise morale, lower the crime, stop witch hunts, deal with corruption).
-Gain control over the territory (invade a country or repel the invasion).
-Put down or incite rebellion/mutiny/conspiracy.
-Negotiate a deal, bargain (political compromise, hostage negotiations, trade information, convince them to sign a document).
-Resolve conflict, broker peace, unite rivaling factions, settle dispute.
-Cause conflict/rivalry/war, pit people/factions against each other (get enemy minions to mistrust each other).
-Find the spy/traitor/mole.
-Defend someone (or yourself) in the court.
-Redeem or corrupt a person (teach someone a lesson, seduce someone to the dark/light side).
-Enforcement - apply pressure to a person to get them to do something or behave in a specific manner, without killing.  (Calm down the rowdy gang, collect the debts).
-Steal (or plant) an item/information (modify enemy maps, plant disinformation. Plant clues to frame a person).
-Escape from danger (overwhelming force, ambush, pursuit of the law or criminals).
-Assassinate stealthily (sneak into the king's chambers, lure them out, use poison, make it look like an accident).
-Sabotage (device, ritual) without being noticed.
-Smuggle (creature, person, item) into or out of a location.
-Security Testing - breach the clients security unnoticed.
-Frame a person/group/nation for a crime.
-Fake someone's death.
+Defeat a horde or a swarm, clear out an infestation. Rats in the basement, wolves in the forest, Zombies, Aliens. Could be impossible to kill them one by one, and must be done with a ritual, destroying the mothership, smashing the necromancer's amulet, lifting an ancient curse, placating the restless spirits, activating the ancient defense mechanisms.

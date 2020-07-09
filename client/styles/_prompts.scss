@@ -22,8 +22,9 @@
 	    justify-content: center;	    
 	    //border: 1px solid $border;
 	    &:hover { background: $panel-bg; }
+	    z-index: 2;
 	}
-	.label {
+	.prompt-label {
 	    opacity: 0.8;
 	    font-weight: bold;
 	    font-size: 0.8em;
@@ -36,5 +37,11 @@
 	    //margin-top: 10px; // move it away from the randomize button
 	    //min-height: 50px;
 	}
+    }
+}
+.image-prompt {
+    text-align: center;
+    img {
+	max-height: 260px;
     }
 }

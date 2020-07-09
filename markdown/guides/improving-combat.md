@@ -4,7 +4,7 @@
 - When the players gain significant advantage - enemies can run away, beg for mercy, try to negotiate, offer to betray their master, etc.
 - Allow instant kills. When players come up with a brilliant idea or a super exciting move - let them have their moment, don't make them roll for damage, let them defeat the enemy in one awesome move.
 - If you notice players getting bored or running out of cool ideas to try, then fudge the numbers and get it over with.
-- Add a timer. Give players 1 minute to decide what they do and describe their ation, encourage players to plan their move while others are taking their turn.
+- Use a timer. Give players 1 minute to decide and describe what they do for their move. This adds tension, and encourages players to plan their move while the others are taking their turn, maintaining engagement.
 
 ### Exciting Situations
 Make action scenes interesting the same way writers/screenwriters do:
@@ -42,11 +42,3 @@ Make the environment interesting the same way level designers do:
 - Try to offer interesting/creative/difficult choices every turn. That's what makes it engaging. Create consequences for the choices to make them feel meaningful.
 - Give NPCs unique and interesting powers, abilities, tactics.
 - Don't put the story on hold. Reveal interesting/useful information about NPCs or the story, create character development moments.
-
-----
-
-Ideas for this guide are based on posts from these threads:
-[1](https://old.reddit.com/r/RPGdesign/comments/h8tvyj/the_reason_combat_sucks_and_the_most_obvious/),
-[2](https://old.reddit.com/r/DnD/comments/h8tw4w/the_reason_combat_sucks_and_the_most_obvious/),
-[3](https://old.reddit.com/r/DnD/comments/h8q31m/what_are_some_of_the_coolest_combataction_scenes/),
-[4](https://old.reddit.com/r/DMAcademy/comments/h8q2ks/what_are_some_of_the_coolest_combataction_scenes/).

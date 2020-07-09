@@ -31,6 +31,9 @@ class Prompts extends Component {
 	var prompt = c.prompts[
 	    Math.floor(this.state.seeds[i]*c.prompts.length)
 	]
+	if (c.type == "Adventure Goal") {
+	    c.type = "Adventure Idea (Player's/Antagonist's Goal)"
+	}
 	return (
 	    <div className="prompt">
 		<div className="refresh"
@@ -41,7 +44,7 @@ class Prompts extends Component {
 		     }}>
 		    <FontAwesomeIcon icon={["fas", "dice"]}/>
 		</div>
-		<span className="label">{c.type}:</span>    
+		<span className="prompt-label">{c.type}:</span>    
 		<div className="clearfix"/>
 		<div className="text">
 		    {prompt}
@@ -54,14 +57,16 @@ class Prompts extends Component {
 	    Math.floor(this.state.locationSeed*locations.length)
 	]
 	return (
-	    <div className="prompt">
+	    <div className="prompt image-prompt">
 		<div className="refresh"
 		     onClick={()=> {
 			 this.setState({locationSeed:Math.random()})
 		     }}>
 		    <FontAwesomeIcon icon={["fas", "dice"]}/>
 		</div>
-		<span className="label">{location.title}</span>
+		<span className="prompt-label">
+		    {location.title}
+		</span>
 		<div className="clearfix"/>
 		<img src={location.url}/>
 	    </div>
@@ -76,9 +81,9 @@ class Prompts extends Component {
 		    <h3>Story Idea</h3>
 		    {this.renderPrompt("Adventure Goal")}
 		    {this.renderPrompt("Complication")}
-		    <h3>Antagonist</h3>
-		    {this.renderPrompt("Description")}
-		    {this.renderPrompt("Goal")}
+		    {/* <h3>Antagonist</h3> */}
+		    {/* {this.renderPrompt("Description")} */}
+		    {/* {this.renderPrompt("Goal")} */}
 		    {/* {this.renderPrompt("Powers")} */}
 		    <h3>Setting</h3>
 		    {this.renderLocation()}
@@ -94,6 +99,9 @@ class Prompts extends Component {
 			    <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">Adventure Template</a> - use it to develop these prompts into a complete adventure.
 			</li>
 			<li><a href="/challenges">Full List of Challenges</a> and a guide on using them.</li>
+			<li>
+			    <a href="https://www.reddit.com/r/DMAcademy/comments/ho16yt/a_big_list_of_adventure_ideas_players_goals_and/">Full list of Adventure Ideas (Player's Goals and Villain's Plans)</a>, a list of ways to generate dozens of unique adventure ideas based on the same goal, and description of Player-driven vs Villain-driven adventures.
+			</li>
 			<li><a href="/guide/adventure-design">Adventure Writing Guide</a></li>
 		    </ul>
 		</div>
