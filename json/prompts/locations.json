@@ -1,184 +1,368 @@
 [{
-"title":"Cypress",
-"url":"/locations/cypress.jpg"
-},
+    "title":"Cypress",
+    "url":"/locations/cypress.jpg"
+},    
 {
-"title":"Freeport, the Pirate Bay",
-"url":"/locations/freeport.jpg"
-},
+    "title":"Altazia",
+    "url":"/locations/altazia.jpg"
+},    
 {
-"title":"The Barren Jewel",
-"url":"/locations/barren-jewel.jpg"
-},
+    "title":"Cyoria",
+    "url":"/locations/cyoria.jpg"
+},    
 {
-"title":"The Isle of Exiles",
-"url":"/locations/isle-of-exhiles.jpg"
-},
+    "title":"Traintracks",
+    "url":"/locations/traintracks.jpg"
+},    
 {
-"title":"Datura Desert",
-"url":"/locations/datura-desert.jpg"
-},
+    "title":"Academy of Arcane Arts and Adventures",
+    "url":"/locations/arcane-academy-1.jpg"
+},    
 {
-"title":"The Steamland",
-"url":"/locations/steamland.jpg"
-},
+    "title":"New Albion",
+    "url":"/locations/new-albion.jpg"
+},    
 {
-"title":"The Bottomless Abyss",
-"url":"/locations/bottomless-abyss.jpg"
-},
+    "title":"Skyport",
+    "url":"/locations/skyport.jpg"
+},    
 {
-"title":"Abandoned Dwarven Mines",
-"url":"/locations/dwarven-mines.jpg"
-},
+    "title":"Stellarmir",
+    "url":"/locations/stellarmir.jpg"
+},    
 {
-"title":"The Risen Lands",
-"url":"/locations/risen-lands.jpg"
-},
+    "title":"Clearwater Village",
+    "url":"/locations/clearwater-village.jpg"
+},    
 {
-"title":"The Wisdom Tree",
-"url":"/locations/wisdom-tree.jpg"
-},
+    "title":"Cliffsides",
+    "url":"/locations/cliffsides.jpg"
+},    
 {
-"title":"Crash Site Omega 3",
-"url":"/locations/crash-site-omega3.jpg"
-},
+    "title":"Dusthowl",
+    "url":"/locations/dusthowl.jpg"
+},    
 {
-"title":"The Nightmare Realm",
-"url":"/locations/nightmare-realm.jpg"
-},
+    "title":"Freeport, the Pirate Bay",
+    "url":"/locations/freeport.jpg"
+},    
 {
-"title":"The Upside-Down",
-"url":"/locations/upside-down.jpg"
-},
+    "title":"Freebay",
+    "url":"/locations/freebay.jpg"
+},    
 {
-"title":"The Floating Islands",
-"url":"/locations/floating-islands.jpg"
-},
+    "title":"The Barren Jewel",
+    "url":"/locations/barren-jewel.jpg"
+},    
 {
-"title":"The Enchanted Forest",
-"url":"/locations/enchanted-forest.jpg"
-},
+    "title":"Coliseum",
+    "url":"/locations/coliseum.jpg"
+},    
 {
-"title":"The Cursed Forest",
-"url":"/locations/cursed-forest.jpg"
-},
+    "title":"The Isle of Exiles",
+    "url":"/locations/isle-of-exhiles.jpg"
+},    
 {
-"title":"The Swamp Kingdom of Dankmire",
-"url":"/locations/dankmire.jpg"
-},
+    "title":"Datura Desert",
+    "url":"/locations/datura-desert.jpg"
+},    
 {
-"title":"The Ancient Manor",
-"url":"/locations/ancient-manor.jpg"
-},
+    "title":"The Steamland",
+    "url":"/locations/steamland.jpg"
+},    
 {
-"title":"The Domed City",
-"url":"/locations/domed-city.jpg"
-},
+    "title":"The Bottomless Abyss",
+    "url":"/locations/bottomless-abyss.jpg"
+},    
 {
-"title":"The Mountain of Sacrifice",
-"url":"/locations/mountain-of-sacrifice.jpg"
-},
+    "title":"Abandoned Dwarven Mines",
+    "url":"/locations/dwarven-mines.jpg"
+},    
 {
-"title":"The Dragon’s Lair",
-"url":"/locations/dragon-lair.jpg"
-},
+    "title":"The Risen Lands",
+    "url":"/locations/risen-lands.jpg"
+},    
 {
-"title":"Azkaban",
-"url":"/locations/azkaban.jpg"
-},
+    "title":"The Wisdom Tree",
+    "url":"/locations/wisdom-tree.jpg"
+},    
 {
-"title":"The Vampire Castle",
-"url":"/locations/vampire-castle.jpg"
-},
+    "title":"Crash Site Omega 3",
+    "url":"/locations/crash-site-omega3.jpg"
+},    
 {
-"title":"The Impassable Mountains",
-"url":"/locations/impassable-mountains.jpg"
-},
+    "title":"The Nightmare Realm",
+    "url":"/locations/nightmare-realm.jpg"
+},    
 {
-"title":"The Mount Doom",
-"url":"/locations/mount-doom.jpg"
-},
+    "title":"The Upside-Down",
+    "url":"/locations/upside-down.jpg"
+},    
 {
-"title":"The Ancient Tomb",
-"url":"/locations/ancient-tomb.jpg"
-},
+    "title":"The Floating Islands",
+    "url":"/locations/floating-islands.jpg"
+},    
 {
-"title":"The Buried Temple",
-"url":"/locations/buried-temple.jpg"
-},
+    "title":"The Enchanted Forest",
+    "url":"/locations/enchanted-forest.jpg"
+},    
 {
-"title":"The Magical Cave",
-"url":"/locations/magic-cave.jpg"
-},
+    "title":"The Cursed Forest",
+    "url":"/locations/cursed-forest.jpg"
+},    
 {
-"title":"The Witch's Hut",
-"url":"/locations/witch-hut.jpg"
-},
+    "title":"The Swamp Kingdom of Dankmire",
+    "url":"/locations/dankmire.jpg"
+},    
 {
-"title":"The Haunted House",
-"url":"/locations/haunted-house.jpg"
-},
+    "title":"The Ancient Manor",
+    "url":"/locations/ancient-manor.jpg"
+},    
 {
-"title":"The Magic Fountain",
-"url":"/locations/magic-fountain.jpg"
-},
+    "title":"The Domed City",
+    "url":"/locations/domed-city.jpg"
+},    
 {
-"title":"The Orc Village",
-"url":"/locations/orc-village.jpg"
-},
+    "title":"The Mountain of Sacrifice",
+    "url":"/locations/mountain-of-sacrifice.jpg"
+},    
 {
-"title":"The Treasure Island",
-"url":"/locations/treasure-island.jpg"
-},
+    "title":"The Dragon’s Lair",
+    "url":"/locations/dragon-lair.jpg"
+},    
 {
-"title":"The Spooky Gates",
-"url":"/locations/spooky-gates.jpg"
-},
+    "title":"Azkaban",
+    "url":"/locations/azkaban.jpg"
+},    
 {
-"title":"The Underground City",
-"url":"/locations/underground-city.jpg"
-},
+    "title":"The Vampire Castle",
+    "url":"/locations/vampire-castle.jpg"
+},    
 {
-"title":"The Minotaur Cave",
-"url":"/locations/minotaur-cave.jpg"
-},
+    "title":"The Impassable Mountains",
+    "url":"/locations/impassable-mountains.jpg"
+},    
 {
-"title":"The Happy Fair",
-"url":"/locations/happy-fair.jpg"
-},
+    "title":"The Mount Doom",
+    "url":"/locations/mount-doom.jpg"
+},    
 {
-"title":"The Avian Land",
-"url":"/locations/avian-land.jpg"
-},
+    "title":"The Ancient Tomb",
+    "url":"/locations/ancient-tomb.jpg"
+},    
 {
-"title":"The Lighthouse",
-"url":"/locations/lighthouse.jpg"
-},
+    "title":"The Buried Temple",
+    "url":"/locations/buried-temple.jpg"
+},    
 {
-"title":"The Lost Shores",
-"url":"/locations/lost-shores.jpg"
-},
+    "title":"The Magical Cave",
+    "url":"/locations/magic-cave.jpg"
+},    
 {
-"title":"The Magic Mushrooms",
-"url":"/locations/magic-mushrooms.jpg"
-},
+    "title":"The Witch's Hut",
+    "url":"/locations/witch-hut.jpg"
+},    
 {
-"title":"The Peaceful Pastures",
-"url":"/locations/peaceful-pastures.jpg"
-},
+    "title":"The Haunted House",
+    "url":"/locations/haunted-house.jpg"
+},    
 {
-"title":"The Sentient Forest",
-"url":"/locations/sentient-forest.jpg"
-},
+    "title":"The Magic Fountain",
+    "url":"/locations/magic-fountain.jpg"
+},    
 {
-"title":"The Outer Reaches",
-"url":"/locations/outer-reaches.jpg"
-},
+    "title":"The Orc Village",
+    "url":"/locations/orc-village.jpg"
+},    
 {
-"title":"The Western World",
-"url":"/locations/western-world.jpg"
-},
+    "title":"The Treasure Island",
+    "url":"/locations/treasure-island.jpg"
+},    
 {
-"title":"The Ancient Land",
-"url":"/locations/ancient-land.jpg"
+    "title":"The Spooky Gates",
+    "url":"/locations/spooky-gates.jpg"
+},    
+{
+    "title":"The Underground City",
+    "url":"/locations/underground-city.jpg"
+},    
+{
+    "title":"The Minotaur Cave",
+    "url":"/locations/minotaur-cave.jpg"
+},    
+{
+    "title":"The Happy Fair",
+    "url":"/locations/happy-fair.jpg"
+},    
+{
+    "title":"The Avian Land",
+    "url":"/locations/avian-land.jpg"
+},    
+{
+    "title":"The Lighthouse",
+    "url":"/locations/lighthouse.jpg"
+},    
+{
+    "title":"The Lost Shores",
+    "url":"/locations/lost-shores.jpg"
+},    
+{
+    "title":"The Magic Mushrooms",
+    "url":"/locations/magic-mushrooms.jpg"
+},    
+{
+    "title":"The Peaceful Pastures",
+    "url":"/locations/peaceful-pastures.jpg"
+},    
+{
+    "title":"The Sentient Forest",
+    "url":"/locations/sentient-forest.jpg"
+},    
+{
+    "title":"The Outer Reaches",
+    "url":"/locations/outer-reaches.jpg"
+},    
+{
+    "title":"The Western World",
+    "url":"/locations/western-world.jpg"
+},    
+{
+    "title":"The Ancient Land",
+    "url":"/locations/ancient-land.jpg"
+},    
+{
+    "title":"The Temple of Anubis",
+    "url":"/locations/anubis-temple.jpg"
+},    
+{
+    "title":"The Artifact",
+    "url":"/locations/artifact.jpg"
+},    
+{
+    "title":"The Cathedral",
+    "url":"/locations/cathedral.jpg"
+},    
+{
+    "title":"Dark Tower",
+    "url":"/locations/dark-tower.jpg"
+},    
+{
+    "title":"Devil's Cave",
+    "url":"/locations/devils-cave.jpg"
+},    
+{
+    "title":"Dragonlands",
+    "url":"/locations/dragonlands.jpg"
+},    
+{
+    "title":"Druid Forest",
+    "url":"/locations/druid-forest.jpg"
+},    
+{
+    "title":"Druid Hut",
+    "url":"/locations/druid.jpg"
+},    
+{
+    "title":"The Tree of Life",
+    "url":"/locations/tree-of-life.jpg"
+},    
+{
+    "title":"Dwarven Citadel",
+    "url":"/locations/dwarven-citadel.jpg"
+},    
+{
+    "title":"Fort Joy",
+    "url":"/locations/fort.jpg"
+},    
+{
+    "title":"The Frozen Palace",
+    "url":"/locations/frozen-palace.jpg"
+},    
+{
+    "title":"Highcastle",
+    "url":"/locations/highcastle.jpg"
+},    
+{
+    "title":"Icelands",
+    "url":"/locations/icelands.jpg"
+},    
+{
+    "title":"The Infinite Library",
+    "url":"/locations/infinite-library.jpg"
+},    
+{
+    "title":"The Land of Giants",
+    "url":"/locations/land-of-giants.jpg"
+},    
+{
+    "title":"The Malestorm",
+    "url":"/locations/malestorm.jpg"
+},    
+{
+    "title":"Merefolk Town",
+    "url":"/locations/merefolk-town.jpg"
+},    
+{
+    "title":"The Underwater Ruins",
+    "url":"/locations/underwater-ruins.jpg"
+},    
+{
+    "title":"Monster Cemetery",
+    "url":"/locations/monster-cemetery.jpg"
+},    
+{
+    "title":"Richport",
+    "url":"/locations/port.jpg"
+},    
+{
+    "title":"Quarry",
+    "url":"/locations/quarry.jpg"
+},    
+{
+    "title":"Research Camp",
+    "url":"/locations/research-camp.jpg"
+},    
+{
+    "title":"Ruined Tower",
+    "url":"/locations/ruined-tower.jpg"
+},    
+{
+    "title":"The Ruins",
+    "url":"/locations/ruins.jpg"
+},    
+{
+    "title":"Sandcastle",
+    "url":"/locations/sandcastle.jpg"
+},    
+{
+    "title":"The Silent Citadel",
+    "url":"/locations/silent-citadel.jpg"
+},    
+{
+    "title":"The Skull Island",
+    "url":"/locations/skull-island.jpg"
+},    
+{
+    "title":"The Source of Magic",
+    "url":"/locations/source-of-magic.jpg"
+},    
+{
+    "title":"Swamp Village",
+    "url":"/locations/swamp-village.jpg"
+},    
+{
+    "title":"The Hall Of Heroes",
+    "url":"/locations/the-hall-of-heroes.jpg"
+},    
+{
+    "title":"The Pond of Answers",
+    "url":"/locations/the-pond-of-answers.jpg"
+},    
+{
+    "title":"The Spire",
+    "url":"/locations/the-spire.jpg"
+},    
+{
+    "title":"Whitecastle",
+    "url":"/locations/whitecastle.jpg"
 }]
