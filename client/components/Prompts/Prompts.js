@@ -15,7 +15,9 @@ var categories = [
     "Complication",
     "Description",
     "Goal",
-    "Powers"
+    "Powers",
+    "Villain's Moves",            
+    "High Concept"    
 ]
 
 class Prompts extends Component {
@@ -79,6 +81,7 @@ class Prompts extends Component {
 		<div className="prompts">
 		    <h1>Adventure Prompts</h1>
 		    <h3>Story Idea</h3>
+		    {/* {this.renderPrompt("High Concept")}		     */}
 		    {this.renderPrompt("Adventure Goal")}
 		    {this.renderPrompt("Complication")}
 		    {/* <h3>Antagonist</h3> */}
@@ -93,6 +96,7 @@ class Prompts extends Component {
 		    {this.renderPrompt("Social/Intrigue")}
 		    {this.renderPrompt("Mystery/Investigation")}
 		    {this.renderPrompt("Stealth/Heist")}
+		    {this.renderPrompt("Villain's Moves")}
 		    <h3>Useful Resources</h3>
 		    <ul>
 			<li>

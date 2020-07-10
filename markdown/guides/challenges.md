@@ -10,24 +10,6 @@ Please contribute to this project - send me your challenge ideas! Leave a commen
 
 ----
 
-# Using Challenges to create Adventures
-- These challenges can be used as **sub-goals** the players will need to achieve on the path to their main goal, as obstacles they need to overcome to get what they want.
-- Most of them can also be used as the **primary goal**, an idea for the whole adventure (just make the stakes higher, make it important/interesting/exciting to accomplish, make it more difficult, add sub-goals and obstacles players need to get through to achieve it).
-- Challenges can be **mixed and matched**. In one adventure, challenge A can be the big primary goal, and challenge B can be a step towards accomplishing this big goal. In another adventure, it can be the other way around. In one adventure, the players need to obtain an item (a powerful weapon) to slay a monster, in another, they need to slay a monster to get their hands on the valuable item. In one adventure they need to rescue someone who has a clue to the mystery, in another they need to solve a mystery to be able to rescue someone.
-- **Use multiple challenges together** to add more depth, make the adventure more difficult/interesting, get players to fight on several fronts. **Combine challenges** to make them complications for each other, or **use conflicting challenges** that are incompatible with each other to create difficult choices. Players need to protect a person while also being on the run from the law, they need to spy on someone while traveling through the dangerous environment, they need to fight for political power while pretending to be someone they're not, they need to slay a big monster in the middle of the city while protecting people and avoiding collateral damage.
-- **Use challenge as the goal for the Antagonist**. Then the player's goal is to prevent the villain from succeeding, putting the players on the opposite side of the issue. Some challenges can be used right away ("Obtain a McGuffin" is a valid challenge for both villains and players, others can be reversed ("Rescue a person" > "Kidnap a person", "Protect the Castle" > "Invade the Castle").
-
-Why it works:
-- **Stories are fundamentally about problem solving**. Roleplaying is fundamentally about problem solving. **This is the fundamental "game loop" of RPGs** - GM puts a problem in front of the players, and they find creative ways to solve it, that's what gives them fun stuff to do and feels satisfying to accomplish. 
-- **Adventure Ideas are fundamentally problems**. They create an exciting, challenging, important goal for the players to accomplish.
-- Big problems are broken down into small challenges. But fundamentally, the big climactic adventure/campaign goals and the small challenges players encounter on their way **are the same thing**. Every scene the characters solve a small problem, and it drives them towards solving the big problem. **That's what plot points are** - players solving or failing to solve a problem, which moves them closer to or farther away from the goal. Which feels exciting/valuable/dramatic. 
-- Conflict, obstacles, social/exploration/combat encounters are fundamentally just **sources of problems**. There probably are other sources that can generate problems.
-- It's all just nested challenges: Campaign Problem > Adventure Problem > Scene Problem. And any challenge can be used on any of these levels. 
-- Therefore, **the list above is a list of adventure ideas and plot points at the same time**. Make any challenge very important/difficult/exciting to accomplish - and it becomes an idea for the adventure or a campaign. Make any adventure idea relatively small and simple - and it becomes a scene challenge (encounter). Put a number of smaller challenges in front of the players - and you've got your basic story structure (a list of encounters, the gameplay). Because goals and challenges are fundamentally the same, just the nested problems, they can be combined in any order to create any number of unique adventures.
--  Also, it means that you can take big story ideas from movies, TV episodes, published modules, and use them as ideas for  small encounters. Shawshank Redemption, Alien, Jaws, Incredibles - they can be big campaign ideas, small adventure ideas, or just a thing characters do in a scene (escape from the prison, hide from a monster, defeat a big golem).
-- Game mechanics are also challenges. If there's an RPG system that gets players to do something awesome (GM moves in Dungeon World, Favors/Debts and Social Status mechanics from the Undying, Weak Moves from Dream Askew) - you can use those as challenges too.
-- Even a single challenge can create an unlimited number of unique stories - you just change the concrete details. McGuffins, NPCs, locations, etc.
-
 # Action/Adventure Challenges
 - Defeat a villain and his minions.
 - Defeat a monster/creature/horde.
@@ -56,7 +38,6 @@ Why it works:
 - Law Enforcement - act as a police for a town.
 - Intercept a delivery, escort, communications.
 - Prepare and execute an ambush.
-- Act as an experimental subject for a crazy scientist/wizard (for dangerous potions).
 
 ----
 
@@ -151,6 +132,52 @@ Why it works:
 - Frame a person/group/nation for a crime.
 - Fake someone's death.
 
+----
+
+# Villain's Moves
+- Personally confront the players.
+- Send minions after the players.
+- Hire a rival team of adventurers or thugs to go after players..
+- Send an assassin.
+- Send a spy.
+- Set a bounty on their heads.
+- Set a trap.
+- Setup an ambush.
+- Take hostages.
+- Threaten an NPC players like.
+- Frame players for a crime, declare them traitors/outlaws.
+- Give players quests (by pretending to be nice or through intermediary) that get them to commit crimes, or encourage them to commit crimes and get caught by setting up opportunities for them.
+- Reveal player's secrets, crimes they have committed.
+- Get your minions into various positions of authority.
+- Gain control over people in positions of authority (by threatening or bribing them).
+- Convince authorities/police that players are evil.
+- Make the public dislike the heroes.
+- Have a "dead man switch" that will hurt people or destroy something valuable if the villain is killed, set your base/hideout to self-destruct in the event that you are defeated or are forced to use your escape plan.
+- Know some information valuable to the players (like where hostages are kept, where the treasure is hidden), so players can't kill them, and must negotiate.
+- Set a time-bomb. Something horrible will happen unless players do what they're told.
+- Possess/blackmail/threaten an innocent person into doing their bidding.
+- Pretend to be someone else to deceive the players.
+- Befriend players to use them and betray them later.
+- Kidnap one of the players.
+- Join forces with another enemy of the players.
+- Plant false clues, create decoy trails.
+- Frame someone else for their crimes.
+- Kill hero's mentor/ally.
+- Foster rivalries, mistrust, disorder, confusion, infighting among players or the public.
+- Hire people to commit crimes while pretending to be someone else to create mistrust/conflict among two parties.  (Example: the bandits "from another country" attacks "local merchants", Start a plague in an uneducated city and have the "foreign merchant" sell snake oil cures, "native patriot" kills a "alien anarchist, etc.)
+- Put difficult choices in front of the heroes (like forcing Batman to save one of the ferry boats, to save Harvey Dent or Rachel).
+- Take away resources from the players (steal their items).
+- Give people the wrong idea about his powers/weaknesses.
+- Push player's buttons, play on heroes' flaws, temptations, fears.
+- Develop a good public image, make friends in the government, be beloved by the public.
+- Seduce player's allies to the dark side, convince/threaten them into betraying players.
+- Attack someone by stealthy means (kidnapping, etc.)
+- Influence a powerful institution (change a law, establish a new rule)
+- Lay a Curse on the heroes.
+- Use the heroes for their own ends (setting the heroes on the trail of a rival or a mutinous underling, having the heroes slay a “troublesome beast” that happened to be guarding dangerous knowledge the villain wants, sending them to defeat his rivals).
+- Hire body doubles or create clones of yourself. Leave the heroes always wondering if they captured / killed the real villain.
+- Give the heroes legitimate quest that take them far away from villain's plans/objectives.
+- If near defeat, shift the blame to someone else (pretend to be mind controlled or coerced into doing the evil stuff) to buy a chance to escape.
 
 ----
 
@@ -197,3 +224,23 @@ Why it works:
 
 - The important item has been transmuted and needs to be changed back, locked in a safe and needs a code to unlock, is a mineral that needs to be refined by a specific process. A book or a message is written in a foreign language that requires a translator.
 - Only a bad/unpleasant person can provide the item/information/favor you need.
+
+----
+
+# Using Challenges to create Adventures
+- These challenges can be used as **sub-goals** the players will need to achieve on the path to their main goal, as obstacles they need to overcome to get what they want.
+- Most of them can also be used as the **primary goal**, an idea for the whole adventure (just make the stakes higher, make it important/interesting/exciting to accomplish, make it more difficult, add sub-goals and obstacles players need to get through to achieve it).
+- Challenges can be **mixed and matched**. In one adventure, challenge A can be the big primary goal, and challenge B can be a step towards accomplishing this big goal. In another adventure, it can be the other way around. In one adventure, the players need to obtain an item (a powerful weapon) to slay a monster, in another, they need to slay a monster to get their hands on the valuable item. In one adventure they need to rescue someone who has a clue to the mystery, in another they need to solve a mystery to be able to rescue someone.
+- **Use multiple challenges together** to add more depth, make the adventure more difficult/interesting, get players to fight on several fronts. **Combine challenges** to make them complications for each other, or **use conflicting challenges** that are incompatible with each other to create difficult choices. Players need to protect a person while also being on the run from the law, they need to spy on someone while traveling through the dangerous environment, they need to fight for political power while pretending to be someone they're not, they need to slay a big monster in the middle of the city while protecting people and avoiding collateral damage.
+- **Use challenge as the goal for the Antagonist**. Then the player's goal is to prevent the villain from succeeding, putting the players on the opposite side of the issue. Some challenges can be used right away ("Obtain a McGuffin" is a valid challenge for both villains and players, others can be reversed ("Rescue a person" > "Kidnap a person", "Protect the Castle" > "Invade the Castle").
+
+Why it works:
+- **Stories are fundamentally about problem solving**. Roleplaying is fundamentally about problem solving. **This is the fundamental "game loop" of RPGs** - GM puts a problem in front of the players, and they find creative ways to solve it, that's what gives them fun stuff to do and feels satisfying to accomplish. 
+- **Adventure Ideas are fundamentally problems**. They create an exciting, challenging, important goal for the players to accomplish.
+- Big problems are broken down into small challenges. But fundamentally, the big climactic adventure/campaign goals and the small challenges players encounter on their way **are the same thing**. Every scene the characters solve a small problem, and it drives them towards solving the big problem. **That's what plot points are** - players solving or failing to solve a problem, which moves them closer to or farther away from the goal. Which feels exciting/valuable/dramatic. 
+- Conflict, obstacles, social/exploration/combat encounters are fundamentally just **sources of problems**. There probably are other sources that can generate problems.
+- It's all just nested challenges: Campaign Problem > Adventure Problem > Scene Problem. And any challenge can be used on any of these levels. 
+- Therefore, **the list above is a list of adventure ideas and plot points at the same time**. Make any challenge very important/difficult/exciting to accomplish - and it becomes an idea for the adventure or a campaign. Make any adventure idea relatively small and simple - and it becomes a scene challenge (encounter). Put a number of smaller challenges in front of the players - and you've got your basic story structure (a list of encounters, the gameplay). Because goals and challenges are fundamentally the same, just the nested problems, they can be combined in any order to create any number of unique adventures.
+-  Also, it means that you can take big story ideas from movies, TV episodes, published modules, and use them as ideas for  small encounters. Shawshank Redemption, Alien, Jaws, Incredibles - they can be big campaign ideas, small adventure ideas, or just a thing characters do in a scene (escape from the prison, hide from a monster, defeat a big golem).
+- Game mechanics are also challenges. If there's an RPG system that gets players to do something awesome (GM moves in Dungeon World, Favors/Debts and Social Status mechanics from the Undying, Weak Moves from Dream Askew) - you can use those as challenges too.
+- Even a single challenge can create an unlimited number of unique stories - you just change the concrete details. McGuffins, NPCs, locations, etc.
