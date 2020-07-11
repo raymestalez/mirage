@@ -8,7 +8,7 @@ import exploration from '../../../markdown/prompts/exploration.md'
 import social from '../../../markdown/prompts/social.md'
 import stealth from '../../../markdown/prompts/stealth.md'
 import mystery from '../../../markdown/prompts/mystery.md'
-import moves from '../../../markdown/prompts/villain-moves.md'
+//import moves from '../../../markdown/prompts/villain-moves.md'
 
 class Prompts extends Component {
     renderPrompts = (file) => {
@@ -41,8 +41,6 @@ class Prompts extends Component {
 		    {this.renderPrompts(stealth)}
 		    <h3>Mystery/Investigation</h3>
 		    {this.renderPrompts(mystery)}
-		    <h3>Villain's Moves</h3>
-		    {this.renderPrompts(moves)}
 		</article>
 	    </div>
 	)
@@ -50,4 +48,3 @@ class Prompts extends Component {
 }
 
 export default Prompts
-
