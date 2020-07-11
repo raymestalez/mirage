@@ -14,6 +14,7 @@ import HCs from './Prompts/HCs'
 import Goals from './Prompts/Goals'
 import Complications from './Prompts/Complications'
 import Challenges from './Prompts/Challenges'
+import VillainMoves from './Prompts/VillainMoves'
 import Prompts from './Prompts/Prompts'
 import RoleplayingTips from './Rules/RoleplayingTips'
 import AdventureIdeas from './Rules/AdventureIdeas'
@@ -46,6 +47,8 @@ class App extends Component {
 			       component={Complications}/>			
 			<Route path="/prompts/challenges" exact
 			       component={Challenges}/>
+			<Route path="/prompts/villain-moves" exact
+			       component={VillainMoves}/>
 			<Route path="/adventure-ideas" exact
 			       component={AdventureIdeas}/>
 			<Route path="/guide/roleplaying-tips" exact

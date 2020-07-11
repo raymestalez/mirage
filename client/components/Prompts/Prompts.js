@@ -109,9 +109,12 @@ class Prompts extends Component {
 		    {this.renderPrompt("Social/Intrigue")}
 		    {this.renderPrompt("Mystery/Investigation")}
 		    {this.renderPrompt("Stealth/Heist")}
-		    {this.renderPrompt("Villain's Moves")}
 		    <Link className="small" to="/prompts/challenges">
 			[Full list of Challenges]</Link>
+		    <div className="clearfix"/>
+		    {this.renderPrompt("Villain's Moves")}
+		    <Link className="small" to="/prompts/villain-moves">
+			[Full list of Villain's Moves]</Link>
 		    <div className="clearfix"/>
 		    <h3>Useful Resources</h3>
 		    <ul>
