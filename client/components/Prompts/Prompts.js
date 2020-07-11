@@ -34,7 +34,7 @@ class Prompts extends Component {
 	    Math.floor(this.state.seeds[i]*c.prompts.length)
 	]
 	if (c.type == "Adventure Goal") {
-	    c.type = "Adventure Idea (Player's/Antagonist's Goal)"
+	    c.type = "Heroes'/Antagonist's Goal"
 	}
 	return (
 	    <div className="prompt">
@@ -81,7 +81,10 @@ class Prompts extends Component {
 		<div className="prompts">
 		    <h1>Adventure Prompts</h1>
 		    <h3>Story Idea</h3>
-		    {/* {this.renderPrompt("High Concept")}		     */}
+		    {this.renderPrompt("High Concept")}
+		    <a className="small" href="/prompts/high-concept-ideas">
+			[Full list of High Concept Ideas]</a>
+		    <div className="clearfix"/>
 		    {this.renderPrompt("Adventure Goal")}
 		    <a className="small" href="/prompts/goals">
 			[Full list of Goals]</a>

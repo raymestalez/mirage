@@ -10,6 +10,7 @@ import Main from './Main'
 import Welcome from './Rules/Welcome'
 import Rules from './Rules/Rules'
 import World from './Rules/World'
+import HCs from './Prompts/HCs'
 import Goals from './Prompts/Goals'
 import Complications from './Prompts/Complications'
 import Challenges from './Prompts/Challenges'
@@ -37,7 +38,10 @@ class App extends Component {
 			<Route path="/rules" exact component={Rules}/>
 			<Route path="/world" exact component={World}/>
 			<Route path="/prompts" exact component={Prompts}/>
-			<Route path="/prompts/goals" exact component={Goals}/>
+			<Route path="/prompts/high-concept-ideas" exact
+			       component={HCs}/>
+			<Route path="/prompts/goals" exact
+			       component={Goals}/>
 			<Route path="/prompts/complications" exact
 			       component={Complications}/>			
 			<Route path="/prompts/challenges" exact
