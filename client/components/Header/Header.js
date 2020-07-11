@@ -19,9 +19,28 @@ class Header extends Component {
 			<Link to="/world" className="btn">
 			    World
 			</Link>
-			<Link to="/character-sheet" className="btn">
-			    Character Sheet
-			</Link>
+
+ 			<div className="dropdown">
+			    <div className="menu-handle btn">
+				Tools
+			    </div>
+			    <div className="menu">
+				<Link to="/character-sheet"
+				      className="item btn">
+				    Character Sheet
+				</Link>
+				<Link to="/prompts"
+				      className="item btn">
+				    Prompts
+				</Link>
+				{/*  
+				    <Link to="/guide/improving-combat"
+				    className="item btn">
+				    Improving Combat
+				    </Link>
+				  */}
+			    </div>
+			</div>
  			<div className="dropdown">
 			    <div className="menu-handle btn">
 				Guides
