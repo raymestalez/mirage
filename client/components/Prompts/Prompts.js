@@ -83,13 +83,22 @@ class Prompts extends Component {
 		    <h3>Story Idea</h3>
 		    {/* {this.renderPrompt("High Concept")}		     */}
 		    {this.renderPrompt("Adventure Goal")}
+		    <a className="small" href="/prompts/goals">
+			[Full list of Goals]</a>
+		    <div className="clearfix"/>
 		    {this.renderPrompt("Complication")}
+		    <a className="small" href="/prompts/goals">
+			[Full list of Complications]</a>
+		    <div className="clearfix"/>
 		    {/* <h3>Antagonist</h3> */}
 		    {/* {this.renderPrompt("Description")} */}
 		    {/* {this.renderPrompt("Goal")} */}
 		    {/* {this.renderPrompt("Powers")} */}
 		    <h3>Setting</h3>
 		    {this.renderLocation()}
+		    <a className="small" href="/world">
+			[Full list of Settings]</a>
+		    <div className="clearfix"/>
 		    <h3>Challenges</h3>
 		    {this.renderPrompt("Action/Adventure")}
 		    {this.renderPrompt("Exploration")}
@@ -97,16 +106,14 @@ class Prompts extends Component {
 		    {this.renderPrompt("Mystery/Investigation")}
 		    {this.renderPrompt("Stealth/Heist")}
 		    {this.renderPrompt("Villain's Moves")}
+		    <a className="small" href="/prompts/challenges">
+			[Full list of Challenges]</a>
+		    <div className="clearfix"/>
 		    <h3>Useful Resources</h3>
 		    <ul>
 			<li>
-			    <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">Adventure Template</a> - use it to develop these prompts into a complete adventure.
+			    Use <a href="https://docs.google.com/document/d/1R7bOixB-1tN7U3lEi47L-NDA91CibDJ0VTgrbKO2nlQ/">Adventure Template</a> to develop these prompts into a complete adventure.
 			</li>
-			<li><a href="/challenges">Full List of Challenges</a> and a guide on using them.</li>
-			<li>
-			    <a href="https://www.reddit.com/r/DMAcademy/comments/ho16yt/a_big_list_of_adventure_ideas_players_goals_and/">Full list of Adventure Ideas (Player's Goals and Villain's Plans)</a>, a list of ways to generate dozens of unique adventure ideas based on the same goal, and description of Player-driven vs Villain-driven adventures.
-			</li>
-			<li><a href="/guide/adventure-design">Adventure Writing Guide</a></li>
 		    </ul>
 		</div>
 	    </div>

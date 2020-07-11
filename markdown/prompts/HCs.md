@@ -5,7 +5,7 @@ Adventure taking place in a dream, illusion, virtual reality, computer game, a T
 Deal with the Devil.
 Animals/creatures gain sentience/intelligence.
 Open portal to another world, a parallel dimension, an alternate timeline (Mist, Stargate, Another Earth).
-A baby monster. An alien/dragon egg.
+A baby monster. An alien/dragon egg. A boy and his robot.
 Body Snatchers, Brain Slugs - parasites that control your mind.
 Shapeshifter - person/monster that can assume any form.
 Evil Twins of the Heroes.
