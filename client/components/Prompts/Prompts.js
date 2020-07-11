@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
+import { Link } from "react-router-dom"
 import promptCategories from '../../../json/prompts/prompts.json'
 import locations from '../../../json/prompts/locations.json'
 
@@ -82,16 +83,16 @@ class Prompts extends Component {
 		    <h1>Adventure Prompts</h1>
 		    <h3>Story Idea</h3>
 		    {this.renderPrompt("High Concept")}
-		    <a className="small" href="/prompts/high-concept-ideas">
-			[Full list of High Concept Ideas]</a>
+		    <Link className="small" to="/prompts/high-concept-ideas">
+			[Full list of High Concept Ideas]</Link>
 		    <div className="clearfix"/>
 		    {this.renderPrompt("Adventure Goal")}
-		    <a className="small" href="/prompts/goals">
-			[Full list of Goals]</a>
+		    <Link className="small" to="/prompts/goals">
+			[Full list of Goals]</Link>
 		    <div className="clearfix"/>
 		    {this.renderPrompt("Complication")}
-		    <a className="small" href="/prompts/complications">
-			[Full list of Complications]</a>
+		    <Link className="small" to="/prompts/complications">
+			[Full list of Complications]</Link>
 		    <div className="clearfix"/>
 		    {/* <h3>Antagonist</h3> */}
 		    {/* {this.renderPrompt("Description")} */}
@@ -99,8 +100,8 @@ class Prompts extends Component {
 		    {/* {this.renderPrompt("Powers")} */}
 		    <h3>Setting</h3>
 		    {this.renderLocation()}
-		    <a className="small" href="/world">
-			[Full list of Settings]</a>
+		    <Link className="small" to="/world">
+			[Full list of Settings]</Link>
 		    <div className="clearfix"/>
 		    <h3>Challenges</h3>
 		    {this.renderPrompt("Action/Adventure")}
@@ -109,8 +110,8 @@ class Prompts extends Component {
 		    {this.renderPrompt("Mystery/Investigation")}
 		    {this.renderPrompt("Stealth/Heist")}
 		    {this.renderPrompt("Villain's Moves")}
-		    <a className="small" href="/prompts/challenges">
-			[Full list of Challenges]</a>
+		    <Link className="small" to="/prompts/challenges">
+			[Full list of Challenges]</Link>
 		    <div className="clearfix"/>
 		    <h3>Useful Resources</h3>
 		    <ul>

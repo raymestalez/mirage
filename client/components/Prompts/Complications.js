@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+import { Link } from "react-router-dom"
 import ReactMarkdown from 'react-markdown'
 import complications from '../../../markdown/prompts/complications.md'
 
@@ -14,6 +15,9 @@ class Prompts extends Component {
 	    <div className="main-wrapper">
 		<article>
 		    <h1>List of Complications</h1>
+		    <Link className="small" to="/prompts">
+			[Random Prompts Tool]
+		    </Link>
 		    <ReactMarkdown source={prompts}
 				   className="ncolumns"
 				   escapeHtml={false} />

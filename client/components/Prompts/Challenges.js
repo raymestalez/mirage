@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
 import ReactMarkdown from 'react-markdown'
+
+import { Link } from "react-router-dom"
 import action from '../../../markdown/prompts/action-adventure.md'
 import exploration from '../../../markdown/prompts/exploration.md'
 import social from '../../../markdown/prompts/social.md'
@@ -26,6 +28,9 @@ class Prompts extends Component {
 	    <div className="main-wrapper">
 		<article>
 		    <h1>List of Challenges</h1>
+		    <Link className="small" to="/prompts">
+			[Random Prompts Tool]
+		    </Link>
 		    <h3>Action/Adventure</h3>
 		    {this.renderPrompts(action)}
 		    <h3>Exploration</h3>
