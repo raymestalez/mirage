@@ -90,7 +90,7 @@ class Prompts extends Component {
 			[Full list of Goals]</a>
 		    <div className="clearfix"/>
 		    {this.renderPrompt("Complication")}
-		    <a className="small" href="/prompts/goals">
+		    <a className="small" href="/prompts/complications">
 			[Full list of Complications]</a>
 		    <div className="clearfix"/>
 		    {/* <h3>Antagonist</h3> */}
